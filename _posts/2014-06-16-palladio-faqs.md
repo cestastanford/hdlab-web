@@ -13,7 +13,8 @@ excerpt: ""
 
 #Frequently Asked Questions
 
-(What is a Palladio Data Model?)[What is a Palladio Data Model?]
+- [What is a Palladio Data Model?](##What is a Palladio Data Model?)  
+- [Which data formats work with Palladio?](##Which data formats work with Palladio?)
 
 					<li><a href="#faqdataformat">Which data formats work with Palladio?</a></li>
 					<li><a href="#faqlightning">What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</a>
@@ -35,7 +36,7 @@ excerpt: ""
 
 
 
-					<h4 name="faqdataformat">Which data formats work with Palladio?</h4>
+##Which data formats work with Palladio?
 
 					<p>Any collection of information that can be represented in a table format (in other words, any data you might enter into a spreadsheet program) will work with Palladio. Make sure that all data is represented by delimited-separated values. Palladio supports the following delimiters: commas, semicolons and tabs.</p>
 
