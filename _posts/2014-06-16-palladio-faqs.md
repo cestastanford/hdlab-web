@@ -1,8 +1,20 @@
-		     	<hr class="col-md-12">
-				<h2 id="faq">Frequently Asked Questions</h2>
+---
 
-					<ul>
-					<li><a href="#faqdatamodel">What is a Palladio Data Model?</a></li>
+layout: post
+title:  "Palladio FAQ"
+author: Mark Braude
+date:   2014-04-29 11:34:22
+category: palladio
+published: false
+tags: 
+excerpt: ""
+ 
+---
+
+#Frequently Asked Questions
+
+(What is a Palladio Data Model?)[What is a Palladio Data Model?]
+
 					<li><a href="#faqdataformat">Which data formats work with Palladio?</a></li>
 					<li><a href="#faqlightning">What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</a>
 					<li><a href="#faqmultiple">What is a Multiple Values Delimiter?</a></li>
@@ -17,7 +29,7 @@
 					</ul>
 
 
-					<h4 name="faqdatamodel">What is a Palladio Data Model?</h4>
+##What is a Palladio Data Model?
 
 					<p>Once you’ve uploaded your tabular data into the Palladio interface, you may refine it and save it as a Palladio Data Model to your desktop.  The Palladio Data Model is saved with the extension .json and includes the schema and structure required to visualize your data in Palladio. (Not just any json file will do.) Now, as you continue to use Palladio you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio Data Model). Remember that if you make further changes to your data in the refine stage, you should re-export the Data Model to have a version that reflects your changes.</p>
 
