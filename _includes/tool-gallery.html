@@ -1,0 +1,14 @@
+{% for tool in site.data.tools %}
+<div class="row">
+<div class="media col-md-8 col-md-offset-1">
+  <a class="pull-left" href="#">
+    <img src="{{ site.url}}/{{ tool.img-url }}" alt="{{ tool.name }}" width="300" class="img-rounded">
+  </a>
+  <div class="media-body">
+    <h3 class="media-heading">{{ tool.name }}</h3>
+    <p>{{ tool.description }}</p>
+  </div>
+</div>
+</div>
+<br>
+{% endfor %}

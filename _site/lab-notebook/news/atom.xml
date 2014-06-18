@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Lab Notebook: news | ]]></title>
+  <link href="http://localhost:4000/lab-notebook/news/atom.xml" rel="self"/>
+  <link href="http://localhost:4000/"/>
+  <updated>2014-06-18T08:44:30-07:00</updated>
+  <id>http://localhost:4000/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Networks in History Workshop]]></title>
+    <link href="http://localhost:4000/lab-notebook/news/2014/05/02/networks-in-history-workshop/"/>
+    <updated>2014-05-02T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/news/2014/05/02/networks-in-history-workshop</id>
+    <content type="html"><![CDATA[]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Empires of Knowledge]]></title>
+    <link href="http://localhost:4000/lab-notebook/news/2014/05/02/empires-of-knowledge/"/>
+    <updated>2014-05-02T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/news/2014/05/02/empires-of-knowledge</id>
+    <content type="html"><![CDATA[<p>Empires of Knowledge: Scientific Networks in the Early Modern World Workshop, May 2-3, 2014.
+See the <a href="http://www.stanford.edu/dept/HPST/EmpiresofKnowledgeConferenceProgram.pdf">conference program</a> and the <a href="http://www.stanford.edu/dept/HPST/Empires_of_Knowledge_Abstract&amp;Titles.pdf">titles and abstracts</a>.</p>
+
+<p>The conference will take place at the Stanford Humanities Center in Levinthal Hall.
+This event was organized by Professor Paula Findlen.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Collaborators from Sydney]]></title>
+    <link href="http://localhost:4000/lab-notebook/news/2014/05/01/collaborators-from-sydney/"/>
+    <updated>2014-05-01T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/news/2014/05/01/collaborators-from-sydney</id>
+    <content type="html"><![CDATA[<p>We are very pleased to welcome back to CESTA Jacquie Kasunic and Kate Sweetapple. During their first visit in November 2013 we new we wanted to find a way to work together. Keith Baker and Dan Edelstein came forward with a project to visualize the process by which the Declaration of the Rights of Man came to be written during the summer of 1789. </p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Anne Burdick Visit]]></title>
+    <link href="http://localhost:4000/lab-notebook/news/2014/04/29/anne-burdick-visit/"/>
+    <updated>2014-04-29T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/news/2014/04/29/anne-burdick-visit</id>
+    <content type="html"><![CDATA[<p>Anne arrived on Monday April 28 to meet with CESTA project leads to learn about what we are doing in preparation for an <a href="http://www.designresearchsociety.org/joomla/events/biennial-conf/drs2014umea.html">upcoming Design Research Society conference at Umea, Sweden</a>. It was quiet in the lab late Monday, which gave her time to have long discussions with Nick Bauch about his project. Gabe Wolfenstein gave her a tour of CESTA&#39;s Crowdsourcing project. Both projects had unexpected connections with the work she presented the next day: &#39;Micro Mega Meta.&#39;</p>
+
+<p>She showed us part one of a three-part pecha-kucha called Trina, which she describes as &quot;a design fiction conceived in collaboration with writer Janet Sarbanes (Army of One) that aims to imagine a digital environment built upon Humanities notions such as subjectivity, interpretation, ambiguity and contextual specificity.&quot; </p>
+
+<hr>
+
+<p>Anne Burdick is Chair of graduate Media Design Practices at Art Center College of Design and co-author of Digital_Humanities (MIT Press, 2013). Burdick is best known for her design and research into new modes of scholarly production. Her award-winning transmedia work includes the Writing Machines book and web supplement with N. Katherine Hayles; the Fackel Wörterbuch series and the Austrian Academy Corpus—an online database of historical texts—which work separately and together; and The New Ecology of Things (2009), a critical examination of pervasive computing distributed across print, web, and mobile devices. From 1995-2012, she was Designer and Design Editor of electronicbookreview.com. Her work with the Commission for Non-Literary Text Types at the Austrian Academy of Sciences includes the experimental text-dictionary, Fackel Wörterbuch: Redensarten (2000), for which she received the Leipzig Award for the “Most Beautiful Book in the World.</p>
+
+<p>For more information about Anne Burdick, please visit:</p>
+
+<p>http://anneburdick.com</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,9 @@
+{% for image in site.data.images %}
+{% if image.tag == page.title %}
+
+<div class="widewrapper main">
+      <img src="{{ image.url }}" class="img-responsive" alt="{{ image.alt-txt }}">
+</div>
+
+{% endif %}
+{% endfor %}

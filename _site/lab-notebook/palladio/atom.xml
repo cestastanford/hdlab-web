@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Lab Notebook: palladio | ]]></title>
+  <link href="http://localhost:4000/lab-notebook/palladio/atom.xml" rel="self"/>
+  <link href="http://localhost:4000/"/>
+  <updated>2014-06-18T08:44:30-07:00</updated>
+  <id>http://localhost:4000/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using Palladio to explore 18th Century French society Theater]]></title>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/01/29/society-theater/"/>
+    <updated>2014-01-29T00:00:00-08:00</updated>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/01/29/society-theater</id>
+    <content type="html"><![CDATA[<p>My name is Maria Teodora Comsa, and I am a Ph.D. candidate in French at Stanford University. I am writing my dissertation on French society theater in the 18th century under the guidance of professors Jean-Marie Apostolidès and Dan Edelstein. As a supplement to my dissertation, I have been compiling datasets cataloguing the people, locations, performances, and texts from society theater.</p>
+
+<p>I use Palladio to visualize, explore, and augment the data that I compiled and this has proven very helpful in answering some of my research questions. What is unique about Palladio, is that it recognizes the types of data that I upload, and it allows me to view and edit the data before the visualization step. This means that I can easily correct minor errors, change formats, and most importantly, add value and hierarchy delimiters without modifying my initial source files.</p>
+
+<p>Thanks to Palladio’s powerful visualization options, I can easily identify trends in my data that would not be evident otherwise. For instance, I can study the social composition of the network of people involved in society theater to see how many of the participants were part of the elite (aristocracy). I can then apply a facet filter and view only the aristocrats who wrote plays… and were female. Palladio dynamically updates the different views so that I can see the results of my query on a map, in a network graph, in a table, or as a grid of images. The graph view is my favorite; it is extremely powerful because it does not restrict which values I can use as source or target, which empowers me to explore my data in ways that I had not anticipated.</p>
+
+<p>Visualizing data helps me better understand the specificity of society theater and allows me to identify which aspects will be interesting to analyze next. Using Palladio, I can query not only my own data, but I can connect it to other data sets  (like those compiled for the Mapping the Republic of Letters project) and explore how the society theater participants fit within the larger Enlightenment networks.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa1.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 1: Network graph view of society theater participants by occupation.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa2.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 2: Graph view of society theater participants filtered by social status, occupation, and gender.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa3.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 3: Grid view of society theater authors by social status.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa4.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 4: Grid view of society theater participants filtered by social status, occupation, and gender.</p>
+]]></content>
+  </entry>
+  
+</feed>
