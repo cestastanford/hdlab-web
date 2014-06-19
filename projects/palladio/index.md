@@ -15,6 +15,9 @@ Palladio is being built within Humanities + Design, a research lab at the Center
 ##How it Works
 
 {% vimeo 90491114 %}
+
+{% vimeo 97762819%}
+
 {% vimeo 97773602 %}
 
 ###Upload and Refine
