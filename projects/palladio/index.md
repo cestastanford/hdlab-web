@@ -15,6 +15,7 @@ Palladio is being built within Humanities + Design, a research lab at the Center
 ##How it Works
 
 {% vimeo 90491114 %}
+{% vimeo 97773602 %}
 
 ###Upload and Refine
 With Palladio you can upload tabular data and extend your data with additional tables to construct a complex model for visualization. Palladio accommodates multiple values as long as you specify your delimiter in the refine stage.
