@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="http://localhost:4000/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2014-06-20T11:48:02-07:00</updated>
+  <updated>2014-06-20T11:55:34-07:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Palladio Release Notes 0.5.0]]></title>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/"/>
+    <updated>2014-06-20T11:49:00-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0</id>
+    <content type="html"><![CDATA[<h2>New Features</h2>
+
+<p><strong>The ability to Save and Export a specific instances of one’s data and visualizations</strong></p>
+
+<p>Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearraning nodes, then export your work, and later upload your saved file to find the graph just as you left it.</p>
+
+<p>See how it works: <div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " frameborder="0">   </iframe></div></p>
+
+<p><strong>Aggregation Option</strong></p>
+
+<p>Use numeric/counting information in your data and visualize it in the map and graph views. For instance, a column of &#39;Goods Sent&#39; could have &#39;Barrels of Wine&#39; and &#39;Wheels of Cheese&#39; and a second column &#39;Numbers of Goods,&#39; could have the numbers &#39;200&#39; and &#39;20.&#39; In your map and graph visualizations, the dots will be sized to reflect the relative magnitude of these &#39;Goods Sent&#39; (ie. the dot representing &#39;Barrels of Wine&#39; would be 10x larger than &#39;Wheels of Cheese&#39;)</p>
+
+<p>See how it works: <div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " frameborder="0">   </iframe></div></p>
+
+<p><strong>Export Map and Graph Views as SVG</strong></p>
+
+<p>Export Map and Graph Views as .svg files. Scalable Vector Graphics (.svg) files can be manipulated with drawing software, such as Illustrator, to be included in publications and presentations as high resolution images. (Note that the Map view exports include only the nodes and links, not the underlying tiled map.)</p>
+
+<p><strong>Negative Dates</strong></p>
+
+<p>The timeline feature now handles negative dates.</p>
+
+<p><strong>Hide and Show Dimensions</strong></p>
+
+<p>After uploading your data you can hide specific dimensions to simplify your workflow.</p>
+
+<p><strong>Enhanced Tabular Sorting</strong></p>
+
+<p>In Tabular View, data can be sorted by dimension. Click on a column header to rearrange your data as you see fit.</p>
+
+<p><strong>Warning Prompt</strong></p>
+
+<p>A prompt appears when one tries to leave a page, warning that one will lose one’s data.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Save Your Visualization]]></title>

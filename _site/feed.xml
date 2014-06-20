@@ -7,6 +7,47 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Palladio Release Notes 0.5.0</title>
+        <description>&lt;h2&gt;New Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;The ability to Save and Export a specific instances of one’s data and visualizations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearraning nodes, then export your work, and later upload your saved file to find the graph just as you left it.&lt;/p&gt;
+
+&lt;p&gt;See how it works: &lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Aggregation Option&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Use numeric/counting information in your data and visualize it in the map and graph views. For instance, a column of &amp;#39;Goods Sent&amp;#39; could have &amp;#39;Barrels of Wine&amp;#39; and &amp;#39;Wheels of Cheese&amp;#39; and a second column &amp;#39;Numbers of Goods,&amp;#39; could have the numbers &amp;#39;200&amp;#39; and &amp;#39;20.&amp;#39; In your map and graph visualizations, the dots will be sized to reflect the relative magnitude of these &amp;#39;Goods Sent&amp;#39; (ie. the dot representing &amp;#39;Barrels of Wine&amp;#39; would be 10x larger than &amp;#39;Wheels of Cheese&amp;#39;)&lt;/p&gt;
+
+&lt;p&gt;See how it works: &lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97773602 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Export Map and Graph Views as SVG&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Export Map and Graph Views as .svg files. Scalable Vector Graphics (.svg) files can be manipulated with drawing software, such as Illustrator, to be included in publications and presentations as high resolution images. (Note that the Map view exports include only the nodes and links, not the underlying tiled map.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Negative Dates&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The timeline feature now handles negative dates.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hide and Show Dimensions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After uploading your data you can hide specific dimensions to simplify your workflow.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Enhanced Tabular Sorting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In Tabular View, data can be sorted by dimension. Click on a column header to rearrange your data as you see fit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Warning Prompt&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A prompt appears when one tries to leave a page, warning that one will lose one’s data.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Jun 2014 11:49:00 -0700</pubDate>
+        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</link>
+        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</guid>
+      </item>
+    
+      <item>
         <title>Save Your Visualization</title>
         <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
 

@@ -3,15 +3,14 @@
 layout: post
 title:  "Palladio Release Notes 0.5.0"
 author: Mark Braude
-date:   2014-06-20 10:49
+date:   2014-06-20 11:49
 category: palladio
-published: false
+published: true
 tags: 
-excerpt: ""
- 
+excerpt: "We have just released Palladio 0.5.0 with many new feature requests fulfilled!"
 ---
 
-#Release Notes
+
 
 ##New Features
 
@@ -46,4 +45,4 @@ In Tabular View, data can be sorted by dimension. Click on a column header to re
 
 **Warning Prompt**
 
-A prompt appears when one tries to leave a page, warning that one will lose one’s data.
+A prompt appears when one tries to leave a page, warning that one will lose one’s data.
