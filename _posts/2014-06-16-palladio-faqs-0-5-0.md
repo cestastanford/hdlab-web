@@ -3,9 +3,9 @@
 layout: post
 title:  "Palladio FAQ"
 author: Mark Braude
-date:   2014-04-29 11:34:22
+date:   2014-06-20 11:34:22
 category: palladio
-published: false
+published: true
 tags: 
 excerpt: ""
  
