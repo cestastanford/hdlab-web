@@ -1,7 +1,9 @@
 /* Ockkam styles */
 
 body {background-color: #fff;
-	font-family: 'News Cycle', sans-serif;}
+	font-family: 'News Cycle', sans-serif;
+	font-size: 17px;
+	}
 	
 .navbar-default {background-color: #fff; border:none;}
 
@@ -174,6 +176,13 @@ opacity: 0.4;
 filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
+.vimeo-iframe {
+max-width: 100%;
+}
+
+.video-container  {
+width: 90%;
+}
 
 header.navbar { 
 background-color: transparent;

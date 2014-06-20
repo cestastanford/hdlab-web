@@ -1,16 +1,14 @@
-<aside id="sidebar" class="col-sm-8">
-  <div id="recent-posts">
+
+
       {% for post in site.categories.palladio %}
-	<div>
+	<div class="row">
 	  <a href="{{ post.url }}">
 	    <img src="{{ post.image }}" alt="{{ post.image-description }}" width="300" class="img-rounded">
 	  </a>
 	  <div>
 	    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 	    {{ post.excerpt }}
-		<p class="lead"><button class="btn btn-default"><a href="{{ post.url }}">Read More</a></button></p>
+		<p class="lead"><a href="{{ post.url }}">Read More</a></p>
 	  </div>
 	</div>
       {% endfor %}
-  </div>
-</aside>

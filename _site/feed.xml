@@ -3,8 +3,8 @@
   <channel>
     <title>Humanities + Design</title>
     <description>We are a research lab at the Center for Spatial and Textual Analysis (CESTA), Stanford University.</description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://hdlab.stanford.edu</link>
+    <atom:link href="http://hdlab.stanford.edu/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Palladio Release Notes 0.5.0</title>
@@ -14,13 +14,13 @@
 
 &lt;p&gt;Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearraning nodes, then export your work, and later upload your saved file to find the graph just as you left it.&lt;/p&gt;
 
-&lt;p&gt;See how it works: &lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;See how it works: &lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Aggregation Option&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Use numeric/counting information in your data and visualize it in the map and graph views. For instance, a column of &amp;#39;Goods Sent&amp;#39; could have &amp;#39;Barrels of Wine&amp;#39; and &amp;#39;Wheels of Cheese&amp;#39; and a second column &amp;#39;Numbers of Goods,&amp;#39; could have the numbers &amp;#39;200&amp;#39; and &amp;#39;20.&amp;#39; In your map and graph visualizations, the dots will be sized to reflect the relative magnitude of these &amp;#39;Goods Sent&amp;#39; (ie. the dot representing &amp;#39;Barrels of Wine&amp;#39; would be 10x larger than &amp;#39;Wheels of Cheese&amp;#39;)&lt;/p&gt;
 
-&lt;p&gt;See how it works: &lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97773602 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;See how it works: &lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97773602 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Export Map and Graph Views as SVG&lt;/strong&gt;&lt;/p&gt;
 
@@ -43,19 +43,19 @@
 &lt;p&gt;A prompt appears when one tries to leave a page, warning that one will lose one’s data.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 11:49:00 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</guid>
+        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</link>
+        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</guid>
       </item>
     
       <item>
         <title>Save Your Visualization</title>
-        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
+        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</guid>
+        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</link>
+        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</guid>
       </item>
     
       <item>
@@ -220,78 +220,30 @@
 &lt;p&gt;Please email us at &lt;a href=&quot;mailto:palladio@designhumanities.org&quot;&gt;palladio@designhumanities.org&lt;/a&gt; to share your experience.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</guid>
+        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</link>
+        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</guid>
       </item>
     
       <item>
         <title>Count By Column Values</title>
-        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97773602 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
+        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97773602 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;New feature for Palladio 0.5.0: New feature that allows more complex counting functions.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</guid>
+        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</link>
+        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</guid>
       </item>
     
       <item>
         <title>A Full Video Tutorial (Load and Save)</title>
-        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/90598682 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
+        <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/90598682 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;A full tutorial, showing several aspects fo the Palladio workflow based on the Load and Save version of Palladio.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/full-video-tutorial/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/full-video-tutorial/</guid>
-      </item>
-    
-      <item>
-        <title>Networks in History Workshop</title>
-        <description></description>
-        <pubDate>Fri, 02 May 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/news/2014/05/02/networks-in-history-workshop/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/05/02/networks-in-history-workshop/</guid>
-      </item>
-    
-      <item>
-        <title>Empires of Knowledge</title>
-        <description>&lt;p&gt;Empires of Knowledge: Scientific Networks in the Early Modern World Workshop, May 2-3, 2014.
-See the &lt;a href=&quot;http://www.stanford.edu/dept/HPST/EmpiresofKnowledgeConferenceProgram.pdf&quot;&gt;conference program&lt;/a&gt; and the &lt;a href=&quot;http://www.stanford.edu/dept/HPST/Empires_of_Knowledge_Abstract&amp;amp;Titles.pdf&quot;&gt;titles and abstracts&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The conference will take place at the Stanford Humanities Center in Levinthal Hall.
-This event was organized by Professor Paula Findlen.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 May 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/news/2014/05/02/empires-of-knowledge/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/05/02/empires-of-knowledge/</guid>
-      </item>
-    
-      <item>
-        <title>Open Design</title>
-        <description></description>
-        <pubDate>Tue, 29 Apr 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/topics/2014/04/29/open-design/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/topics/2014/04/29/open-design/</guid>
-      </item>
-    
-      <item>
-        <title>Design Principles for Humanistic Inquiry</title>
-        <description>&lt;p&gt;Looking closely at the role visualization plays in other research practices and processes helped us arrive at a set of design principles to guide the development of tools for exploring a fragmentary and unbounded data set as opposed to a fixed and framed data set. If we remove the assumption that the data-driven graphic needs to be universally understood and transferable, it opens up the possibility to exploit the interactive capabilities of the graphical user interface and even the ability to manipulate and modify data through the interface. &lt;/p&gt;
-
-&lt;p&gt;These principles support a desire to navigate data without imposing too much structure or applying too many rules that will constrain the viewable results. The overarching need is to expose the query process, the data processing, and other mediating factors that influence the graphical representation and interfere with interpretation. We want to support, as much as is possible, through a graphical user interface, &lt;em&gt;thinking through data&lt;/em&gt; for the purpose of generating new knowledge. &lt;/p&gt;
-
-&lt;h2&gt;&lt;strong&gt;Expose the Complexity.&lt;/strong&gt; It is widely acknowledged that visualization is critical to data analysis, but for the most part graphical methods that we use today were developed in the context of statistical analysis. Since statistical analysis is rules-based and quantitative, these graphical methods have been built to take full advantage of computational power to run predetermined algorithms in the background. By contrast, we need a graphical approach that takes full advantage of the interactivity, hypertextuality, and scalability of graphical user interfaces to navigate data without imposing too much structure or applying too many rules that will constrain the viewable resultys and undermine interpretation.&lt;/h2&gt;
-
-&lt;h2&gt;&lt;strong&gt;Provide Context.&lt;/strong&gt; Complexity without context is chaos. Humanistic inquiry and the reliability of humanistic assertions depend deeply on context. In terms of a graphical user interface to data, we are concerned with making it evident, throughout the data exploration process, where you started and what choices you have made along the way. To provide context in a digitial setting, we are equally interested in showing the data we do not have as we are in showig the data we do have.&lt;/h2&gt;
-
-&lt;h2&gt;&lt;strong&gt;Reveal Spatial-Temporal-Relational Dynamics.&lt;/strong&gt; One of the ways we work to both provide context and manage complexity and uncertainty is to put into play the dynamics between spatial, temporal and relational data. If we look at a geo-spatial map of correspondence, for example, we can see patterns of exchange of data between cities or geographic regions. If we look at the same data in a network graph view that shows letters exchanged between individuals, we can explore more subtle patterns of exchange based on cultural identity. If we look at this data on a timeline, we can see the changing patterns in exchange over time. But only by combining temporal data, relational data and spatial data can we begin to draw a picture of the movement of people and ideas. This is even more true where there are significant gaps in one or another dimension of data, so we need to explore a question from many angles and attempt to hypothetically fill in those gaps.&lt;/h2&gt;
-
-&lt;h2&gt;&lt;strong&gt;Let the User Structure the Data.&lt;/strong&gt; We gather as much structured data as we can to help us organize and navigate large data sets, but more often than not the data we use as historians arrives unstructured and does not fit well into existing ontologies. To support an idiographic approach to data, we want to make it easy for the scholar to drag data points around on a screen and cluster them not only according to pre-determined values, but according to attributes or categories worked out through the exploratory reasoning process.&lt;/h2&gt;
-</description>
-        <pubDate>Tue, 29 Apr 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/topics/2014/04/29/design-principles/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/topics/2014/04/29/design-principles/</guid>
+        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/full-video-tutorial/</link>
+        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/full-video-tutorial/</guid>
       </item>
     
   </channel>

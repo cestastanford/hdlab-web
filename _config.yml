@@ -1,5 +1,5 @@
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
+url:              http://hdlab.stanford.edu
 #
 #
 # is this a lab site or project site?
@@ -15,7 +15,6 @@ category_title_prefix :   'Lab Notebook: '
 category_title :          'Lab Notebook'
 google_id:                'UA-39616982-1'
 disqus:                   'humanitiesplusdesign'
-url:                      http://localhost:4000
 permalink:                /lab-notebook/:categories/:year/:month/:day/:title/
 twitter:                   hdstanford
 favicon:  "https://dl.dropboxusercontent.com/s/o0rhoh2bh2xu9uu/favicon.ico"
@@ -25,7 +24,7 @@ img-url:           ""
 
 
 links:
-  - title: About/Contact
+  - title: About
     url: /about/
   - title: Lab Notebook
     url: /lab-notebook/
