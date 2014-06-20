@@ -1,21 +1,14 @@
 ---
 
 layout: post
-title:  "New Palladio Features Videos"
+title:  "Count By Column Values"
 author: Mark Braude
 date:   2014-06-20 11:34:22
 category: palladio
 published: true
-tags: 
-excerpt: ""
+tags: new
  
 ---
-
-#New Palladio Features Videos
-
-{% vimeo 97762819 %}
-
-New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.
 
 {% vimeo 97773602 %}
 

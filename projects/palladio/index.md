@@ -12,18 +12,7 @@ With "Networks in History" we are taking the insights gained and lessons learned
 
 Palladio is being built within Humanities + Design, a research lab at the Center for Spatial and Textual Analysis (CESTA), Stanford University. The project has received funding and support from the Office of Digital Humanities within the National Endowment for the Humanities, the Vice Provost for Online Education at Stanford, the Wallenberg Foundation, the Stanford University Libraries, and the Dean of Research at Stanford.
 
-##How it Works
 
-
-###Upload and Refine
-
-With Palladio you can upload tabular data and extend your data with additional tables to construct a complex model for visualization. Palladio accommodates multiple values as long as you specify your delimiter in the refine stage.
-
-###Visualize  
-
-!(/img/filter-view.png)
-!(/img/graph-view.png) 
-!(/img/map-view.png)
 
 
 

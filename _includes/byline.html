@@ -1,14 +1,16 @@
+<hr>
 <div class="byline">
-  <h3>About the Author</h3>
   <div class="vcard row">
   {% for person in site.data.people %}
+   {% if person.name == include.param %}
     {% if person.image %}
       <div class="span2 center">
-        <img class="photo" src="{{ person.image.url }}" title="{{ person.image.title }}" alt="{{ person.image.alt }}" width="80" height="80" />
+        <img class="photo img-rounded" src="{{site.url}}{{ person.image }}" title="{{ person.image.title }}" alt="{{ person.image.alt }}" width="80" height="80" />
       </div>
     {% endif %}
 
-    <div class="note span9">{{ person.short-bio }}</div>
-
+    <div class="note span9">{{page.author}} {{ person.short-bio }}</div>
+    {% endif %}
+{% endfor %}
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Palladio FAQ"
+title:  "Frequently Asked Questions"
 author: Mark Braude
 date:   2014-06-2
 category: palladio
@@ -11,7 +11,6 @@ excerpt: ""
  
 ---
 
-#Frequently Asked Questions
 
 - [What is a Palladio Data Model?](##What is a Palladio Data Model?)  
 - [Which data formats work with Palladio?](##Which data formats work with Palladio?)

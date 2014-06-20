@@ -5,18 +5,28 @@ layout: default
 {% include banner_image.html %}
 
 <h1>{{ page.title }}</h1>
-
+<div class="group clearfix">
 {{ content }}
 
-<h3>Recent Updates</h3>
+</div>
+
+<!-- left-->
+<div class="col-sm-8">
+<h3>From the Lab Notebook</h3>
 
 
   <div id="recent-posts">
       {% for post in site.categories.palladio %}
 	<div>
 	  <div>
-	    <p><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }} {{ post.title }}</a></p>
+	    <h3><small><a href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }} {{ post.title }}</a></h3>
+	    <p>{{ post.excerpt }}</p>
 	  </div>
 	</div>
       {% endfor %}
   </div>
+
+</div>
+<!--right-->
+
+

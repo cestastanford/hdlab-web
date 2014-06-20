@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="http://localhost:4000/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2014-06-20T10:22:26-07:00</updated>
+  <updated>2014-06-20T11:48:02-07:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,32 +14,41 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Save Your Visualization]]></title>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/save-your-visualization-video/"/>
+    <updated>2014-06-20T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/save-your-visualization-video</id>
+    <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " frameborder="0">   </iframe></div></p>
+
+<p>New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Palladio FAQ]]></title>
     <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
     <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0</id>
-    <content type="html"><![CDATA[<h1>Frequently Asked Questions</h1>
+    <content type="html"><![CDATA[<ol>
+<li> <a href="#13">What is a Palladio Data Model?</a><br></li>
+<li> <a href="#14">Which data formats work with Palladio?</a></li>
+<li><a href="#1">What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</a></li>
+<li><a href="#2">What is a Multiple Values Delimiter?</a></li>
+<li><a href="#3">What are Size Points?</a></li>
+<li><a href="#4">How do I get the most use out of the Timeline feature?</a></li>
+<li><a href="#5">How should Dates be entered?</a></li>
+<li><a href="#6">How should Coordinates be entered?</a></li>
+<li><a href="#7">What do the labels and numbers listed directly below my dimension represent?</a></li>
+<li><a href="#8">I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?</a></li>
+<li><a href="#9">What are some applications of the Gallery View?</a></li>
+<li><a href="#12">How do I get the most out of Map view?</a></li>
+</ol>
 
-<ul>
-<li><a href="##What%20is%20a%20Palladio%20Data%20Model?">What is a Palladio Data Model?</a><br></li>
-<li><a href="##Which%20data%20formats%20work%20with%20Palladio?">Which data formats work with Palladio?</a></li>
-<li><a href="##What%20does%20it%20mean%20if%20I%20see%20a%20Lightning%20Bolt%20icon%20and%20%E2%80%98Special%20Characters%20Found%E2%80%99%20in%20one%20of%20my%20dimensions?">What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</a></li>
-<li><a href="##What%20is%20a%20Multiple%20Values%20Delimiter?">What is a Multiple Values Delimiter?</a></li>
-<li><a href="##What%20are%20Size%20Points?">What are Size Points?</a></li>
-<li><a href="##How%20do%20I%20get%20the%20most%20use%20out%20of%20the%20Timeline%20feature?">How do I get the most use out of the Timeline feature?</a></li>
-<li><a href="##How%20should%20Dates%20be%20entered?">How should Dates be entered?</a></li>
-<li><a href="##How%20should%20Coordinates%20be%20entered?">How should Coordinates be entered?</a></li>
-<li><a href="##What%20do%20the%20labels%20and%20numbers%20listed%20directly%20below%20my%20dimension%20represent?">What do the labels and numbers listed directly below my dimension represent?</a></li>
-<li><a href="##I%20would%20like%20to%20export%20a%20Map%20visualization%20but%20can%20only%20export%20it%20as%20an%20.svg%20with%20dots%20and%20lines.%20What%20should%20I%20do?">I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?</a></li>
-<li><a href="##What%20are%20some%20applications%20of%20the%20Gallery%20View?">What are some applications of the Gallery View?</a></li>
-<li><a href="##How%20do%20I%20get%20the%20most%20out%20of%20Map%20view?">How do I get the most out of Map view?</a></li>
-</ul>
-
-<h2>What is a Palladio Data Model?</h2>
+<h3><a name="13"></a>What is a Palladio Data Model?</h3>
 
 <p>Once you’ve uploaded your tabular data into the Palladio interface, you may refine it and save it as a Palladio Data Model to your desktop.  The Palladio Data Model is saved with the extension .json and includes the schema and structure required to visualize your data in Palladio. (Not just any json file will do.) Now, as you continue to use Palladio you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio Data Model). Remember that if you make further changes to your data in the refine stage, you should re-export the Data Model to have a version that reflects your changes.</p>
 
-<h2>Which data formats work with Palladio?</h2>
+<h3><a name="14"></a>Which data formats work with Palladio?</h3>
 
 <p>Any collection of information that can be represented in a table format (in other words, any data you might enter into a spreadsheet program) will work with Palladio. Make sure that all data is represented by delimited-separated values. Palladio supports the following delimiters: commas, semicolons and tabs.</p>
 
@@ -99,35 +108,35 @@
 
 <p>Palladio does not work with unstructured data, such as one long string of text, but only with data that has been placed into some kind of table. The richest uses of Palladio comes from having several different related tables of information, however many users will start with just one single table.</p>
 
-<h2>What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</h2>
+<h3><a name="1"></a>What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</h3>
 
 <p>This is Palladio’s way of telling you that there are non-standard alpha-numerical characters in your data. These special characters may either lead to errors, or (in the case of commas or semicolons used to separate values in a given dimension) these special characters may be of help for you to use advanced tools such as the Multiple-Values Delimiter.</p>
 
-<h2>What is a Multiple Values Delimiter?</h2>
+<h3><a name="2"></a>What is a Multiple Values Delimiter?</h3>
 
 <p>Your tabular data is made up of various dimensions (ie. individual cells in a spreadsheet). In some cases you may want to assign more than one value for a certain dimension. For instance, you may have a column describing someone&#39;s &#39;Position.&#39; The column could be filled Princes, Popes, and Poets. But what if your Prince was also a Pope? In this case you could enter &#39;Prince, Pope&#39; in one single cell of your table. Now, after you’ve uploaded the data into Palladio, you can parse that cell into two unique values. Here&#39;s how: In the Multiple Values Delimiter input box, enter the symbol you&#39;ve used to separate your values, in this case, a comma that separated Pope and Prince. Now Palladio understands that this entry as two separate values.</p>
 
-<h2>What are Size Points?</h2>
+<h3><a name="3"></a>What are Size Points?</h3>
 
 <p>Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence.</p>
 
-<h2>How do I get the most use out of the Timeline feature?</h2>
+<h3><a name="4"></a>How do I get the most use out of the Timeline feature?</h3>
 
 <p>As you change the temporal period in your timeline view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.</p>
 
 <p>Swiping within the Timeline view will allow you to zoom in to specific dates. The stacked bar and highlighting functions allow you to see the data in different ways as you hover.</p>
 
-<h2>How should Dates be entered?</h2>
+<h3><a name="5"></a>How should Dates be entered?</h3>
 
 <p>Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01).</p>
 
-<h2>How should Coordinates be entered?</h2>
+<h3><a name="6"></a>How should Coordinates be entered?</h3>
 
 <p>Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.</p>
 
 <p><a href="assets/scenario-simple-map.pdf">See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.</a></p>
 
-<h2>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?</h2>
+<h3><a name="7"></a>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?</h3>
 
 <p>In the refine (non-visualization) view your data appears as table, with each column header represented as a unique dimension.</p>
 
@@ -139,11 +148,11 @@
 
 <p>If Palladio ‘guesses’ your data incorrectly you can click on the dimension and in the dropdown menu labeled Data Type, change the type of data specified. The more accurately Palladio defines your data, the better the platform will work.</p>
 
-<h2>I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?</h2>
+<h3><a name="8"></a>I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?</h3>
 
 <p>As Palladio Map Visualizations involve placing static coordinates data onto a separate map grid layer the full visualization cannot currently be exported as an .svg, rather you will see only the dots and lines against a blank background. If this solution is unsatisfactory, we recommended using ‘screen grabs’ as the best method, currently, for exporting map visualizations.</p>
 
-<h2>What are some applications of the Gallery View?</h2>
+<h3><a name="9"></a>What are some applications of the Gallery View?</h3>
 
 <p>In the Gallery View you can display different kinds of data that cannot be visualized as maps or graphs.</p>
 
@@ -151,7 +160,7 @@
 
 <p>In this case, you would go to Grid View and click the ‘Image URL’ option. Palladio would then locate the dimension in which you’ve listed image URLs in your data.</p>
 
-<h2>How do I get the most out of the Map view?</h2>
+<h3><a name="12"></a>How do I get the most out of the Map view?</h3>
 
 <p>The default map view is a blank map. Note the settings panel to the right. You can hide the panel by clicking on the gear symbol. The + and - signs zoom the map in and out.</p>
 
@@ -177,28 +186,29 @@
 
 <p><a href="assets/scenario-point-to-point.pdf">See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.</a></p>
 
-<p>Open Design for Humanities Research</p>
-
-<p>Palladio is a work in progress. We will be releasing new versions throughout the year from January to December 2014. We want to make it useful for research and teaching and your feedback will help us get there. Share your questions and comments about how to improve Palladio and will respond directly by email.</p>
-
 <p>Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[New Palladio Features Videos]]></title>
-    <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/new-features-video/"/>
+    <title type="html"><![CDATA[Count By Column Values]]></title>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/count-by-column-values-video/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
-    <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/new-features-video</id>
-    <content type="html"><![CDATA[<h1>New Palladio Features Videos</h1>
-
-<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " frameborder="0">   </iframe></div></p>
-
-<p>New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.</p>
-
-<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " frameborder="0">   </iframe></div></p>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/count-by-column-values-video</id>
+    <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " frameborder="0">   </iframe></div></p>
 
 <p>New feature for Palladio 0.5.0: New feature that allows more complex counting functions.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Full Video Tutorial (Load and Save)]]></title>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/full-video-tutorial/"/>
+    <updated>2014-06-20T00:00:00-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/full-video-tutorial</id>
+    <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/90598682 " frameborder="0">   </iframe></div></p>
+
+<p>A full tutorial, showing several aspects fo the Palladio workflow based on the Load and Save version of Palladio.</p>
 ]]></content>
   </entry>
   

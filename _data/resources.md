@@ -1,7 +1,7 @@
-{% vimeo 90598682 %}
-
-A full tutorial, showing several aspects fo the Palladio workflow.
-(User interface will be slightly different as this video refers to an older version of Palladio)
+- title: "All of Palladio"
+ vimeo-link: {% vimeo 90598682 %}
+ description: "A full tutorial, showing several aspects fo the Palladio workflow.
+(User interface will be slightly different as this video refers to an older version of Palladio)."
 
 {% vimeo 97762819 %}
 
