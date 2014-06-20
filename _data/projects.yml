@@ -25,7 +25,7 @@
     - Glauco Mantegari
     - Eetu Mäkelä
   brief: 
-  url: "/projects/networks-in-history/"
+  url: /projects/networks-in-history
   active: yes
   affiliation: 
     - Stanford
@@ -39,7 +39,7 @@
     - Ethan Jewett
     - Mark Braude
   brief: 
-  url: 
+  url: /projects/palladio
   active: yes
   affiliation: 
     - Stanford
@@ -51,7 +51,7 @@
     - Dan Edelstein
     - Giorgio Caviglia
   brief: 
-  url: 
+  url: /projects/piranesi
   active: yes
   affiliation: 
     - Stanford
@@ -65,7 +65,7 @@
     - Jacquie Lorber-Kasunic
     - Kate Sweetapple
   brief: 
-  url:  
+  url:  /projects/writing-rights/
   active: yes
   affiliation: 
     - Stanford
@@ -80,7 +80,7 @@
     - Glauco Mantegari
     - Claude Willan
   brief: 
-  url:  
+  url:  /projects/procope/
   active: yes
   affiliation: 
     - Stanford
@@ -93,7 +93,7 @@
     - Humberto Brito
     - Nicole Coleman
   brief: 
-  url:  
+  url:  /projects/pessoa/
   active: yes
   affiliation: 
     - Stanford

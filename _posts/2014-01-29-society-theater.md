@@ -3,7 +3,7 @@ author: "Maria Comsa"
 title: "Using Palladio to explore 18th Century French society Theater"  
 excerpt: "Thanks to Palladio’s powerful visualization options, I can easily identify trends in my data that would not be evident otherwise. For instance, I can study the social composition of the network of people involved in society theater to see how many of the participants were part of the elite (aristocracy). I can then apply a facet filter and view only the aristocrats who wrote plays… and were female. Palladio dynamically updates the different views so that I can see the results of my query on a map, in a network graph, in a table, or as a grid of images. The graph view is my favorite; it is extremely powerful because it does not restrict which values I can use as source or target, which empowers me to explore my data in ways that I had not anticipated."
 layout: post
-published: true
+published: false
 category: palladio
 tags:
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="http://localhost:4000/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2014-06-18T08:44:30-07:00</updated>
+  <updated>2014-06-20T10:08:21-07:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,33 +14,174 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Using Palladio to explore 18th Century French society Theater]]></title>
-    <link href="http://localhost:4000/lab-notebook/palladio/2014/01/29/society-theater/"/>
-    <updated>2014-01-29T00:00:00-08:00</updated>
-    <id>http://localhost:4000/lab-notebook/palladio/2014/01/29/society-theater</id>
-    <content type="html"><![CDATA[<p>My name is Maria Teodora Comsa, and I am a Ph.D. candidate in French at Stanford University. I am writing my dissertation on French society theater in the 18th century under the guidance of professors Jean-Marie Apostolidès and Dan Edelstein. As a supplement to my dissertation, I have been compiling datasets cataloguing the people, locations, performances, and texts from society theater.</p>
+    <title type="html"><![CDATA[Palladio FAQ]]></title>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/04/29/palladio-faqs-0-5-0/"/>
+    <updated>2014-04-29T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/04/29/palladio-faqs-0-5-0</id>
+    <content type="html"><![CDATA[<h1>Frequently Asked Questions</h1>
 
-<p>I use Palladio to visualize, explore, and augment the data that I compiled and this has proven very helpful in answering some of my research questions. What is unique about Palladio, is that it recognizes the types of data that I upload, and it allows me to view and edit the data before the visualization step. This means that I can easily correct minor errors, change formats, and most importantly, add value and hierarchy delimiters without modifying my initial source files.</p>
+<ul>
+<li><a href="##What%20is%20a%20Palladio%20Data%20Model?">What is a Palladio Data Model?</a><br></li>
+<li><a href="##Which%20data%20formats%20work%20with%20Palladio?">Which data formats work with Palladio?</a></li>
+<li><a href="##What%20does%20it%20mean%20if%20I%20see%20a%20Lightning%20Bolt%20icon%20and%20%E2%80%98Special%20Characters%20Found%E2%80%99%20in%20one%20of%20my%20dimensions?">What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</a></li>
+<li><a href="##What%20is%20a%20Multiple%20Values%20Delimiter?">What is a Multiple Values Delimiter?</a></li>
+<li><a href="##What%20are%20Size%20Points?">What are Size Points?</a></li>
+<li><a href="##How%20do%20I%20get%20the%20most%20use%20out%20of%20the%20Timeline%20feature?">How do I get the most use out of the Timeline feature?</a></li>
+<li><a href="##How%20should%20Dates%20be%20entered?">How should Dates be entered?</a></li>
+<li><a href="##How%20should%20Coordinates%20be%20entered?">How should Coordinates be entered?</a></li>
+<li><a href="##What%20do%20the%20labels%20and%20numbers%20listed%20directly%20below%20my%20dimension%20represent?">What do the labels and numbers listed directly below my dimension represent?</a></li>
+<li><a href="##I%20would%20like%20to%20export%20a%20Map%20visualization%20but%20can%20only%20export%20it%20as%20an%20.svg%20with%20dots%20and%20lines.%20What%20should%20I%20do?">I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?</a></li>
+<li><a href="##What%20are%20some%20applications%20of%20the%20Gallery%20View?">What are some applications of the Gallery View?</a></li>
+<li><a href="##How%20do%20I%20get%20the%20most%20out%20of%20Map%20view?">How do I get the most out of Map view?</a></li>
+</ul>
 
-<p>Thanks to Palladio’s powerful visualization options, I can easily identify trends in my data that would not be evident otherwise. For instance, I can study the social composition of the network of people involved in society theater to see how many of the participants were part of the elite (aristocracy). I can then apply a facet filter and view only the aristocrats who wrote plays… and were female. Palladio dynamically updates the different views so that I can see the results of my query on a map, in a network graph, in a table, or as a grid of images. The graph view is my favorite; it is extremely powerful because it does not restrict which values I can use as source or target, which empowers me to explore my data in ways that I had not anticipated.</p>
+<h2>What is a Palladio Data Model?</h2>
 
-<p>Visualizing data helps me better understand the specificity of society theater and allows me to identify which aspects will be interesting to analyze next. Using Palladio, I can query not only my own data, but I can connect it to other data sets  (like those compiled for the Mapping the Republic of Letters project) and explore how the society theater participants fit within the larger Enlightenment networks.</p>
+<p>Once you’ve uploaded your tabular data into the Palladio interface, you may refine it and save it as a Palladio Data Model to your desktop.  The Palladio Data Model is saved with the extension .json and includes the schema and structure required to visualize your data in Palladio. (Not just any json file will do.) Now, as you continue to use Palladio you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio Data Model). Remember that if you make further changes to your data in the refine stage, you should re-export the Data Model to have a version that reflects your changes.</p>
 
-<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa1.jpg" alt="IMAGE TITLE"></p>
+<h2>Which data formats work with Palladio?</h2>
 
-<p>Image 1: Network graph view of society theater participants by occupation.</p>
+<p>Any collection of information that can be represented in a table format (in other words, any data you might enter into a spreadsheet program) will work with Palladio. Make sure that all data is represented by delimited-separated values. Palladio supports the following delimiters: commas, semicolons and tabs.</p>
 
-<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa2.jpg" alt="IMAGE TITLE"></p>
+<p>Palladio works best with data that is uniform, consistent, and simple. Avoid notes and comments within your data, or any unnecessary diacritics.</p>
 
-<p>Image 2: Graph view of society theater participants filtered by social status, occupation, and gender.</p>
+<p>You can build your own tables and bring them into Palladio in three ways:</p>
 
-<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa3.jpg" alt="IMAGE TITLE"></p>
+<ol>
+<li><p>By typing text into any word processing program (ie. textedit or MS Word) and then copying the contents into Palladio interface.</p></li>
+<li><p>By dragging any file format into the Palladio interface, for instance by dragging a .txt file from your work station and dropping into Palladio.</p></li>
+<li><p>By typing directly into the Palladio interface.</p></li>
+</ol>
 
-<p>Image 3: Grid view of society theater authors by social status.</p>
+<p>If you plan to build your own table in Palladio:</p>
 
-<p><img src="%7B%7Bsite.url%7D%7D/assets/comsa4.jpg" alt="IMAGE TITLE"></p>
+<p>The first row in your data will be parsed as a header. This means that the first row in your data will indicate the name of the dimensions in the column below.</p>
 
-<p>Image 4: Grid view of society theater participants filtered by social status, occupation, and gender.</p>
+<p>So, a table column of people&#39;s names would have &#39;Names&#39; as its first row and then dimensions, such as &#39;John Doe&#39; and &#39;Jane Smith&#39; in the rows below. Palladio cannot properly access and reference the different dimensions in your data unless you follow this format.</p>
+
+<p>Each column header must be unique from the other. Within a header name you may use letters, spaces, and numbers. Do not use any special alphanumeric characters, such as underscores &#39;_&#39; or dashes &#39;-&#39;, as these will confuse Palladio.</p>
+
+<p>Examples of data:</p>
+
+<p>Correct:</p>
+
+<p>First name, Last name, Age</p>
+
+<p>John, Doe, 28</p>
+
+<p>Jane, Smith, 35</p>
+
+<p>Incorrect (missing header):</p>
+
+<p>John, Doe, 28</p>
+
+<p>Jane, Smith, 35</p>
+
+<p>Incorrect (two headers with the same name):</p>
+
+<p>Name, Name, Age</p>
+
+<p>John, Doe, 28</p>
+
+<p>Jane, Smith, 35</p>
+
+<p>Incorrect (special characters in the header):</p>
+
+<p>First_Name, Last-Name, Age</p>
+
+<p>John, Doe, 28</p>
+
+<p>Jane, Smith, 35</p>
+
+<p><em>Other Data Issues:</em></p>
+
+<p>Note that empty rows in your data will be ignored by Palladio.</p>
+
+<p>Palladio does not work with unstructured data, such as one long string of text, but only with data that has been placed into some kind of table. The richest uses of Palladio comes from having several different related tables of information, however many users will start with just one single table.</p>
+
+<h2>What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?</h2>
+
+<p>This is Palladio’s way of telling you that there are non-standard alpha-numerical characters in your data. These special characters may either lead to errors, or (in the case of commas or semicolons used to separate values in a given dimension) these special characters may be of help for you to use advanced tools such as the Multiple-Values Delimiter.</p>
+
+<h2>What is a Multiple Values Delimiter?</h2>
+
+<p>Your tabular data is made up of various dimensions (ie. individual cells in a spreadsheet). In some cases you may want to assign more than one value for a certain dimension. For instance, you may have a column describing someone&#39;s &#39;Position.&#39; The column could be filled Princes, Popes, and Poets. But what if your Prince was also a Pope? In this case you could enter &#39;Prince, Pope&#39; in one single cell of your table. Now, after you’ve uploaded the data into Palladio, you can parse that cell into two unique values. Here&#39;s how: In the Multiple Values Delimiter input box, enter the symbol you&#39;ve used to separate your values, in this case, a comma that separated Pope and Prince. Now Palladio understands that this entry as two separate values.</p>
+
+<h2>What are Size Points?</h2>
+
+<p>Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence.</p>
+
+<h2>How do I get the most use out of the Timeline feature?</h2>
+
+<p>As you change the temporal period in your timeline view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.</p>
+
+<p>Swiping within the Timeline view will allow you to zoom in to specific dates. The stacked bar and highlighting functions allow you to see the data in different ways as you hover.</p>
+
+<h2>How should Dates be entered?</h2>
+
+<p>Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01).</p>
+
+<h2>How should Coordinates be entered?</h2>
+
+<p>Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.</p>
+
+<p><a href="assets/scenario-simple-map.pdf">See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.</a></p>
+
+<h2>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?</h2>
+
+<p>In the refine (non-visualization) view your data appears as table, with each column header represented as a unique dimension.</p>
+
+<p>For instance, Gender as the Dimension Name, with the label Text and number 2 listed below.</p>
+
+<p>In this case Gender is the header from one column of your data, Text is the data type recognized by Palladio (most data will be recognized as Text), and the number 2 represents the number of unique values in your data - in this case the data contains 2 values: Male and Female.</p>
+
+<p>Palladio will guess the type of data entered based on its attributes. Data will be recognized as either: Text, Number, Year or Date, Coordinates, URL.</p>
+
+<p>If Palladio ‘guesses’ your data incorrectly you can click on the dimension and in the dropdown menu labeled Data Type, change the type of data specified. The more accurately Palladio defines your data, the better the platform will work.</p>
+
+<h2>I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?</h2>
+
+<p>As Palladio Map Visualizations involve placing static coordinates data onto a separate map grid layer the full visualization cannot currently be exported as an .svg, rather you will see only the dots and lines against a blank background. If this solution is unsatisfactory, we recommended using ‘screen grabs’ as the best method, currently, for exporting map visualizations.</p>
+
+<h2>What are some applications of the Gallery View?</h2>
+
+<p>In the Gallery View you can display different kinds of data that cannot be visualized as maps or graphs.</p>
+
+<p>For instance, if in your data set you had a column in which you linked a list of people to URLs containing images of each person, you could then display these images in grid view.</p>
+
+<p>In this case, you would go to Grid View and click the ‘Image URL’ option. Palladio would then locate the dimension in which you’ve listed image URLs in your data.</p>
+
+<h2>How do I get the most out of the Map view?</h2>
+
+<p>The default map view is a blank map. Note the settings panel to the right. You can hide the panel by clicking on the gear symbol. The + and - signs zoom the map in and out.</p>
+
+<p>The first step is to specify the type of map you&#39;d like to see. To do so, choose from the menus within the settings panel. You can choose from two types of map views: &#39;Points&#39; or &#39;Point to Point&#39;. (Note that access to these functions will depend on the kinds of information you&#39;ve uploaded. You wouldn&#39;t, for example, be able to use the &#39;Point to Point&#39; function unless Palladio recognizes a dataset with more than one type of coordinates column, ie. &#39;Source City&#39; and &#39;Destination City.&#39;)</p>
+
+<p>‘Points’ map view</p>
+
+<p>In the &#39;Points&#39; map view, Palladio can map out a collection of unique locations, based on any coordinates data (longitude, lattitude) you&#39;ve entered. For instance, if you uploaded a table listing all of the Popes in the last five hundred years, their individual cities of birth, and coordinates data for each of these cities, you might want to see a worldwide view of where Popes have been born in the last five hundred years.</p>
+
+<p>In Points view you can only select one dimension. If you toggle Size points, the sizes of each dot will relates to their frequency within your data. You can specify how you would like to count your data by using the Count By function. Note you can only count by unique tables uploaded in your data. Hovering over specific dots will display corresponding data. You can select which type of data to display on hovering, by using the Tooltip label.</p>
+
+<p>Below the &#39;Type of Map&#39; menu is a second menu, &#39;Places.&#39; This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled &#39;Birth City Coordinates,&#39; then you will be prompted to choose &#39;Birth City Coordinates&#39; within the &#39;Places&#39; menu. To see all of your Popes birthplace data on the map, you would select &#39;Birth Place Coordinates&#39; in the &#39;Places&#39; menu. Now the map will be populated with dots representing each individual value in your coordinates data.</p>
+
+<p><a href="assets/scenario-simple-map.pdf">See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.</a></p>
+
+<p>‘Point-to-Point’ map view</p>
+
+<p>The point to point view give us a node-link map. Here you will select two different dimensions (ie. source city and destination city) and see the links between various points.</p>
+
+<p>The arc of the link between two points represents the direction of the flow. Think of direction in a clockwise function.</p>
+
+<p>Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you&#39;ve typed into the search bar. You can also isolate specific points on your map by clicking on them.</p>
+
+<p><a href="assets/scenario-point-to-point.pdf">See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.</a></p>
+
+<p>Open Design for Humanities Research</p>
+
+<p>Palladio is a work in progress. We will be releasing new versions throughout the year from January to December 2014. We want to make it useful for research and teaching and your feedback will help us get there. Share your questions and comments about how to improve Palladio and will respond directly by email.</p>
+
+<p>Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.</p>
 ]]></content>
   </entry>
   

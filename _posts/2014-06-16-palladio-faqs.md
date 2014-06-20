@@ -3,7 +3,7 @@
 layout: post
 title:  "Palladio FAQ"
 author: Mark Braude
-date:   2014-04-29 11:34:22
+date:   2014-06-2
 category: palladio
 published: false
 tags: 

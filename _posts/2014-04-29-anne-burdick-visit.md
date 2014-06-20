@@ -4,7 +4,7 @@ title:  "Anne Burdick Visit"
 author: Nicole Coleman
 date:   2014-04-29 11:34:22
 categories: news
-published: true
+published: false
 image: img/Burdick_MMM.jpg
 image-description: "Anne Burdick visits H+D."
 excerpt: "Anne Burdick met with the Graduate Research Fellows, students from DLCL 202 and other CESTA researchers, to share some of her work and her experiences with collaboration."

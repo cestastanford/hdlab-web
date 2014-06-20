@@ -12,19 +12,25 @@ layout: default
 
 
 <div class="group clearfix">
+{% for projects in site.data.projects %}
 <div class="masonry" class="row">
  <div class="col-md-8">
-{% for projects in site.data.projects %}
 
    <div class="well">
     <div class="col-md-9">
-<h4>{{ projects.title }} <br /><small>Active since {{ projects.start }}</small></h4>
-<p>A collaboration between {{ projects.affiliation | array_to_sentence_string }}<br />{{ projects.people | array_to_sentence_string }}.</p>
+<h4>
+	{% if projects.url != null %}<a href="{{ projects.url }}">{{ projects.title }}</a>
+	{% else %}
+	<a href="{{ site.url }}/projects/{{projects.title}}">{{ projects.title }}</a>
+	{% endif %}
+	<br /><small>Active since {{ projects.start }}</small></h4>
+<p>{{ projects.people | array_to_sentence_string }}.</p>
     </div>
    </div>
-{% endfor %}
+
 
  </div>
 </div>
+{% endfor %}
 </div>
 

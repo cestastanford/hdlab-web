@@ -4,7 +4,7 @@ title:  "Collaborators from Sydney"
 author: Nicole Coleman
 date:   2014-05-01 11:34:22
 categories: news
-published: true
+published: false
 image: /img/hdlab-feature-01.jpg
 image-description: "Kate and Jacquie visit the Lab."
 excerpt: "Kate Sweetapple and Jacquie Kasunic are returning to H+D May 4-16 to collaborate on the Declarations project."
