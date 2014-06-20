@@ -7,55 +7,6 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Networks in History Workshop</title>
-        <description></description>
-        <pubDate>Fri, 02 May 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/news/2014/05/02/networks-in-history-workshop/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/05/02/networks-in-history-workshop/</guid>
-      </item>
-    
-      <item>
-        <title>Empires of Knowledge</title>
-        <description>&lt;p&gt;Empires of Knowledge: Scientific Networks in the Early Modern World Workshop, May 2-3, 2014.
-See the &lt;a href=&quot;http://www.stanford.edu/dept/HPST/EmpiresofKnowledgeConferenceProgram.pdf&quot;&gt;conference program&lt;/a&gt; and the &lt;a href=&quot;http://www.stanford.edu/dept/HPST/Empires_of_Knowledge_Abstract&amp;amp;Titles.pdf&quot;&gt;titles and abstracts&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The conference will take place at the Stanford Humanities Center in Levinthal Hall.
-This event was organized by Professor Paula Findlen.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 May 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/news/2014/05/02/empires-of-knowledge/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/05/02/empires-of-knowledge/</guid>
-      </item>
-    
-      <item>
-        <title>Collaborators from Sydney</title>
-        <description>&lt;p&gt;We are very pleased to welcome back to CESTA Jacquie Kasunic and Kate Sweetapple. During their first visit in November 2013 we new we wanted to find a way to work together. Keith Baker and Dan Edelstein came forward with a project to visualize the process by which the Declaration of the Rights of Man came to be written during the summer of 1789. &lt;/p&gt;
-</description>
-        <pubDate>Thu, 01 May 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/news/2014/05/01/collaborators-from-sydney/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/05/01/collaborators-from-sydney/</guid>
-      </item>
-    
-      <item>
-        <title>Design Principles for Humanistic Inquiry</title>
-        <description>&lt;p&gt;Looking closely at the role visualization plays in other research practices and processes helped us arrive at a set of design principles to guide the development of tools for exploring a fragmentary and unbounded data set as opposed to a fixed and framed data set. If we remove the assumption that the data-driven graphic needs to be universally understood and transferable, it opens up the possibility to exploit the interactive capabilities of the graphical user interface and even the ability to manipulate and modify data through the interface. &lt;/p&gt;
-
-&lt;p&gt;These principles support a desire to navigate data without imposing too much structure or applying too many rules that will constrain the viewable results. The overarching need is to expose the query process, the data processing, and other mediating factors that influence the graphical representation and interfere with interpretation. We want to support, as much as is possible, through a graphical user interface, &lt;em&gt;thinking through data&lt;/em&gt; for the purpose of generating new knowledge. &lt;/p&gt;
-
-&lt;h2&gt;&lt;strong&gt;Expose the Complexity.&lt;/strong&gt; It is widely acknowledged that visualization is critical to data analysis, but for the most part graphical methods that we use today were developed in the context of statistical analysis. Since statistical analysis is rules-based and quantitative, these graphical methods have been built to take full advantage of computational power to run predetermined algorithms in the background. By contrast, we need a graphical approach that takes full advantage of the interactivity, hypertextuality, and scalability of graphical user interfaces to navigate data without imposing too much structure or applying too many rules that will constrain the viewable resultys and undermine interpretation.&lt;/h2&gt;
-
-&lt;h2&gt;&lt;strong&gt;Provide Context.&lt;/strong&gt; Complexity without context is chaos. Humanistic inquiry and the reliability of humanistic assertions depend deeply on context. In terms of a graphical user interface to data, we are concerned with making it evident, throughout the data exploration process, where you started and what choices you have made along the way. To provide context in a digitial setting, we are equally interested in showing the data we do not have as we are in showig the data we do have.&lt;/h2&gt;
-
-&lt;h2&gt;&lt;strong&gt;Reveal Spatial-Temporal-Relational Dynamics.&lt;/strong&gt; One of the ways we work to both provide context and manage complexity and uncertainty is to put into play the dynamics between spatial, temporal and relational data. If we look at a geo-spatial map of correspondence, for example, we can see patterns of exchange of data between cities or geographic regions. If we look at the same data in a network graph view that shows letters exchanged between individuals, we can explore more subtle patterns of exchange based on cultural identity. If we look at this data on a timeline, we can see the changing patterns in exchange over time. But only by combining temporal data, relational data and spatial data can we begin to draw a picture of the movement of people and ideas. This is even more true where there are significant gaps in one or another dimension of data, so we need to explore a question from many angles and attempt to hypothetically fill in those gaps.&lt;/h2&gt;
-
-&lt;h2&gt;&lt;strong&gt;Let the User Structure the Data.&lt;/strong&gt; We gather as much structured data as we can to help us organize and navigate large data sets, but more often than not the data we use as historians arrives unstructured and does not fit well into existing ontologies. To support an idiographic approach to data, we want to make it easy for the scholar to drag data points around on a screen and cluster them not only according to pre-determined values, but according to attributes or categories worked out through the exploratory reasoning process.&lt;/h2&gt;
-</description>
-        <pubDate>Tue, 29 Apr 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/topics/2014/04/29/palladio-release-load-and-save/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/topics/2014/04/29/palladio-release-load-and-save/</guid>
-      </item>
-    
-      <item>
         <title>Palladio FAQ</title>
         <description>&lt;h1&gt;Frequently Asked Questions&lt;/h1&gt;
 
@@ -222,9 +173,47 @@ This event was organized by Professor Paula Findlen.&lt;/p&gt;
 
 &lt;p&gt;Please email us at &lt;a href=&quot;mailto:palladio@designhumanities.org&quot;&gt;palladio@designhumanities.org&lt;/a&gt; to share your experience.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 29 Apr 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/palladio/2014/04/29/palladio-faqs-0-5-0/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/04/29/palladio-faqs-0-5-0/</guid>
+        <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
+        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</link>
+        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</guid>
+      </item>
+    
+      <item>
+        <title>New Palladio Features Videos</title>
+        <description>&lt;h1&gt;New Palladio Features Videos&lt;/h1&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97773602 &quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;New feature for Palladio 0.5.0: New feature that allows more complex counting functions.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
+        <link>http://localhost:4000//lab-notebook/palladio/2014/06/20/new-features-video/</link>
+        <guid isPermaLink="true">http://localhost:4000//lab-notebook/palladio/2014/06/20/new-features-video/</guid>
+      </item>
+    
+      <item>
+        <title>Networks in History Workshop</title>
+        <description></description>
+        <pubDate>Fri, 02 May 2014 04:34:22 -0700</pubDate>
+        <link>http://localhost:4000//lab-notebook/news/2014/05/02/networks-in-history-workshop/</link>
+        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/05/02/networks-in-history-workshop/</guid>
+      </item>
+    
+      <item>
+        <title>Empires of Knowledge</title>
+        <description>&lt;p&gt;Empires of Knowledge: Scientific Networks in the Early Modern World Workshop, May 2-3, 2014.
+See the &lt;a href=&quot;http://www.stanford.edu/dept/HPST/EmpiresofKnowledgeConferenceProgram.pdf&quot;&gt;conference program&lt;/a&gt; and the &lt;a href=&quot;http://www.stanford.edu/dept/HPST/Empires_of_Knowledge_Abstract&amp;amp;Titles.pdf&quot;&gt;titles and abstracts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The conference will take place at the Stanford Humanities Center in Levinthal Hall.
+This event was organized by Professor Paula Findlen.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 May 2014 04:34:22 -0700</pubDate>
+        <link>http://localhost:4000//lab-notebook/news/2014/05/02/empires-of-knowledge/</link>
+        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/05/02/empires-of-knowledge/</guid>
       </item>
     
       <item>
@@ -252,25 +241,6 @@ This event was organized by Professor Paula Findlen.&lt;/p&gt;
         <pubDate>Tue, 29 Apr 2014 04:34:22 -0700</pubDate>
         <link>http://localhost:4000//lab-notebook/topics/2014/04/29/design-principles/</link>
         <guid isPermaLink="true">http://localhost:4000//lab-notebook/topics/2014/04/29/design-principles/</guid>
-      </item>
-    
-      <item>
-        <title>Anne Burdick Visit</title>
-        <description>&lt;p&gt;Anne arrived on Monday April 28 to meet with CESTA project leads to learn about what we are doing in preparation for an &lt;a href=&quot;http://www.designresearchsociety.org/joomla/events/biennial-conf/drs2014umea.html&quot;&gt;upcoming Design Research Society conference at Umea, Sweden&lt;/a&gt;. It was quiet in the lab late Monday, which gave her time to have long discussions with Nick Bauch about his project. Gabe Wolfenstein gave her a tour of CESTA&amp;#39;s Crowdsourcing project. Both projects had unexpected connections with the work she presented the next day: &amp;#39;Micro Mega Meta.&amp;#39;&lt;/p&gt;
-
-&lt;p&gt;She showed us part one of a three-part pecha-kucha called Trina, which she describes as &amp;quot;a design fiction conceived in collaboration with writer Janet Sarbanes (Army of One) that aims to imagine a digital environment built upon Humanities notions such as subjectivity, interpretation, ambiguity and contextual specificity.&amp;quot; &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Anne Burdick is Chair of graduate Media Design Practices at Art Center College of Design and co-author of Digital_Humanities (MIT Press, 2013). Burdick is best known for her design and research into new modes of scholarly production. Her award-winning transmedia work includes the Writing Machines book and web supplement with N. Katherine Hayles; the Fackel Wörterbuch series and the Austrian Academy Corpus—an online database of historical texts—which work separately and together; and The New Ecology of Things (2009), a critical examination of pervasive computing distributed across print, web, and mobile devices. From 1995-2012, she was Designer and Design Editor of electronicbookreview.com. Her work with the Commission for Non-Literary Text Types at the Austrian Academy of Sciences includes the experimental text-dictionary, Fackel Wörterbuch: Redensarten (2000), for which she received the Leipzig Award for the “Most Beautiful Book in the World.&lt;/p&gt;
-
-&lt;p&gt;For more information about Anne Burdick, please visit:&lt;/p&gt;
-
-&lt;p&gt;http://anneburdick.com&lt;/p&gt;
-</description>
-        <pubDate>Tue, 29 Apr 2014 04:34:22 -0700</pubDate>
-        <link>http://localhost:4000//lab-notebook/news/2014/04/29/anne-burdick-visit/</link>
-        <guid isPermaLink="true">http://localhost:4000//lab-notebook/news/2014/04/29/anne-burdick-visit/</guid>
       </item>
     
   </channel>

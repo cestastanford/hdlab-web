@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="http://localhost:4000/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2014-06-20T10:08:21-07:00</updated>
+  <updated>2014-06-20T10:22:26-07:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Palladio FAQ]]></title>
-    <link href="http://localhost:4000/lab-notebook/palladio/2014/04/29/palladio-faqs-0-5-0/"/>
-    <updated>2014-04-29T04:34:22-07:00</updated>
-    <id>http://localhost:4000/lab-notebook/palladio/2014/04/29/palladio-faqs-0-5-0</id>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/"/>
+    <updated>2014-06-20T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0</id>
     <content type="html"><![CDATA[<h1>Frequently Asked Questions</h1>
 
 <ul>
@@ -182,6 +182,23 @@
 <p>Palladio is a work in progress. We will be releasing new versions throughout the year from January to December 2014. We want to make it useful for research and teaching and your feedback will help us get there. Share your questions and comments about how to improve Palladio and will respond directly by email.</p>
 
 <p>Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Palladio Features Videos]]></title>
+    <link href="http://localhost:4000/lab-notebook/palladio/2014/06/20/new-features-video/"/>
+    <updated>2014-06-20T04:34:22-07:00</updated>
+    <id>http://localhost:4000/lab-notebook/palladio/2014/06/20/new-features-video</id>
+    <content type="html"><![CDATA[<h1>New Palladio Features Videos</h1>
+
+<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " frameborder="0">   </iframe></div></p>
+
+<p>New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.</p>
+
+<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " frameborder="0">   </iframe></div></p>
+
+<p>New feature for Palladio 0.5.0: New feature that allows more complex counting functions.</p>
 ]]></content>
   </entry>
   
