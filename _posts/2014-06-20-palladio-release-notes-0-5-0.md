@@ -16,7 +16,7 @@ excerpt: "We have just released Palladio 0.5.0 with many new feature requests fu
 
 **The ability to Save and Export a specific instances of one’s data and visualizations**
 
-Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearraning nodes, then export your work, and later upload your saved file to find the graph just as you left it.
+Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearranging nodes, then export your work, and later upload your saved file to find the graph just as you left it.
 
 See how it works: {% vimeo 97762819 %}
 
