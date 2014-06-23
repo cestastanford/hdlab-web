@@ -1,16 +1,22 @@
 /* Open Design Record for Palladio */
 
 - respondent: 
-	- Adam Rabinowitz
-	- Corey Tazzara
-	- Jon Weiland
+	- Corey Tazzara, Assistant Professor of History at Scripps College
+	- Jon Weiland, PhD Candidate, Department of Classics, Stanford
   request-short: Counting Numeric Values
   version-implemented: 0.5.0
-  details: "Jon, Corey and Adam all had data that included numeric values. For Corey it was the size of ships, for Jon it was the number of coins in a coin horde. They needed to be able to apply those numbers as values for the size of points on a map or graph. Now with version 0.5.0 that is possible."
+  details: "Corey and Jon each had data sets that included numeric values. Corey, in analyzing free ports and trade, was most interested in seeing relative magnitude; for Jon's research into ancient coin hordes, he wanted to quickly display the amounts of coins per horde. Both researchers needed to be able to apply those numbers as values for the size of points on a map or graph. They now can, thanks to version 0.5.0's aggregate counting function."
 
 
 - respondent: 
-  request-short: 
-  request-date:  
-  version-implemented: 
-  details:
+	- Adam Rabinowitz, Assistant Professor in the Department of Classics and Assistant Director of the Institute of Classical Archaeology, at the University of Texas at Austin. 
+  request-short: Negative Numbers
+  version-implemented: 0.5.0
+  details: "Adam, along with many other scholars who reached out to us, was dissapointed by the inability to track negative dates in the existing iterations of Palladio's timeline function. The latest version of Palladio now allows for negative dates in the timeline - leading to widespread rejoicing amongst those working on the Ancient world!"
+  
+  
+  - respondent: 
+	- Mitch Fraas, Schoenberg Scholar-in-Residence at the University of Pennsylvania Libraries
+  request-short: Ability to save work
+  version-implemented: Load and Save
+  details: "Mitch and other researchers who contacted us were intrigued by the early versions of Palladio, but wanted  very much to be able to save the work they had done to upload and refine their while using the platform, thus making for a smoother and faster work flow. Palladio 'Load and Save,' released in April 2014, paved the way for researchers to save the work they'd done in refining their data within Palladio. The saving features have since been further improved with version 0.5.0 allowing for saving and sharing of specific instances of one's data and visualizations."
