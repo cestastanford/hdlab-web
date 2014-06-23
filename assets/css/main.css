@@ -2,8 +2,12 @@
 
 body {background-color: #fff;
 	font-family: 'News Cycle', sans-serif;
-	font-size: 17px;
+	font-size: 14px;
 	}
+	
+footer {
+	padding: 30px 0 20px 0;
+}
 	
 .navbar-default {background-color: #fff; border:none;}
 
@@ -189,7 +193,49 @@ background-color: transparent;
 
 }
 
+.palladio-well {
+
+background-color: rgba(196,79,146, .8);
+color: #fff;
+}
+
+article a:link {
+    color: rgba(224,19,42,.9);
+}
+
+article a:visited {
+    color: rgba(224, 19,42, .9);
+}
+
+article a:hover {
+    color: rgba(224, 19,42, .7);
+}
+
+article a:active {
+    color: rgba(224, 19,42, .7);
+
+}
+
+article {
+	margin: 20px 0 20px 0;
+}
+.btn-primary {
+color: #ffffff;
+background-color: rgba(207, 18, 46, .9);
+border-color: transparent;
+}
 
 
+.post-group {
+padding: 30px 0;
+}
 
+.media:first-child, .media, .media .media{
+	margin-top: 15px;
 
+}
+
+img.desaturate { -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}

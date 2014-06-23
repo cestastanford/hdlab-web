@@ -1,0 +1,41 @@
+
+- name: Janneken Smucker
+  tweetcode: "{% tweet https://twitter.com/jannekensmucker/status/478917076321849345 %}"
+  description: Janneken Smucker, Asst. Professor of History at West Chester, on ease of Palladio and lack of saving.
+
+- name: Mrinal Wadhwa
+  tweetcode: "{% tweet https://twitter.com/mrinal/status/479444176732307456 %}"
+  description: Mrinal Wadhwa, Executive Vice President, Big Data @Cloudthat, on the promise of Palladio.
+
+- name: unknown
+  tweetcode: "{% tweet https://twitter.com/miriamkp/status/479013839707447296 %}"
+  description:
+
+- name: Miriam Posner
+  tweetcode: "{% tweet https://twitter.com/miriamkp/status/480032074825363457 %}"
+  description: Miriam Posner, Program Coordinator and Faculty, UCLA's Digital Humanities program, including Palladio (and declaring it "winner in the battle of GUIs for flow maps")on a list of tools for depicting movement over time.
+
+- name: UNED Madrid
+  tweetcode: "{% tweet https://twitter.com/linhduned/status/467002052405915651 %}"
+  description: UNED Madrid Digital Humanities Innovation Lab, general commentary about Palladio.
+
+- name: Claire Canavan
+  tweetcode: "{% tweet https://twitter.com/finny_stitch/status/479977907889401856 %}"
+  description: Claire Canavan, PhD Candidate University of York working on narratives of needlework in the 17th century, making progress with Palladio.
+
+- name: Alison Searle
+  tweetcode: "{% tweet https://twitter.com/aasearle/status/479817469800886272 %}"
+  description: Alison Searle, University of Sydney, Department of English, recommending Palladio to a graduate student.
+
+- name: Kristin Jensen
+  tweetcode: "{% tweet https://twitter.com/khj5c/status/474977199586439169 %}"
+  description: Kristin Jensen, Digital Humanities Project Manager, Performant Software Solutions, enjoying a Paladio demo by Gabirel Hankins, Assistant Professor of English at Clemson University, at the Digitial Humanities Summer Institute.
+
+- name: Yvonne Perkins
+  tweetcode: "{% tweet https://twitter.com/perkinsy/status/468872463343185920 %}"
+  description: Yvonne Perkins, history blogger, describing Palladio as a "useful tool for historians & many others."
+
+- name: Adam Rabinowtiz
+  tweetcode: "{% tweet https://twitter.com/adamrabinowitz/status/467425209364922368 %}"
+  description: Adam Rabinowtiz, Assistant Professor of Classics, University of Texas, commenting on the Networks in History workshop.
+

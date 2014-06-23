@@ -1,24 +1,18 @@
-
-# basic masonry layout for people filtered by tags in page.yml
-
-<div class="group clearfix">
 <div id="masonry" class="row">
 {% for person in site.data.people %}
  {% if person.neh_role != null %}
- <div class="col-md-6">
+ <div class="col-md-5">
    <div class="well">
     <div class="col-md-3">
-    <h4>{{ person.name }} {% if person.institution != "none" %}<br /><small>{{ person.institution }}</small>{% endif %}</h4>
 <img src="{{ person.image }}" alt="{{ person.name }}" width="100" class="img-rounded">
     </div>
-    <div class="col-md-9">
+    <div class="col-md-8 col-md-offset-1">
 <p>{{ person.neh_role_description }}</p>
     </div>
    </div>
  </div>
 {% endif %}
 {% endfor %}
-</div>
 </div>
 
 

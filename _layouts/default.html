@@ -3,15 +3,18 @@
 
   {% include head.html %}
 
-    <body>
+    <body> 
 
-    {% include header.html %}
+    {% include cesta_header.html %}
+    {% include masthead.html %}
 	<!-- container -->
 	<div class="container">
 	<div class="row wrap">
+	<div class="col-md-12">
       {{ content }}
     
-    </div>
+    </div> <!-- end col-md-10 col-md-offset-1 -->
+    </div> <!-- end row wrap -->
     {% include cesta_footer.html %}
 	</div>
 	<!-- /container -->

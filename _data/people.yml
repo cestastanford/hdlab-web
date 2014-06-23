@@ -1,24 +1,28 @@
 - name: Dan Edelstein
   firstname: Dan
   lastname: Edelstein
+  email: danedels@stanford.edu
   active: yes
   institution: Stanford
   position: faculty
   role: "Faculty Director"
   neh_role: Principal Investigator
   neh_role_description: "Dan Edelstein shapes and shepherds the humanities research agenda underlying this project and brings his own research projects to the testing and evaluation at all stages of the project."
-  image: /assets/people/dan.jpg
+  image: /img/people/dan.jpg
+  group: director
 
 - name: Nicole Coleman
   firstname: Nicole 
   lastname: Coleman
+  email: cncoleman@stanford.edu
   active: yes
   institution: Stanford
   position: staff
   role: "Research Director"
   neh_role: Project Director
-  neh_role_description: "Nicole Coleman oversees the project from the development of the visual components and web applications through dissemination of final products, as well as the recruitment and supervision of hired staff."
-  image: /assets/people/nicole.jpg
+  neh_role_description: "Nicole Coleman oversees the project from the design and development of the visual components and web applications through dissemination of final products. She is also responsible for the recruitment and supervision of hired staff."
+  image: /img/people/nicole.jpg
+  group: director
 
 - name: Paula Findlen
   firstname: Paula
@@ -27,9 +31,13 @@
   institution: Stanford
   position: faculty
   role: "Project Lead"
+  project:
+      - Galileo
+      - Athanasius Kircher
   neh_role: 
   neh_role_description: 
-  image: /assets/people/findlen.jpg
+  image: /img/people/findlen.jpg
+  group: affiliate
 
 - name: Giovanna Ceserani
   firstname: Giovanna
@@ -38,10 +46,12 @@
   institution: Stanford
   position: faculty
   role: "Project Lead"
+  project:
+      -"The Grand Tour: Architects"
   neh_role: 
   neh_role_description: 
-  image: /assets/people/ceserani.jpg
-
+  image: /img/people/ceserani.png
+  group: affiliate
 
 - name: Keith Baker
   firstname: Keith
@@ -50,10 +60,13 @@
   institution: Stanford
   position: faculty
   role: "Project Lead"
+  project:
+      -Writing Rights
   neh_role: 
   neh_role_description: 
-  image: /assets/people/kbaker.jpg
-  
+  image: /img/people/baker.png
+  group: affiliate
+    
 - name: Caroline Winterer
   firstname: Caroline
   lastname: Winterer
@@ -61,64 +74,72 @@
   institution: Stanford
   position: faculty
   role: "Project Lead"
+  project: 
+      - Benjamin Franklin
   neh_role: 
   neh_role_description: 
-  image: /assets/people/winterer.jpg
-
+  image: /img/people/winterer.png
+  group: affiliate
+  
 - name: Mark Braude
   firstname: Mark
   lastname: Braude
   active: yes
   institution: Stanford
-  position: staff
-  role: Postdoctoral Fellow
+  position: Postdoctoral Fellow
+  role: NEH Project Coordinator
   neh_role: Project Coordinator
-  neh_role_description: "Mark Braude, an H+D Postdoctoral Research Fellow, is the project coordinator for Networks in History. Mark communicates about the project liaises with our Open Design respondents and aggregate results of testing throughout the project, in addition to bringing his own case study as an embedded User Tester."
-  image: /assets/people/mark.jpg
-
+  neh_role_description: "Mark Braude, an H+D Postdoctoral Research Fellow, is the project coordinator for Networks in History. Mark liaises with our Open Design respondents and supports individual researchers using the tools."
+  image: /img/people/mark.jpg
+  group: staff
+  
 - name: Giorgio Caviglia 
   firstname: Giorgio 
   lastname: Caviglia
   active: yes
   institution: Stanford
-  position: staff
-  role: Postdoctoral Fellow
+  position: postdoc
+  role: Lead Design Researcher
   neh_role: Design Researcher
-  neh_role_description: "Giorgio Caviglia, a CESTA Postdoctoral Research Fellow, leads the design process including the integration of user tester participation and  feedback into final products."
-  image: /assets/people/giorgio.jpg
+  neh_role_description: "Giorgio Caviglia, a CESTA Postdoctoral Research Fellow, leads the design process including the integration of user tester participation and feedback into final products."
+  image: /img/people/giorgio.jpg
+  group: staff
 
 - name: Ethan Jewett
   firstname: Ethan
   lastname: Jewett
   active: yes
   institution: Coredatra
-  position: contractor
-  role: Contractor
+  position:
+  role: Lead Developer
   neh_role: Lead Developer
   neh_role_description: "Ethan Jewett (Coredatra, LLC) is the lead developer, who works with the team to develop and implement the design specification as code."
-  image: /assets/people/ethan.jpg
+  image: /img/people/ethan.jpg
+  group: staff
 
 - name: Eetu Mäkelä
   firstname: Eetu 
   lastname: Mäkelä
   active: yes
-  institution: Aalto University, Finland
+  institution: "Aalto University, Finland"
   position: postdoc
   role: Visiting Scholar
   neh_role: Linked Data Researcher
   neh_role_description: "Eetu Makela, a postdoctoral fellow at Aalto University, Finland, will work in collaboration with H+D, Stanford University Library, and Cultures of Knowledge (Oxford), around linked-data exchange and defining appropriate ontologies using existing models."
-  image: /assets/people/eetu.jpg
+  image: /img/people/eetu.jpg
+  group: affiliate
 
 - name: Glauco Mantegari
   firstname: Glauco 
   lastname: Mantegari
   active: yes
   institution: none
-  position: contractor
-  role: "Postdoctoral Fellow, 2012-2013"
+  position: postdoc
+  role: consultant
   neh_role: Consultant
   neh_role_description: "Glauco Mantegari is working with the Procope project team to define specifications for matching and verifying user data against name authority files and historical geospatial data."
-  image: /assets/people/glauco.jpg
+  image: /img/people/glauco.jpg
+  group: staff
 
 - name:  Claude Willan 
   firstname: Claude 
@@ -127,9 +148,12 @@
   institution: Stanford
   position: graduate
   department: English
-  role: Fellow
-  project-title: "John Locke's Correspondence Network"
-  image: /assets/people/claude.willan.jpg
+  role: Graduate Research Fellow
+  project: 
+      - Procope
+      - "John Locke's Correspondence Network"
+  image: /img/people/claude.willan.jpg
+  group: affiliate
 
 - name: Jacqueline Arthur-Montagne
   firstname: Jacqueline 
@@ -138,10 +162,11 @@
   institution: Stanford
   position: graduate
   department: Classics
-  role: Fellow
+  role: Graduate Research Fellow
   fellowship: "2013-14"
   project-title: "Text Networks in the Early Roman Empire"
   image: http://www.stanford.edu/dept/classics/cgi-bin/web/sites/all/files/imagecache/profile_full_display/profile_pictures/photobest_0.JPG
+  group: affiliate
 
 - name: Patrick Bergemann
   firstname: Patrick
@@ -150,10 +175,11 @@
   institution: Stanford
   position: graduate
   department: Sociology
-  role: Fellow
+  role: Graduate Research Fellow
   fellowship: "2013-14"
   project-title: "A General Theory of Denunciations"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+  group: affiliate
 
 - name: Guillaume Beaudin
   firstname: Guillaume 
@@ -162,10 +188,11 @@
   institution: Stanford
   position: graduate
   department: History
-  role: Fellow
+  role: Graduate Research Fellow
   fellowship: "2013-14"
   project-title: A Conquista Espiritual
-  image: /assets/people/beaudin.jpg
+  image: /img/people/beaudin.jpg
+  group: affiliate
 
 - name: David Driscoll 
   firstname: David 
@@ -174,10 +201,11 @@
   institution: Stanford
   position: graduate
   department: Classics
-  role: Fellow
-  fellowship: "2013-14"
-  project-title: "Mapping the Movement of Lyric Poets in the Archaic and Classical Greek World"
+  role: Graduate Research Fellow 2013-14
+  project: 
+      -"Mapping the Movement of Lyric Poets in the Archaic and Classical Greek World"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+  group: affiliate
 
 - name: Luke Parker 
   firstname: Luke
@@ -186,10 +214,11 @@
   institution: Stanford
   position: graduate
   department: Slavic Literatures and Languages
-  role: Fellow
-  fellowship: "2013-14"
-  project-title: "The Literary Life of the Russian Emigration, 1918-1940"
+  role: Graduate Research Fellow 2013-14
+  project: 
+      - "The Literary Life of the Russian Emigration, 1918-1940"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+  group: affiliate
 
 - name: Bronwen Tate
   firstname: Bronwen
@@ -198,10 +227,12 @@
   institution: Stanford
   position: graduate
   department: English
-  role: Fellow
+  role: Graduate Research Fellow
   fellowship: "2013-14"
-  project-title: "Critical Traffic: A Literary Use Map"
-  image: /assets/people/tate.png
+  project: 
+      - "Critical Traffic: A Literary Use Map"
+  image: /img/people/tate.png
+  group: affiliate
 
 - name: Molly Taylor-Poleskey
   firstname: Molly
@@ -210,12 +241,12 @@
   institution: Stanford
   position: graduate
   department: History
-  role:
-      Fellow
-    - researcher
+  role: Graduate Research Fellow
   fellowship: "2013-14"
-  project-title: "Food Consumption at the Court of Friedrich Wilhelm"
+  project: 
+      - "Food Consumption at the Court of Friedrich Wilhelm"
   image: http://cmems.stanford.edu/sites/default/files/oa_person/photo/Taylor-Poleskey.JPG
+  group: affiliate
 
 - name: Jonathan Weiland
   firstname: Jonathan
@@ -224,10 +255,12 @@
   institution: Stanford
   position: graduate
   department: Classical Archaeology
-  role: Fellow
+  role: Graduate Research Fellow
   fellowship: "2013-14"
-  project-title: "Complexity of Interactions in the Classical Roman Period"
-  image: /assets/people/jon_weiland.png
+  project: 
+      - "Complexity of Interactions in the Classical Roman Period"
+  image: /img/people/jon_weiland.png
+  group: affiliate
 
 - name: Hans Wietzke
   firstname: Hans
@@ -236,34 +269,26 @@
   institution: Stanford
   position: graduate
   department: Classics
-  role: Fellow
+  role: Graduate Research Fellow
   fellowship: "2013-14"
-  project-title: "What was an author?"
-  image: /assets/people/hans_wietzke.png
+  project: 
+      -"What was an author?"
+  image: /img/people/hans_wietzke.png
+  group: affiliate
 
 - name: Marcelo Aranda
   firstname: Marcelo
   lastname: Aranda
   active: yes
   institution: Stanford
-  position: graduate
+  position: postdoc
   department: History of Science
-  role: alumni
+  role: research
   fellowship: "2012-13"
-  project-title: "Science in the 17th Century Spanish Monarchy"
-  image:  /assets/people/aranda.jpg
-
-- name: Melanie Conroy
-  firstname: Melanie
-  lastname: Conroy
-  active: yes
-  institution: Stanford
-  position: graduate
-  department: French Literature and Language
-  role: "Lab Manager, 2012-2013"
-  fellowship: "2012-13"
-  project-title: "The Salons Project"
-  image: /assets/people/conroy.jpg
+  project: 
+      - The Ignatian Tree
+  image:  /img/people/aranda.jpg
+  group: affiliate
 
 - name: Hannah Marcus
   firstname: Hannah 
@@ -272,20 +297,11 @@
   institution: Stanford
   position: graduate
   department: History
-  fellowship: "2012-13"
-  project-title: "The Correspondence Network of Galileo Galilei"
-  image: /assets/people/marcus.jpg
-
-- name: Nicole DeBenedictis
-  firstname: Nicole
-  lastname: DeBenedictis
-  active: yes
-  institution: Stanford
-  position: graduate
-  department: History
-  fellowship: "2012-13"
-  project-title: "17th Century Italian Academies"
-  image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+  role: "2012-13 Fellow"
+  project: 
+      - "The Correspondence Network of Galileo Galilei"
+  image: /img/people/marcus.jpg
+  group: affiliate
 
 - name: Vincent Barletta
   firstname: Vincent
@@ -294,30 +310,45 @@
   institution: Stanford
   position: faculty
   role: "Project Lead"
+  image: /img/people/barletta.jpg
+  group: affiliate
 
 - name: Humberto Brito
   firstname: Humberto
   lastname: Brito
   active: yes
-  institution: Stanford
+  institution: New University of Lisbon
+  department: Philosopy
   position: faculty
-  title: "visiting lecturer"
-  role: 
+  role: researcher
+  image: /img/people/brito.png
+  group: affiliate
  
 - name: Kate Sweetapple
   firstname: Kate 
   lastname: Sweetapple
   active: yes
   institution: "University of Technology, Sydney"
+  department: School of Design
   position: faculty
+  role: researcher
+  project:
+      - Writing Rights
+  image: /img/people/sweetapple.jpg
+  group: affiliate
 
 - name: Jacquie Lorber-Kasunic
   firstname: Jacquie
   lastname: Lorber-Kasunic
+  department: School of Design
   active: yes
   institution: "University of Technology, Sydney"
+  project:
+      - Writing Rights
   position: faculty
-  role:
+  role: researcher
+  image: /img/people/kasunic.jpg
+  group: affiliate
 
 - name: Chloe Edmonson
   firstname: Chloe
@@ -325,17 +356,49 @@
   active: yes
   institution: Stanford
   position: graduate
+  project:
+      - Procope
   role: "MRofL Communications Coordinator"
-
-
+  image: /img/people/chloe.jpg
+  group: staff
+  
 - name: Maria Comsa
   firstname: Maria 
   lastname: Comsa
   active: yes
   institution: Stanford
-  position: staff
-  role: Lab Manager and Fellow
+  department: French Literature and Language
+  position: Research
+  role: 2013-14 Lab Manager
   neh_role: Lead User Tester
-  neh_role_description: "Maria has been deeply involved in the work of Mapping the Republic of Letters for several years. She is currently the H+D Lab Manager, a Graduate Research Fellow, and a Procope team lead, all while completing her dissertation."
-  image: /assets/people/maria.jpg
-  project-title: "Society Theater: a Laboratory for Esthetic and Social Change (1715-1815)"
+  neh_role_description: "Maria was the 2013-14 H+D Lab Manager, a Graduate Research Fellow, and the Procope team lead."
+  image: /img/people/maria.jpg
+  project: 
+      - Procope
+  group: staff
+  
+
+- name: Melanie Conroy
+  firstname: Melanie
+  lastname: Conroy
+  active: yes
+  institution: The University of Memphis
+  position: faculty
+  department: French Literature and Language
+  role: "Lab Manager, 2012-2013"
+  project: 
+    - Procope
+  image: /img/people/conroy.jpg
+  group: affiliate
+
+- name: Nicole DeBenedictis
+  firstname: Nicole
+  lastname: DeBenedictis
+  active: no
+  institution: Stanford
+  position: graduate
+  department: History
+  role: "2012-13 Fellow"
+  project-title: "17th Century Italian Academies"
+  image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
+  group: alumni

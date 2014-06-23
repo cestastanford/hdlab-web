@@ -1,11 +1,12 @@
 #Change url to your domain. Leave localhost server or blank when working locally.
-url:              http://hdlab.stanford.edu
+#url:              http://hdlab.stanford.edu
 #
 #
 # is this a lab site or project site?
 type:                     lab
 # Project or Lab name
 name:                     "Humanities + Design"
+shortname:                 hdlab
 sub-name:                 "a Research Lab at Stanford University"
 markdown:                 redcarpet
 highlighter:              pygments
@@ -22,17 +23,6 @@ favicon:  "https://dl.dropboxusercontent.com/s/o0rhoh2bh2xu9uu/favicon.ico"
 #This is the base directory (cloud) where we share images
 img-url:           ""
 
-
-links:
-  - title: About
-    url: /about/
-  - title: Lab Notebook
-    url: /lab-notebook/
-  - title: Fellowship Program
-    url: /fellows/
-  - title: Teaching
-    url: /teaching/
-  - title: Projects
-    url: /projects/
-  - title: Tools
-    url: /tools/  
+collections:
+  slides:
+    output: true

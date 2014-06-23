@@ -1,0 +1,87 @@
+
+{% assign sorted_people = site.data.people %}
+
+
+<div class="row">
+	<!-- column 1 -->
+<div class="col-md-4">
+	<h3>Directors</h3>
+	{% for person in sorted_people %}
+	{% if person.group == 'director' %}
+   	<ul class="media-list">
+		<li class="media">
+		  <a class="pull-left" href="#">
+		    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="60">
+		  </a>
+		  <div class="media-body">
+		    <h6><a href="mailto:{{person.email}}">{{ person.name }}</a> <small>{{ person.institution }}</small><br>
+			{{person.role | capitalize}}</h6>
+		  </div>
+		</li>
+	</ul>
+	{% endif %}
+	{% endfor %}
+
+	<h3>Staff</h3>
+	{% for person in sorted_people %}
+	{% if person.group == 'staff' | sort:"lastname" %}
+	
+	<ul class="media-list">
+		<li class="media">
+		  <a class="pull-left" href="#">
+		    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="60">
+		  </a>
+		  <div class="media-body">
+		    <h6><a href="mailto:{{person.email}}">{{ person.name }}</a> <small>{% if person.institution != null %}{{ person.institution | capitalize }}{% endif %}</small><br>
+			{{person.role | capitalize }}<br />{{person.title | capitalize }}</h6>
+		  </div>
+		</li>
+	</ul>
+	{% endif %}
+	{% endfor %}
+	
+</div>
+<div class="col-md-4">
+	<h3> Faculty Affiliates</h3>
+	{% assign sorted_people = site.data.people %}
+	{% for person in sorted_people %}
+	{% if person.group == 'affiliate' and person.position == 'faculty' | sort:"lastname" %}
+   	<ul class="media-list">
+		<li class="media">
+		  <a class="pull-left" href="#">
+		    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="60">
+		  </a>
+		  <div class="media-body">
+		    <h6><a href="mailto:{{person.email}}">{{ person.name }}</a> <small>{% if person.institution != null %}{{ person.institution }}{% endif %}</small><br>
+			{{person.department }}<br /></h6>
+		  </div>
+		</li>
+	</ul>
+	{% endif %}
+	{% endfor %}
+
+</div>
+
+<div class="col-md-4">
+	<h3>Graduate and Postdoc Affiliates</h3>
+	{% assign sorted_people = site.data.people %}
+	{% for person in sorted_people %}
+	{% if person.group == 'affiliate' and person.position == 'graduate' or person.position == 'postdoc' | sort:"lastname" %}
+   	<ul class="media-list">
+		<li class="media">
+		  <a class="pull-left" href="#">
+		    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="60">
+		  </a>
+		  <div class="media-body">
+		    <h6><a href="mailto:{{person.email}}">{{ person.name }}</a> <small>{% if person.institution != null %}{{ person.institution | capitalize }}{% endif %}</small><br>
+			{{person.department | capitalize }}</h6>
+		  </div>
+		</li>
+	</ul>
+	{% endif %}
+	{% endfor %}
+
+</div>
+</div>
+
+

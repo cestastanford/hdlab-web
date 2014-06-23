@@ -6,7 +6,7 @@ date:   2014-06-20 11:34:22
 category: palladio
 published: true
 tags: 
- 
+excerpt: "The FAQs have been updated for our June 2014 release, 0.5.0, to reflect the new features and fixes."
 ---
 
 

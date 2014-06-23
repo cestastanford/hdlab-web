@@ -4,29 +4,62 @@ layout: default
 
 {% include banner_image.html %}
 
-<h1>{{ page.title }}</h1>
-<div class="group clearfix">
+<div class="row">
+	<div class="col-md-6">
+        <div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="{{site.url}}/img/palladio_logo.png" class="img-responsive" width="150">
+  </a>
+  <div class="media-body">
+<h1>Palladio</h1>
+<p class="lead">Humanities thinking about data visualization.</p>
+  </div>
+</div>
+        </div>
+    <div class="col-md-4 col-md-offset-2 align-right">
+<p>Use the latest release <small>(June 2014)</small>:</p>
+					              	<p class="lead"><a href="http://palladio.designhumanities.org"><button type="button" class="btn btn-primary">Palladio 0.5.0</button></a></p>
+			<p>Or test it with pre-loaded data:</p><p class="lead"><a href="http://palladio.designhumanities.org/sample"><button type="button" class="btn btn-primary">Test Drive</button></a></p>
+
+		              	
+	</div>
+</div>
+
+<article>
 {{ content }}
 
-</div>
+</article>
 
+<div class="row">
+<div class="col-md-6">
+<h2>Recent Posts in the Palladio Lab Notebook</h2>
 
-<h3>From the Lab Notebook</h3>
-
-
-  <div id="recent-posts">
+  <div id="recent-posts" class="post-group">
       {% for post in site.categories.palladio %}
-	<div>
-	  <div>
-	    <h3><a href="{{ post.url }}"> {{ post.title }}</a></h3>
-	    <small>{{ post.date | date: "%B %d, %Y" }}</small>
-	    <p>{{ post.excerpt }}</p>
-	  </div>
-	</div>
-      {% endfor %}
-  </div>
+	<div class="item" style="margin-left: 20px">
+	    <h4><a href="{{ post.url }}"> {{ post.title }}</a> <small>{{ post.date | date: "%B %d, %Y" }}</small></h4>
+	  <div class="row">
+	    <div class="col-md-11 col-md-offset-1">
+	    <p class="small">{{ post.excerpt }}</p>
+	    </div>
+	 </div> <!-- end row nested -->
+   </div> <!-- end item -->
+     {% endfor %}
+       </div>  <!-- end recent posts -->
+     <p class="lead"><span class="glyphicon glyphicon-chevron-right"></span> <a href="{{ site.url }}/lab-notebook/palladio/">View all Palladio posts</a> in the Lab Notebook.
 
-</div>
+
+</div>  <!-- end col-6 -->
+
+<div class="col-md-5 col-md-offset-1">
+<a class="twitter-timeline" href="https://twitter.com/HDStanford/favorites" data-widget-id="480453387163430912">Favorite Tweets by @HDStanford</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+</div> <!-- end tweets -->
+
+</div>  <!-- end row -->
 
 
 

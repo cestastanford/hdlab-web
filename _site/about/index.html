@@ -6,8 +6,8 @@
 	<title>About</title>
 	<meta name="generator" content="Humanities+Design" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link href="http://hdlab.stanford.edu/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link href="http://hdlab.stanford.edu/assets/css/main.css" rel="stylesheet">
+	<link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="/assets/css/main.css" rel="stylesheet">
 
 	<!--[if lt IE 9]>
 	  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,7 +19,7 @@
 </head>
 
 
-    <body>
+    <body> 
 
     <header class="navbar navbar-default" role="navigation banner">
    <!--cesta header-->
@@ -67,29 +67,39 @@
       <hr>
    </div>
    <!--end cesta-->
-
-   <!-- /navigation banner-->
-   <div id="masthead">
-   <div class="container">
+    <!-- /navigation banner-->
+<div id="masthead">
+	<div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h1><strong><a href="http://hdlab.stanford.edu">Humanities + Design</a></strong> <small>a Research Lab at Stanford University</small></h1>
+            <h1><strong><a href="">Humanities + Design</a></strong> 
+            <small>a Research Lab at Stanford University</small>
+            </h1>
             <div class="collapse navbar-collapse">
-               <ul class="nav navbar-nav">
-                  
-                  <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="http://hdlab.stanford.edu/about/" itemprop="url"><span itemprop="name">About</span></a></li>
-                  
-                  <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="http://hdlab.stanford.edu/lab-notebook/" itemprop="url"><span itemprop="name">Lab Notebook</span></a></li>
-                  
-                  <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="http://hdlab.stanford.edu/fellows/" itemprop="url"><span itemprop="name">Fellowship Program</span></a></li>
-                  
-                  <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="http://hdlab.stanford.edu/teaching/" itemprop="url"><span itemprop="name">Teaching</span></a></li>
-                  
-                  <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="http://hdlab.stanford.edu/projects/" itemprop="url"><span itemprop="name">Projects</span></a></li>
-                  
-                  <li itemscope itemtype="http://schema.org/SiteNavigationElement"><a href="http://hdlab.stanford.edu/tools/" itemprop="url"><span itemprop="name">Tools</span></a></li>
-                  
-                  
+            
+               <ul id="navlist" class="nav navbar-nav">
+
+
+               <li><a href=""><b class="glyphicon glyphicon-plus"></b></a></li>
+               <li><a href="/about/index.html">About</a></li>
+               <li><a href="/people/">People</a></li>
+			   <li class="dropdown">
+          <a href="/projects/" class="dropdown-toggle" data-toggle="dropdown" data-page-id="projects">Projects<b class="caret"></b></a>
+         		 <ul class="dropdown-menu">
+            		<li><a href="/projects/palladio/">Palladio</a></li>
+           			 <li><a href="/projects/networks-in-history/" data-page-id="networks-in-history">Networks in History</a></li>
+           			 <li><a href="/projects/writing-rights/">Writing Rights</a></li>
+           			 <li><a href="/projects/pessoa/">Art and Lives of Fernando Pessoa</a></li>
+          			  <li  role="presentation" class="divider"></li>
+          			  <li role="presentation" class="dropdown-header">External Links</li>
+            			<li><a href="http://republicofletters.stanford.edu">Mapping the Republic of Letters</a></li>
+				  </ul>
+       		   </li>
+        	   <li><a href="/lab-notebook/">Lab Notebook</a></li>
+               <li><a href="/tools/">Tools</a></li>
+       		   <li><a href="/fellows/">Fellowship Program</a></li>
+			   <li><a href="/teaching/index.html">Teaching</a></li>
+				
                   
                   <li>
                   <a href="https://twitter.com/hdstanford">
@@ -118,6 +128,7 @@
 	<!-- container -->
 	<div class="container">
 	<div class="row wrap">
+	<div class="col-md-12">
       
 
 
@@ -143,21 +154,23 @@
 
 <p>In 2009, before we had even applied for the Digging Into Data grant, Mapping the Republic of Letters (MRofL) launched its first data visualization of early modern correspondence. It was a  mysterious, dark map of the world, the oceans barely distinguishable from the land, with warm vibrant lines running from city to city, tracing the communications of Hume, Bentham, Locke, Voltaire, Rousseau, Diderot, and countless other luminaries of the 18th and 19th centuries. The first private viewing was attended by the historian who inspired the project, Anthony Grafton, our partners from the Electronic Enlightenment Project (EE), and the three students from Jeff Heer&#39;s CS106 DataVis course who developed the visualization. As we dragged the timeline filter from the 17th century through the 18th century, cities blossomed with streams of glowing light. It was dazzling. It caught the attention of many early modern scholars and screen shots later appeared in a New York Times article hailing a new age of digital humanities scholarship. It was more than a visualization of data, it was a graphical interface to the archive at the Electronic Enlightenment Project, with links through to the full text digitized letters at e-enlightenment.org.</p>
 
-<p>While the interface as a visualization continued to make waves, we soon discovered problems with it as a research tool. Letters we expected to see were not appearing. A Robert Boyle scholar contacted us and asked why there was only one Boyle letter on the map, when the EE archive had over a hundred letters. The student developers explained to us that they had eliminated all of the connections that were not <em>complete</em>. In the design of this visualization tool, a source location and destination location were required to generate the connecting line. Each letter&#39;s sent date was also needed to plot the point on the timeline. A letter missing any one of these three attributes was discarded. This is a perfectly reasonable design for developers whose goal is to demonstrate data visualization techniques. And they did an award winning job of it.<a href="The%20students%20won%20the%20NACIS%20electronic%20map%20competition%20">fn</a> But for scholars who study the past, incompleteness is a given, a point of departure. If we discard the fragments of history to fit a visualization, we are left with only the dazzle and nothing to advance research.</p>
+<p>While the interface as a visualization continued to make waves, we soon discovered problems with it as a research tool. Letters we expected to see were not appearing. A Robert Boyle scholar contacted us and asked why there was only one Boyle letter on the map, when the EE archive had over a hundred letters. The student developers explained to us that they had eliminated all of the connections that were not <em>complete</em>. In the design of this visualization tool, a source location and destination location were required to generate the connecting line. Each letter&#39;s sent date was also needed to plot the point on the timeline. A letter missing any one of these three attributes was discarded. This is a perfectly reasonable design for developers whose goal is to demonstrate data visualization techniques. And they did an award winning job of it. But for scholars who study the past, incompleteness is a given, a point of departure. If we discard the fragments of history to fit a visualization, we are left with only the dazzle and nothing to advance research.</p>
 
 <p>We knew it was possible to fill in the gaps in our data though interpolation, tranforming the data, and generating new data from other sources, but filling in missing data was not our primary concern. In fact, often we were more interested in the lacunae than the extant data. So rather than fixing the data we focused our efforts on <em>fixing the visualization</em> to better show us the underlying information. To do this, we needed to take on both the design of the data structure and the design of the graphical interface in order to make a visualization that would work for humanities research. </p>
 
 <p>We learned quickly that hiring designers was not the answer. They wanted to observe us and assess our needs. But did we even know what our needs were when we started? We had imagined the pulsing arteries of communication that Grafton wrote about so poetically in the conference paper that inspired the MRofL project, but that was about it. The students&#39; visualization gave us that animated <em>pulse</em> view we desired and much more. We could not tell a contractor, &quot;This is what we want to be able to do.&quot;  We were on a voyage of discovery, traveling over as yet uncharted territory. It was not clear where we were going or what means would be required to get there, but we were sold on the power of visualization to help us analyze historical source material.</p>
 
-<p>Our attempts to partner with computer scientists resulted in similar frustrations. They were both perplexed and dismayed that we were unable to articulate the problem we needed to solve. We hit a wall of disciplinary orthodoxy and incompatiblity. <a href="Strober">^1</a>Their frame of reference was procedural, iterative, and oriented toward a clearly defined goal. Ours was exploratory, reflective, generative. Just as disciplinary biases inform how we collect and structure data, they inform how we build the software we use to visualize the data. One decision after another is added to the design, often according to assumptions operating out of our training that we are not even aware of. </p>
+<p>Our attempts to partner with computer scientists resulted in similar frustrations. They were both perplexed and dismayed that we were unable to articulate the problem we needed to solve. We hit a wall of disciplinary orthodoxy and incompatiblity. Their frame of reference was procedural, iterative, and oriented toward a clearly defined goal. Ours was exploratory, reflective, generative. Just as disciplinary biases inform how we collect and structure data, they inform how we build the software we use to visualize the data. One decision after another is added to the design, often according to assumptions operating out of our training that we are not even aware of. </p>
 
 <p>All of these decisions, individually and in aggregate, have a mediating effect on the research outcome. Knowing this, we realized that we needed to  engage in new ways of thinking: data thinking, procedural thinking, and visual thinking, in order to demystify for ourselves the design and engineering of computational tools. We also needed to change our level of engagement with our partners, seeking to demysify the humanities for our colleagues in computer science, design, and engineering. We started doing<em>laboratory humanities</em>: collaborative coordinated research, requiring specialized facilities and tools, guided by humanistic modes of inquiry. We can trace the idea for Humanities + Design research lab to this shift in our thinking about the project.</p>
 
 
     
-    </div>
-    <footer>
-	              	<hr>
+    </div> <!-- end col-md-10 col-md-offset-1 -->
+    </div> <!-- end row wrap -->
+    
+<footer>
+	<hr>
 	              	<div class="row">
 	              		<div class="col-md-12 text-center">
 	              			<h4>

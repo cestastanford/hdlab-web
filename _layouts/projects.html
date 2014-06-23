@@ -19,7 +19,7 @@ layout: default
    <div class="well">
     <div class="col-md-9">
 <h4>
-	{% if projects.url != null %}<a href="{{ projects.url }}">{{ projects.title }}</a>
+	{% if projects.url != null %}<a href="{{ projects.url }}">{{ projects.title | upcase }}</a>
 	{% else %}
 	<a href="{{ site.url }}/projects/{{projects.title}}">{{ projects.title }}</a>
 	{% endif %}

@@ -3,8 +3,8 @@
   <channel>
     <title>Humanities + Design</title>
     <description>We are a research lab at the Center for Spatial and Textual Analysis (CESTA), Stanford University.</description>
-    <link>http://hdlab.stanford.edu</link>
-    <atom:link href="http://hdlab.stanford.edu/feed.xml" rel="self" type="application/rss+xml" />
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Palladio Release Notes 0.5.0</title>
@@ -43,19 +43,19 @@
 &lt;p&gt;A prompt appears when one tries to leave a page, warning that one will lose one’s data.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 11:49:00 -0700</pubDate>
-        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</link>
-        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</guid>
+        <link>//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/</guid>
       </item>
     
       <item>
-        <title>Save Your Visualization</title>
+        <title>Video Tutorial: Save Your Visualization</title>
         <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97762819 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
-        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</link>
-        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</guid>
+        <link>//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/06/20/save-your-visualization-video/</guid>
       </item>
     
       <item>
@@ -220,30 +220,30 @@
 &lt;p&gt;Please email us at &lt;a href=&quot;mailto:palladio@designhumanities.org&quot;&gt;palladio@designhumanities.org&lt;/a&gt; to share your experience.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
-        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</link>
-        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</guid>
+        <link>//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/</guid>
       </item>
     
       <item>
-        <title>Count By Column Values</title>
+        <title>Video Tutorial: Count By Column Values</title>
         <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/97773602 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;New feature for Palladio 0.5.0: New feature that allows more complex counting functions.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 04:34:22 -0700</pubDate>
-        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</link>
-        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</guid>
+        <link>//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/06/20/count-by-column-values-video/</guid>
       </item>
     
       <item>
-        <title>A Full Video Tutorial (Load and Save)</title>
+        <title>Video Tutorial: Overview of Palladio</title>
         <description>&lt;div class=&quot;video-container&quot;&gt;&lt;iframe class=&quot;vimeo-iframe&quot; src=&quot;http://player.vimeo.com/video/90598682 &quot; width=&quot;900&quot; height=&quot;506&quot; frameborder=&quot;0&quot;&gt;   &lt;/iframe&gt;&lt;/div&gt;
 
 &lt;p&gt;A full tutorial, showing several aspects fo the Palladio workflow based on the Load and Save version of Palladio.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Jun 2014 00:00:00 -0700</pubDate>
-        <link>http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/full-video-tutorial/</link>
-        <guid isPermaLink="true">http://hdlab.stanford.edu//lab-notebook/palladio/2014/06/20/full-video-tutorial/</guid>
+        <link>//lab-notebook/palladio/2014/06/20/full-video-tutorial/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/06/20/full-video-tutorial/</guid>
       </item>
     
   </channel>

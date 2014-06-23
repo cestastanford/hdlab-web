@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Graduate Research Fellows Program
+id: fellows
 ---
 
 The Humanities+Design program brings the design process together with traditional humanities research practices to develop methods appropriate to the digital realm where using and making software, thinking visually, and thinking procedurally is essential. The Graduate Research Fellows program provides an environment for advanced graduate students to develop their own research projects while both learning about and contributing to the research practices developing around digitized and networked sources and software.

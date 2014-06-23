@@ -1,8 +1,10 @@
 <div class="row masonry">
 {% for presentation in site.data.presentations | sort: 'date' }} %}
 
- <div class="col-md-6">
-    <div class="well">
+ <div class="col-md-5">
+ 
+ 
+   <!-- <div class="well">
      <div class="col-md-3">
        <img src="{{site.url}}{{ presentation.image }}" alt="{{ presentation.title }}" height="100" class="responsive">
      </div>
@@ -10,7 +12,17 @@
      </em> <br/><small>{{ presentation.host }}</small></strong>
  <p>{{ presentation.presenters | array_to_sentence_string }}</p>
      </div>
-   </div>
+   </div> -->
+ 
+    		 <div class="media" style="margin-left: 30px">
+ 			 
+ 		 <div class="media-body">
+   		 <strong>{{ presentation.date }} <em>{{ presentation.event }}
+     </em> <br/><small>{{ presentation.host }}</small></strong>
+ <p>{{ presentation.presenters | array_to_sentence_string }}</p>
+  		</div>
+		</div>
+ 
   </div>
 
 {% endfor %}

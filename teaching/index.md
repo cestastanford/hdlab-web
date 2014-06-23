@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-name: teaching
+id: teaching
 ---
 
 
