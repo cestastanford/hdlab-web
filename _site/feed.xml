@@ -205,7 +205,8 @@
 
 &lt;p&gt;Below the &amp;#39;Type of Map&amp;#39; menu is a second menu, &amp;#39;Places.&amp;#39; This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled &amp;#39;Birth City Coordinates,&amp;#39; then you will be prompted to choose &amp;#39;Birth City Coordinates&amp;#39; within the &amp;#39;Places&amp;#39; menu. To see all of your Popes birthplace data on the map, you would select &amp;#39;Birth Place Coordinates&amp;#39; in the &amp;#39;Places&amp;#39; menu. Now the map will be populated with dots representing each individual value in your coordinates data.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;assets/scenario-simple-map.pdf&quot;&gt;See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.
+&lt;a href=&quot;/assets/scenario-simple-map.pdf&quot;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;‘Point-to-Point’ map view&lt;/p&gt;
 
@@ -215,7 +216,8 @@
 
 &lt;p&gt;Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you&amp;#39;ve typed into the search bar. You can also isolate specific points on your map by clicking on them.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;assets/scenario-point-to-point.pdf&quot;&gt;See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.
+&lt;a href=&quot;/assets/scenario-point-to-point.pdf&quot;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Please email us at &lt;a href=&quot;mailto:palladio@designhumanities.org&quot;&gt;palladio@designhumanities.org&lt;/a&gt; to share your experience.&lt;/p&gt;
 </description>

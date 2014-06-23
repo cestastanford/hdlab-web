@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2014-06-23T09:41:28-07:00</updated>
+  <updated>2014-06-23T09:42:55-07:00</updated>
   <id>/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -215,7 +215,8 @@
 
 <p>Below the &#39;Type of Map&#39; menu is a second menu, &#39;Places.&#39; This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled &#39;Birth City Coordinates,&#39; then you will be prompted to choose &#39;Birth City Coordinates&#39; within the &#39;Places&#39; menu. To see all of your Popes birthplace data on the map, you would select &#39;Birth Place Coordinates&#39; in the &#39;Places&#39; menu. Now the map will be populated with dots representing each individual value in your coordinates data.</p>
 
-<p><a href="assets/scenario-simple-map.pdf">See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.</a></p>
+<p>See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.
+<a href="%7B%7B%20site.url%20%7D%7D/assets/scenario-simple-map.pdf">Download PDF</a></p>
 
 <p>‘Point-to-Point’ map view</p>
 
@@ -225,7 +226,8 @@
 
 <p>Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you&#39;ve typed into the search bar. You can also isolate specific points on your map by clicking on them.</p>
 
-<p><a href="assets/scenario-point-to-point.pdf">See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.</a></p>
+<p>See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.
+<a href="%7B%7B%20site.url%20%7D%7D/assets/scenario-point-to-point.pdf">Download PDF</a></p>
 
 <p>Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.</p>
 ]]></content>
