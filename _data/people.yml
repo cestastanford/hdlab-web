@@ -10,6 +10,9 @@
   neh_role_description: "Dan Edelstein shapes and shepherds the humanities research agenda underlying this project and brings his own research projects to the testing and evaluation at all stages of the project."
   image: /img/people/dan.jpg
   group: director
+  project:
+    - "Writing Rights"
+    - Procope
 
 - name: Nicole Coleman
   firstname: Nicole 
@@ -23,6 +26,9 @@
   neh_role_description: "Nicole Coleman oversees the project from the design and development of the visual components and web applications through dissemination of final products. She is also responsible for the recruitment and supervision of hired staff."
   image: /img/people/nicole.jpg
   group: director
+  project:
+    - "Writing Rights"
+
 
 - name: Paula Findlen
   firstname: Paula

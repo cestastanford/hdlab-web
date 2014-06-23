@@ -6,6 +6,24 @@ layout: default
 
 
 {% for category in site.categories %}
+
+{% if page.category != null %}
+{% assign page.category == category %}
+
+  <h3><a href="Lab Notebook: {{category}}</h3>
+    <ul>
+    {% for posts in category %}
+      {% for post in posts %}
+      	{% if post.url %} 
+        <h4><small>{{ post.date | date: "%x" }}  &#8226;  </small><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% else %}
+
   <h3><a href="{{site.url}}/{{site.category_dir}}/{{ category | first }}/">{{ category | first | upcase }}</a></h3>
     <ul>
     {% for posts in category %}
@@ -16,6 +34,7 @@ layout: default
       {% endfor %}
     {% endfor %}
     </ul>
+
 
 {% endfor %}
 

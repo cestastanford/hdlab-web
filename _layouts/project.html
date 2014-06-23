@@ -6,9 +6,27 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{{ content }}
+{% for person in site.data.people %}
 
-<h3>Recent Updates</h3>
+{% if person.project contains '{{page.project}}' %}
+<ul class="list-inline list-unstyled">
+	<li class="media">
+	  <a class="pull-left" href="#">
+	    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="100">
+	  </a>
+	  <div class="media-body">
+	    <h6><a href="mailto:{{person.email}}">{{ person.name }}</a> <small>{{ person.institution }}</small><br>
+		{{person.role | capitalize}}</h6>
+	  </div>
+	</li>
+</ul>
+{% endif %}
+{% endfor %}
+
+{{ content }}
+<hr>
+
+{% include posts_by_category.html %}
 
 
 

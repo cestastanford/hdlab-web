@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="/"/>
-  <updated>2014-06-23T09:42:55-07:00</updated>
+  <updated>2014-06-23T11:02:17-07:00</updated>
   <id>/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -24,13 +24,13 @@
 
 <p>Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearraning nodes, then export your work, and later upload your saved file to find the graph just as you left it.</p>
 
-<p>See how it works: <div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " width="900" height="506" frameborder="0">   </iframe></div></p>
+<p>See how it works: {% vimeo 97762819 %}</p>
 
 <p><strong>Aggregation Option</strong></p>
 
 <p>Use numeric/counting information in your data and visualize it in the map and graph views. For instance, a column of &#39;Goods Sent&#39; could have &#39;Barrels of Wine&#39; and &#39;Wheels of Cheese&#39; and a second column &#39;Numbers of Goods,&#39; could have the numbers &#39;200&#39; and &#39;20.&#39; In your map and graph visualizations, the dots will be sized to reflect the relative magnitude of these &#39;Goods Sent&#39; (ie. the dot representing &#39;Barrels of Wine&#39; would be 10x larger than &#39;Wheels of Cheese&#39;)</p>
 
-<p>See how it works: <div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " width="900" height="506" frameborder="0">   </iframe></div></p>
+<p>See how it works: {% vimeo 97773602 %}</p>
 
 <p><strong>Export Map and Graph Views as SVG</strong></p>
 
@@ -59,7 +59,7 @@
     <link href="/lab-notebook/palladio/2014/06/20/save-your-visualization-video/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
     <id>/lab-notebook/palladio/2014/06/20/save-your-visualization-video</id>
-    <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " width="900" height="506" frameborder="0">   </iframe></div></p>
+    <content type="html"><![CDATA[<p>{% vimeo 97762819 %}</p>
 
 <p>New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.</p>
 ]]></content>
@@ -238,7 +238,7 @@
     <link href="/lab-notebook/palladio/2014/06/20/count-by-column-values-video/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
     <id>/lab-notebook/palladio/2014/06/20/count-by-column-values-video</id>
-    <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " width="900" height="506" frameborder="0">   </iframe></div></p>
+    <content type="html"><![CDATA[<p>{% vimeo 97773602 %}</p>
 
 <p>New feature for Palladio 0.5.0: New feature that allows more complex counting functions.</p>
 ]]></content>
@@ -249,7 +249,7 @@
     <link href="/lab-notebook/palladio/2014/06/20/full-video-tutorial/"/>
     <updated>2014-06-20T00:00:00-07:00</updated>
     <id>/lab-notebook/palladio/2014/06/20/full-video-tutorial</id>
-    <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/90598682 " width="900" height="506" frameborder="0">   </iframe></div></p>
+    <content type="html"><![CDATA[<p>{% vimeo 90598682 %}</p>
 
 <p>A full tutorial, showing several aspects fo the Palladio workflow based on the Load and Save version of Palladio.</p>
 ]]></content>

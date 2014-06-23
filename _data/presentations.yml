@@ -1,4 +1,32 @@
 
+- event: "Mapping the Republic of Letters: mapping practices as heuristic instruments for digital humanities"
+  host: Université Rennes 2
+  date: 2014-06-23
+  title: “Story of the Mapping the Republic of Letters project.”
+  presenters: 
+    - Nicole Coleman  
+  image: 
+  topic: 
+      - palladio
+      - mrofl
+  slides: /slides/history-of-mrofl.html
+  program: /docs/rennes_2014.pdf
+  event-url:
+      
+
+- event: "Mapping the Republic of Letters: mapping practices as heuristic instruments for digital humanities"
+  host: Université Rennes 2
+  date: 2014-06-23
+  title: “Mapping heuristic practices for the Republic of Letters.”
+  presenters: 
+    - Giorgio Caviglia  
+  image: 
+  topic: 
+      - palladio
+      - mrofl
+  slides: 
+  program: /docs/rennes_2014.pdf
+  event-url:
 
 - event: "openLAB"
   host: Metalab at Harvard
