@@ -1,16 +1,15 @@
-/* Open Design Record for Palladio */
-
-- respondent: 
-	- Adam Rabinowitz
-	- Corey Tazzara
-	- Jon Weiland
-  request-short: Counting Numeric Values
-  version-implemented: 0.5.0
-  details: "Jon, Corey and Adam all had data that included numeric values. For Corey it was the size of ships, for Jon it was the number of coins in a coin horde. They needed to be able to apply those numbers as values for the size of points on a map or graph. Now with version 0.5.0 that is possible."
-
-
-- respondent: 
-  request-short: 
-  request-date:  
-  version-implemented: 
-  details:
+- name: Dan Edelstein
+  firstname: Dan
+  lastname: Edelstein
+  email: danedels@stanford.edu
+  active: yes
+  institution: Stanford
+  position: faculty
+  role: "Faculty Director"
+  neh_role: Principal Investigator
+  neh_role_description: "Dan Edelstein shapes and shepherds the humanities research agenda underlying this project and brings his own research projects to the testing and evaluation at all stages of the project."
+  image: /img/people/dan.jpg
+  group: director
+  project:
+    - "Writing Rights"
+    - Procopels:
