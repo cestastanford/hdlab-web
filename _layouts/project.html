@@ -4,29 +4,20 @@ layout: default
 
 {% include banner_image.html %}
 
-<h1>{{ page.title }}</h1>
-
-{% for person in site.data.people %}
-
-{% if person.project contains '{{page.project}}' %}
-<ul class="list-inline list-unstyled">
-	<li class="media">
-	  <a class="pull-left" href="#">
-	    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="100">
-	  </a>
-	  <div class="media-body">
-	    <h6><a href="mailto:{{person.email}}">{{ person.name }}</a> <small>{{ person.institution }}</small><br>
-		{{person.role | capitalize}}</h6>
-	  </div>
-	</li>
-</ul>
-{% endif %}
-{% endfor %}
+<h1>Project: {{ page.title }}</h1>
+{% include horiz-people-gallery.html param= page.project %}
 
 {{ content }}
 <hr>
 
-{% include posts_by_category.html %}
+
+<ul class="posts">
+{% for post in site.categories[page.category] %}
+    <div>{{ post.date | date_to_html_string }}</div>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="categories">Filed under {{ post.categories | category_links }}</div>
+{% endfor %}
+</ul>
 
 
 

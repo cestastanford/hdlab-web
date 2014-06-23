@@ -1,9 +1,25 @@
+- name: Keith Baker
+  firstname: Keith
+  lastname: Baker
+  active: yes
+  institution: Stanford
+  department: History
+  position: faculty
+  role: "Project Lead"
+  project:
+      -Writing Rights
+  neh_role: 
+  neh_role_description: 
+  image: /img/people/baker.png
+  group: affiliate
+
 - name: Dan Edelstein
   firstname: Dan
   lastname: Edelstein
   email: danedels@stanford.edu
   active: yes
   institution: Stanford
+  department: French and Italian
   position: faculty
   role: "Faculty Director"
   neh_role: Principal Investigator
@@ -14,27 +30,12 @@
     - "Writing Rights"
     - Procope
 
-- name: Nicole Coleman
-  firstname: Nicole 
-  lastname: Coleman
-  email: cncoleman@stanford.edu
-  active: yes
-  institution: Stanford
-  position: staff
-  role: "Research Director"
-  neh_role: Project Director
-  neh_role_description: "Nicole Coleman oversees the project from the design and development of the visual components and web applications through dissemination of final products. She is also responsible for the recruitment and supervision of hired staff."
-  image: /img/people/nicole.jpg
-  group: director
-  project:
-    - "Writing Rights"
-
-
 - name: Paula Findlen
   firstname: Paula
   lastname: Findlen
   active: yes
   institution: Stanford
+  department: History
   position: faculty
   role: "Project Lead"
   project:
@@ -50,6 +51,7 @@
   lastname: Ceserani
   active: yes
   institution: Stanford
+  department: Classics
   position: faculty
   role: "Project Lead"
   project:
@@ -57,20 +59,6 @@
   neh_role: 
   neh_role_description: 
   image: /img/people/ceserani.png
-  group: affiliate
-
-- name: Keith Baker
-  firstname: Keith
-  lastname: Baker
-  active: yes
-  institution: Stanford
-  position: faculty
-  role: "Project Lead"
-  project:
-      -Writing Rights
-  neh_role: 
-  neh_role_description: 
-  image: /img/people/baker.png
   group: affiliate
     
 - name: Caroline Winterer
@@ -171,7 +159,7 @@
   role: Graduate Research Fellow
   fellowship: "2013-14"
   project-title: "Text Networks in the Early Roman Empire"
-  image: http://www.stanford.edu/dept/classics/cgi-bin/web/sites/all/files/imagecache/profile_full_display/profile_pictures/photobest_0.JPG
+  image: http://www.stanford.edu/dept/Classics/cgi-bin/web/sites/all/files/imagecache/profile_full_display/profile_pictures/photobest_0.JPG
   group: affiliate
 
 - name: Patrick Bergemann
@@ -334,7 +322,7 @@
   firstname: Kate 
   lastname: Sweetapple
   active: yes
-  institution: "University of Technology, Sydney"
+  institution: "UTS"
   department: School of Design
   position: faculty
   role: researcher
@@ -348,7 +336,7 @@
   lastname: Lorber-Kasunic
   department: School of Design
   active: yes
-  institution: "University of Technology, Sydney"
+  institution: "UTS"
   project:
       - Writing Rights
   position: faculty
@@ -408,3 +396,21 @@
   project-title: "17th Century Italian Academies"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: alumni
+
+
+- name: Nicole Coleman
+  firstname: Nicole 
+  lastname: Coleman
+  email: cncoleman@stanford.edu
+  active: yes
+  institution: Stanford
+  department: CESTA/Library
+  position: staff
+  role: "Research Director"
+  neh_role: Project Director
+  neh_role_description: "Nicole Coleman oversees the project from the design and development of the visual components and web applications through dissemination of final products. She is also responsible for the recruitment and supervision of hired staff."
+  image: /img/people/nicole.jpg
+  group: director
+  project:
+    - "Writing Rights"
+

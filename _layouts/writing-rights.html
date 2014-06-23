@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% include banner_image.html %}
+
+<h1>Project: {{ page.title }}</h1>
+<div class="row responsive">
+<ul class="list-inline">
+{% for person in site.data.people %}
+
+{% if person.project contains include.param %}
+
+	<li class="text-center" width="200px">
+		<span style="inline-block">
+		    <img class="img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="80">
+		  </span><br>
+	    <h4><a href="mailto:{{person.email}}">{{ person.name }}</a><br><small>{{ person.institution }}, {{ person.department }}</small></h4>
+
+	</li>
+
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+
+{{ content }}
+<hr>
+
+
+<ul class="posts">
+{% for post in site.categories[page.category] %}
+    <div>{{ post.date | date_to_html_string }}</div>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="categories">Filed under {{ post.categories | category_links }}</div>
+{% endfor %}
+</ul>
+
+
+
