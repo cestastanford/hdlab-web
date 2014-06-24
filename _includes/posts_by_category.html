@@ -4,7 +4,7 @@
  
 
 {% for category in site.categories %}
-  <h3><a href="{{site.url}}/{{site.category_dir}}/{{ category | first }}/">{{ category | first | upcase }}</a></h3>
+  <h3><a href="{{site.baseurl}}/{{site.category_dir}}/{{ category | first }}/">{{ category | first | upcase }}</a></h3>
     <ul>
     {% for posts in category %}
       {% for post in posts %}

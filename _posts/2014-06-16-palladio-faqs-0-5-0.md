@@ -162,7 +162,7 @@ In Points view you can only select one dimension. If you toggle Size points, the
 Below the 'Type of Map' menu is a second menu, 'Places.' This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled 'Birth City Coordinates,' then you will be prompted to choose 'Birth City Coordinates' within the 'Places' menu. To see all of your Popes birthplace data on the map, you would select 'Birth Place Coordinates' in the 'Places' menu. Now the map will be populated with dots representing each individual value in your coordinates data.
 
 See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.
-[Download PDF]({{ site.url }}/assets/scenario-simple-map.pdf)
+[Download PDF]({{ site.baseurl }}/assets/scenario-simple-map.pdf)
 
 ‘Point-to-Point’ map view
 
@@ -173,7 +173,7 @@ The arc of the link between two points represents the direction of the flow. Thi
 Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you've typed into the search bar. You can also isolate specific points on your map by clicking on them.
 
 See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.
-[Download PDF]({{ site.url }}/assets/scenario-point-to-point.pdf)
+[Download PDF]({{ site.baseurl }}/assets/scenario-point-to-point.pdf)
 
 
  

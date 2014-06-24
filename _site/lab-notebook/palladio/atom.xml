@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
-  <link href="/lab-notebook/palladio/atom.xml" rel="self"/>
-  <link href="/"/>
-  <updated>2014-06-23T15:57:41-07:00</updated>
-  <id>/</id>
+  <link href="http://hdlab.stanford.edu/lab-notebook/palladio/atom.xml" rel="self"/>
+  <link href="http://hdlab.stanford.edu/"/>
+  <updated>2014-06-23T19:19:50-07:00</updated>
+  <id>http://hdlab.stanford.edu/</id>
   <author>
     <name><![CDATA[]]></name>
     
@@ -15,14 +15,14 @@
   
   <entry>
     <title type="html"><![CDATA[Palladio Release Notes 0.5.0]]></title>
-    <link href="/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/"/>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/"/>
     <updated>2014-06-20T11:49:00-07:00</updated>
-    <id>/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0</id>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0</id>
     <content type="html"><![CDATA[<h2>New Features</h2>
 
 <p><strong>The ability to Save and Export a specific instances of one’s data and visualizations</strong></p>
 
-<p>Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearraning nodes, then export your work, and later upload your saved file to find the graph just as you left it.</p>
+<p>Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearranging nodes, then export your work, and later upload your saved file to find the graph just as you left it.</p>
 
 <p>See how it works: <div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " width="900" height="506" frameborder="0">   </iframe></div></p>
 
@@ -56,20 +56,20 @@
   
   <entry>
     <title type="html"><![CDATA[Video Tutorial: Save Your Visualization]]></title>
-    <link href="/lab-notebook/palladio/2014/06/20/save-your-visualization-video/"/>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/save-your-visualization-video/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
-    <id>/lab-notebook/palladio/2014/06/20/save-your-visualization-video</id>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/save-your-visualization-video</id>
     <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " width="900" height="506" frameborder="0">   </iframe></div></p>
 
-<p>New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations.</p>
+<p>New feature for Palladio 0.5.0: Export and Import specific instances of your data and visualizations. Says Mark: “We can work with our data and mess about in the different views, apply filters and so forth, and then export that to our desktop and have a file that then can be used later with those specific changes still in place.”</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Palladio FAQ]]></title>
-    <link href="/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/"/>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
-    <id>/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0</id>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0</id>
     <content type="html"><![CDATA[<ol>
 <li> <a href="#13">What is a Palladio Data Model?</a><br></li>
 <li> <a href="#14">Which data formats work with Palladio?</a></li>
@@ -216,7 +216,7 @@
 <p>Below the &#39;Type of Map&#39; menu is a second menu, &#39;Places.&#39; This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled &#39;Birth City Coordinates,&#39; then you will be prompted to choose &#39;Birth City Coordinates&#39; within the &#39;Places&#39; menu. To see all of your Popes birthplace data on the map, you would select &#39;Birth Place Coordinates&#39; in the &#39;Places&#39; menu. Now the map will be populated with dots representing each individual value in your coordinates data.</p>
 
 <p>See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.
-<a href="%7B%7B%20site.url%20%7D%7D/assets/scenario-simple-map.pdf">Download PDF</a></p>
+<a href="%7B%7B%20site.baseurl%20%7D%7D/assets/scenario-simple-map.pdf">Download PDF</a></p>
 
 <p>‘Point-to-Point’ map view</p>
 
@@ -227,7 +227,7 @@
 <p>Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you&#39;ve typed into the search bar. You can also isolate specific points on your map by clicking on them.</p>
 
 <p>See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.
-<a href="%7B%7B%20site.url%20%7D%7D/assets/scenario-point-to-point.pdf">Download PDF</a></p>
+<a href="%7B%7B%20site.baseurl%20%7D%7D/assets/scenario-point-to-point.pdf">Download PDF</a></p>
 
 <p>Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.</p>
 ]]></content>
@@ -235,20 +235,20 @@
   
   <entry>
     <title type="html"><![CDATA[Video Tutorial: Count By Column Values]]></title>
-    <link href="/lab-notebook/palladio/2014/06/20/count-by-column-values-video/"/>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/count-by-column-values-video/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
-    <id>/lab-notebook/palladio/2014/06/20/count-by-column-values-video</id>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/count-by-column-values-video</id>
     <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " width="900" height="506" frameborder="0">   </iframe></div></p>
 
-<p>New feature for Palladio 0.5.0: New feature that allows more complex counting functions.</p>
+<p>New feature for Palladio 0.5.0: New feature that allows more complex counting functions. Says Mark: &quot;The existing way of counting in Palladio involved rows of one&#39;s data...now what we can do is add our own counts and see those reflected in our visualizations.&quot;</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Video Tutorial: Overview of Palladio]]></title>
-    <link href="/lab-notebook/palladio/2014/06/20/full-video-tutorial/"/>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/full-video-tutorial/"/>
     <updated>2014-06-20T00:00:00-07:00</updated>
-    <id>/lab-notebook/palladio/2014/06/20/full-video-tutorial</id>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/full-video-tutorial</id>
     <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/90598682 " width="900" height="506" frameborder="0">   </iframe></div></p>
 
 <p>A full tutorial, showing several aspects fo the Palladio workflow based on the Load and Save version of Palladio.</p>
