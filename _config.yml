@@ -23,8 +23,9 @@ permalink:                /lab-notebook/:categories/:year/:month/:day/:title/
 twitter:                   hdstanford
 favicon:  "https://dl.dropboxusercontent.com/s/o0rhoh2bh2xu9uu/favicon.ico"
                  
-#This is the base directory (cloud) where we share images
-img-url:           ""
+#This is the base directory (cloud) where we share images in Google Drive for CESTA
+# sub directories are post-img, banner-img, etc.
+img-url:           "https://drive.google.com/folderview?id=0B1XIzIvpOWe4aWNmNG9LTFRxRWM&usp=sharing"
 
 collections:
   slides:
