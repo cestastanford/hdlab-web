@@ -22,18 +22,18 @@ Thanks to Palladio’s powerful visualization options, I can easily identify tre
 
 Visualizing data helps me better understand the specificity of society theater and allows me to identify which aspects will be interesting to analyze next. Using Palladio, I can query not only my own data, but I can connect it to other data sets  (like those compiled for the Mapping the Republic of Letters project) and explore how the society theater participants fit within the larger Enlightenment networks.
 
-![IMAGE TITLE]({{site.url}}/assets/comsa1.jpg)
+![IMAGE TITLE]({{site.baseurl}}/assets/comsa1.jpg)
 
 Image 1: Network graph view of society theater participants by occupation.
 
-![IMAGE TITLE]({{site.url}}/assets/comsa2.jpg)
+![IMAGE TITLE]({{site.baseurl}}/assets/comsa2.jpg)
 
 Image 2: Graph view of society theater participants filtered by social status, occupation, and gender.
 
-![IMAGE TITLE]({{site.url}}/assets/comsa3.jpg)
+![IMAGE TITLE]({{site.baseurl}}/assets/comsa3.jpg)
 
 Image 3: Grid view of society theater authors by social status.
 
-![IMAGE TITLE]({{site.url}}/assets/comsa4.jpg)
+![IMAGE TITLE]({{site.baseurl}}/assets/comsa4.jpg)
 
 Image 4: Grid view of society theater participants filtered by social status, occupation, and gender.

@@ -5,7 +5,7 @@
    {% if person.name == include.param %}
     {% if person.image %}
       <div class="span2 center">
-        <img class="photo img-rounded" src="{{site.url}}{{ person.image }}" title="{{ person.image.title }}" alt="{{ person.image.alt }}" width="80" height="80" />
+        <img class="photo img-rounded" src="{{site.baseurl}}{{ person.image }}" title="{{ person.image.title }}" alt="{{ person.image.alt }}" width="80" height="80" />
       </div>
     {% endif %}
 
