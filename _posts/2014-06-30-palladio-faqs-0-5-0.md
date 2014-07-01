@@ -7,6 +7,7 @@ category: palladio
 published: true
 tags: 
 excerpt: "The FAQs have been updated for our June 2014 release, 0.5.0, to reflect the new features and fixes."
+
 ---
 
 
@@ -118,7 +119,7 @@ Dates should be entered in the following format Year-Month-Day (2014-01-01). Yea
 
 Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.
 
-[See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.](assets/scenario-simple-map.pdf)
+See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information. [Download PDF]({{ site.baseurl }}/doc/scenario-simple-map.pdf)
 
 
 ### <a name="7"></a>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?
@@ -162,11 +163,9 @@ In Points view you can only select one dimension. If you toggle Size points, the
 Below the 'Type of Map' menu is a second menu, 'Places.' This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled 'Birth City Coordinates,' then you will be prompted to choose 'Birth City Coordinates' within the 'Places' menu. To see all of your Popes birthplace data on the map, you would select 'Birth Place Coordinates' in the 'Places' menu. Now the map will be populated with dots representing each individual value in your coordinates data.
 
 See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.
-<<<<<<< HEAD
-[Download PDF]({{ site.url }}/doc/scenario-simple-map.pdf)
-=======
-[Download PDF]({{ site.baseurl }}/assets/scenario-simple-map.pdf)
->>>>>>> FETCH_HEAD
+
+[Download PDF]({{ site.baseurl }}/doc/scenario-simple-map.pdf)
+
 
 ‘Point-to-Point’ map view
 
@@ -177,11 +176,9 @@ The arc of the link between two points represents the direction of the flow. Thi
 Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you've typed into the search bar. You can also isolate specific points on your map by clicking on them.
 
 See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.
-<<<<<<< HEAD
-[Download PDF]({{ site.url }}/doc/scenario-point-to-point.pdf)
-=======
-[Download PDF]({{ site.baseurl }}/assets/scenario-point-to-point.pdf)
->>>>>>> FETCH_HEAD
+
+[Download PDF]({{ site.baseurl }}/doc/scenario-point-to-point.pdf)
+
 
 
  

@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="http://hdlab.stanford.edu/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="http://hdlab.stanford.edu/"/>
-  <updated>2014-07-01T11:47:00-07:00</updated>
+  <updated>2014-07-01T11:58:05-07:00</updated>
   <id>http://hdlab.stanford.edu/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -66,47 +66,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Palladio Release Notes 0.5.0]]></title>
-    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0/"/>
-    <updated>2014-06-20T11:49:00-07:00</updated>
-    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-release-notes-0-5-0</id>
-    <content type="html"><![CDATA[<h2>New Features</h2>
-
-<p><strong>The ability to Save and Export a specific instances of one’s data and visualizations</strong></p>
-
-<p>Filter and reconfigure your data and visualizations in Palladio and then save and share instances of your work (as .json files). For instance, you could manipulate data within the graph view, dragging and rearranging nodes, then export your work, and later upload your saved file to find the graph just as you left it.</p>
-
-<p>See how it works: <div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97762819 " width="900" height="506" frameborder="0">   </iframe></div></p>
-
-<p><strong>Aggregation Option</strong></p>
-
-<p>Use numeric/counting information in your data and visualize it in the map and graph views. For instance, a column of &#39;Goods Sent&#39; could have &#39;Barrels of Wine&#39; and &#39;Wheels of Cheese&#39; and a second column &#39;Numbers of Goods,&#39; could have the numbers &#39;200&#39; and &#39;20.&#39; In your map and graph visualizations, the dots will be sized to reflect the relative magnitude of these &#39;Goods Sent&#39; (ie. the dot representing &#39;Barrels of Wine&#39; would be 10x larger than &#39;Wheels of Cheese&#39;)</p>
-
-<p>See how it works: <div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " width="900" height="506" frameborder="0">   </iframe></div></p>
-
-<p><strong>Export Map and Graph Views as SVG</strong></p>
-
-<p>Export Map and Graph Views as .svg files. Scalable Vector Graphics (.svg) files can be manipulated with drawing software, such as Illustrator, to be included in publications and presentations as high resolution images. (Note that the Map view exports include only the nodes and links, not the underlying tiled map.)</p>
-
-<p><strong>Negative Dates</strong></p>
-
-<p>The timeline feature now handles negative dates.</p>
-
-<p><strong>Hide and Show Dimensions</strong></p>
-
-<p>After uploading your data you can hide specific dimensions to simplify your workflow.</p>
-
-<p><strong>Enhanced Tabular Sorting</strong></p>
-
-<p>In Tabular View, data can be sorted by dimension. Click on a column header to rearrange your data as you see fit.</p>
-
-<p><strong>Warning Prompt</strong></p>
-
-<p>A prompt appears when one tries to leave a page, warning that one will lose one’s data.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Video Tutorial: Save Your Visualization]]></title>
     <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/save-your-visualization-video/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
@@ -119,9 +78,9 @@
   
   <entry>
     <title type="html"><![CDATA[Palladio FAQ]]></title>
-    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-5/"/>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0/"/>
     <updated>2014-06-20T04:34:22-07:00</updated>
-    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-5</id>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/palladio-faqs-0-5-0</id>
     <content type="html"><![CDATA[<ol>
 <li> <a href="#13">What is a Palladio Data Model?</a><br></li>
 <li> <a href="#14">Which data formats work with Palladio?</a></li>
@@ -227,7 +186,7 @@
 
 <p>Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.</p>
 
-<p><a href="assets/scenario-simple-map.pdf">See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.</a></p>
+<p>See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information. <a href="%7B%7B%20site.baseurl%20%7D%7D/doc/scenario-simple-map.pdf">Download PDF</a></p>
 
 <h3><a name="7"></a>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?</h3>
 
@@ -284,6 +243,17 @@
 <p><a href="%7B%7B%20site.baseurl%20%7D%7D/doc/scenario-point-to-point.pdf">Download PDF</a></p>
 
 <p>Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Video Tutorial: Count By Column Values]]></title>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/count-by-column-values-video/"/>
+    <updated>2014-06-20T04:34:22-07:00</updated>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/20/count-by-column-values-video</id>
+    <content type="html"><![CDATA[<p><div class="video-container"><iframe class="vimeo-iframe" src="http://player.vimeo.com/video/97773602 " width="900" height="506" frameborder="0">   </iframe></div></p>
+
+<p>New feature for Palladio 0.5.0: New feature that allows more complex counting functions. Says Mark: &quot;The existing way of counting in Palladio involved rows of one&#39;s data...now what we can do is add our own counts and see those reflected in our visualizations.&quot;</p>
 ]]></content>
   </entry>
   
