@@ -2,11 +2,11 @@
 layout: post
 title:  "Palladio FAQ"
 author: Mark Braude
-date:   2014-06-20 11:34:22
+date:   2014-07-28 11:34:22
 category: palladio
 published: true
 tags: 
-excerpt: "The FAQs have been updated for our June 2014 release, 0.5.0, to reflect the new features and fixes."
+excerpt: "The FAQs have been updated for our July 2014 release, 0.6.0, to reflect the new features and fixes."
 
 ---
 
@@ -113,7 +113,7 @@ Swiping within the Timeline view will allow you to zoom in to specific dates. Th
 
 ### <a name="5"></a>How should Dates be entered?
 
-Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01). 
+Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01). If using Excel, be sure to specify that the column reads as "Text" rather than dates, so that Excel doesn't change the dates into its own (non-Palladio friendly) format.
 
 ### <a name="6"></a>How should Coordinates be entered?
 
