@@ -26,9 +26,9 @@ excerpt: "The FAQs have been updated for our July 2014 release, 0.6.0, to reflec
  12. [How do I get the most out of Map view?](#12)
 
 
-### <a name="13"></a>What is a Palladio Data Model?
+### <a name="13"></a>What is a Palladio project?
 
-Once you’ve uploaded your tabular data into the Palladio interface, you may refine it and save it as a Palladio Data Model to your desktop.  The Palladio Data Model is saved with the extension .json and includes the schema and structure required to visualize your data in Palladio. (Not just any json file will do.) Now, as you continue to use Palladio you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio Data Model). Remember that if you make further changes to your data in the refine stage, you should re-export the Data Model to have a version that reflects your changes.
+A Palladio project begins first with the tabular data you have on your computer. Once you’ve uploaded this data into the Palladio interface, you can then refine it, visualize, and save it back to your computer as a Palladio project. The Palladio project will be saved with the extension .json and includes the schema and structure required to visualize your data in Palladio the next time you visit. (In other words, you cannot simply upload any .json file created elsewhere and expect it to work within the Palladio platform.) Now, as you continue to use Palladio, you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio project). But please remember that if you make further changes to your data in the refine stage, you will have to save this new work as a new .json file in order to have a version of the project that reflects your more recent changes.
 
 
 ### <a name="14"></a>Which data formats work with Palladio?
@@ -102,11 +102,11 @@ Your tabular data is made up of various dimensions (ie. individual cells in a sp
 
 ### <a name="3"></a>What are Size Points?
 
-Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence.
+Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence. You can adjust the scale of the Size Points (in other words, the  size of the dots as they appear in relation to the map) by toggling the Adjust Scale button.
 
-### <a name="4"></a>How do I get the most use out of the Timeline feature?
+### <a name="4"></a>How do I get the most use out of the TimeLine feature?
 
-As you change the temporal period in your timeline view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.
+As you change the temporal period in your TimeLine filter view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.
 
 Swiping within the Timeline view will allow you to zoom in to specific dates. The stacked bar and highlighting functions allow you to see the data in different ways as you hover.
 
