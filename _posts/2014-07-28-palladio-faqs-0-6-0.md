@@ -2,32 +2,34 @@
 layout: post
 title:  "Palladio FAQ"
 author: Mark Braude
-date:   2014-06-20 11:34:22
+date:   2014-07-30 11:34:22
 category: palladio
 published: true
 tags: 
-excerpt: "The FAQs have been updated for our June 2014 release, 0.5.0, to reflect the new features and fixes."
+excerpt: "The FAQs have been updated for our July 2014 release, 0.6.0, to reflect the new features and fixes."
+
 ---
 
 
 
- 1.  [What is a Palladio Data Model?](#13)  
+ 1.  [What is a Palladio project?](#13)  
  2.  [Which data formats work with Palladio?](#14)
  3. [What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?](#1)
  4. [What is a Multiple Values Delimiter?](#2)
  5. [What are Size Points?](#3)
- 6. [How do I get the most use out of the Timeline feature?](#4)
+ 6. [How do I get the most use out of the TimeLine feature?](#4)
  7. [How should Dates be entered?](#5)
  8. [How should Coordinates be entered?](#6)
  9. [What do the labels and numbers listed directly below my dimension represent?](#7)
  10. [I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?](#8)
  11. [What are some applications of the Gallery View?](#9)
  12. [How do I get the most out of Map view?](#12)
+ 13. [How do I get the most use out of the TimeSpan feature?](#13)
 
 
-### <a name="13"></a>What is a Palladio Data Model?
+### <a name="13"></a>What is a Palladio project?
 
-Once you’ve uploaded your tabular data into the Palladio interface, you may refine it and save it as a Palladio Data Model to your desktop.  The Palladio Data Model is saved with the extension .json and includes the schema and structure required to visualize your data in Palladio. (Not just any json file will do.) Now, as you continue to use Palladio you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio Data Model). Remember that if you make further changes to your data in the refine stage, you should re-export the Data Model to have a version that reflects your changes.
+A Palladio project begins first with the tabular data you have on your computer. Once you’ve uploaded this data into the Palladio interface, you can then refine it, visualize, and save it back to your computer as a Palladio project. The Palladio project will be saved with the extension .json and includes the schema and structure required to visualize your data in Palladio the next time you visit. (In other words, you cannot simply upload any .json file created elsewhere and expect it to work within the Palladio platform.) Now, as you continue to use Palladio, you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio project). But please remember that if you make further changes to your data in the refine stage, you will have to save this new work as a new .json file in order to have a version of the project that reflects your more recent changes.
 
 
 ### <a name="14"></a>Which data formats work with Palladio?
@@ -101,24 +103,24 @@ Your tabular data is made up of various dimensions (ie. individual cells in a sp
 
 ### <a name="3"></a>What are Size Points?
 
-Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence.
+Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence. You can adjust the scale of the Size Points (in other words, the  size of the dots as they appear in relation to the map) by toggling the Adjust Scale button.
 
-### <a name="4"></a>How do I get the most use out of the Timeline feature?
+### <a name="4"></a>How do I get the most use out of the TimeLine feature?
 
-As you change the temporal period in your timeline view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.
+As you change the temporal period in your TimeLine filter view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.
 
 Swiping within the Timeline view will allow you to zoom in to specific dates. The stacked bar and highlighting functions allow you to see the data in different ways as you hover.
 
 
 ### <a name="5"></a>How should Dates be entered?
 
-Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01).
+Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01). If using Excel, be sure to specify that the column reads as "Text" rather than dates, so that Excel doesn't change the dates into its own (non-Palladio friendly) format.
 
 ### <a name="6"></a>How should Coordinates be entered?
 
 Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.
 
-[See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.](assets/scenario-simple-map.pdf)
+See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information. [Download PDF]({{ site.baseurl }}/doc/scenario-simple-map.pdf)
 
 
 ### <a name="7"></a>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?
@@ -162,7 +164,9 @@ In Points view you can only select one dimension. If you toggle Size points, the
 Below the 'Type of Map' menu is a second menu, 'Places.' This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled 'Birth City Coordinates,' then you will be prompted to choose 'Birth City Coordinates' within the 'Places' menu. To see all of your Popes birthplace data on the map, you would select 'Birth Place Coordinates' in the 'Places' menu. Now the map will be populated with dots representing each individual value in your coordinates data.
 
 See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.
-[Download PDF]({{ site.baseurl }}/assets/scenario-simple-map.pdf)
+
+[Download PDF]({{ site.baseurl }}/doc/scenario-simple-map.pdf)
+
 
 ‘Point-to-Point’ map view
 
@@ -173,8 +177,10 @@ The arc of the link between two points represents the direction of the flow. Thi
 Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you've typed into the search bar. You can also isolate specific points on your map by clicking on them.
 
 See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.
-[Download PDF]({{ site.baseurl }}/assets/scenario-point-to-point.pdf)
 
+[Download PDF]({{ site.baseurl }}/doc/scenario-point-to-point.pdf)
+
+### <a name="13"></a>How do I get the most use out of the TimeSpan feature?Use the TimeSpan feature to visualize any data for which you have both a starting date and an end date, such as a lifetime, or a season. Palladio will recognize any dimensions entered in the correct format (ie. 2014-06-27) and will allow you to select any such dimension as either the start date or end date within the timeline view. Choose from a parallel or bar view. 
 
  
 Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.
