@@ -2,7 +2,7 @@
 layout: post
 title:  "Palladio FAQ"
 author: Mark Braude
-date:   2014-07-28 11:34:22
+date:   2014-07-30 11:34:22
 category: palladio
 published: true
 tags: 
@@ -12,18 +12,19 @@ excerpt: "The FAQs have been updated for our July 2014 release, 0.6.0, to reflec
 
 
 
- 1.  [What is a Palladio Data Model?](#13)  
+ 1.  [What is a Palladio project?](#13)  
  2.  [Which data formats work with Palladio?](#14)
  3. [What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?](#1)
  4. [What is a Multiple Values Delimiter?](#2)
  5. [What are Size Points?](#3)
- 6. [How do I get the most use out of the Timeline feature?](#4)
+ 6. [How do I get the most use out of the TimeLine feature?](#4)
  7. [How should Dates be entered?](#5)
  8. [How should Coordinates be entered?](#6)
  9. [What do the labels and numbers listed directly below my dimension represent?](#7)
  10. [I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?](#8)
  11. [What are some applications of the Gallery View?](#9)
  12. [How do I get the most out of Map view?](#12)
+ 13. [How do I get the most use out of the TimeSpan feature?](#13)
 
 
 ### <a name="13"></a>What is a Palladio project?
@@ -179,7 +180,7 @@ See the Scenario: Creating Data for a Point to Point Map for more information ab
 
 [Download PDF]({{ site.baseurl }}/doc/scenario-point-to-point.pdf)
 
-
+### <a name="13"></a>How do I get the most use out of the TimeSpan feature?Use the TimeSpan feature to visualize any data for which you have both a starting date and an end date, such as a lifetime, or a season. Palladio will recognize any dimensions entered in the correct format (ie. 2014-06-27) and will allow you to select any such dimension as either the start date or end date within the timeline view. Choose from a parallel or bar view. 
 
  
 Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.
