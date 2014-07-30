@@ -1,5 +1,6 @@
 ---
-layout: posts_by_category
+layout: default
 id: lab-notebook
 ---
 
+{% include posts_by_category.html %}

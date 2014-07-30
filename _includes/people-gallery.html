@@ -7,7 +7,7 @@
 <div class="col-md-4">
 	<h3>Directors</h3>
 	{% for person in sorted_people %}
-	{% if person.group == 'director' %}
+	{% if person.group contains 'director' %}
    	<ul class="media-list">
 		<li class="media">
 		  <a class="pull-left" href="#">
@@ -24,7 +24,7 @@
 
 	<h3>Staff</h3>
 	{% for person in sorted_people %}
-	{% if person.group == 'staff' | sort:"lastname" %}
+	{% if person.group contains 'staff' | sort:"lastname" %}
 	
 	<ul class="media-list">
 		<li class="media">
@@ -45,7 +45,7 @@
 	<h3> Faculty Affiliates</h3>
 	{% assign sorted_people = site.data.people %}
 	{% for person in sorted_people %}
-	{% if person.group == 'affiliate' and person.position == 'faculty' | sort:"lastname" %}
+	{% if person.group contains 'affiliate' and person.position == 'faculty' | sort:"lastname" %}
    	<ul class="media-list">
 		<li class="media">
 		  <a class="pull-left" href="#">
@@ -66,7 +66,7 @@
 	<h3>Graduate and Postdoc Affiliates</h3>
 	{% assign sorted_people = site.data.people %}
 	{% for person in sorted_people %}
-	{% if person.group == 'affiliate' and person.position == 'graduate' or person.position == 'postdoc' | sort:"lastname" %}
+	{% if person.group contains 'affiliate' and person.position == 'graduate' or person.position == 'postdoc' | sort:"lastname" %}
    	<ul class="media-list">
 		<li class="media">
 		  <a class="pull-left" href="#">

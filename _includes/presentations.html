@@ -17,8 +17,8 @@
     		 <div class="media" style="margin-left: 30px">
  			 
  		 <div class="media-body">
-   		 <strong>{{ presentation.date }} <em>{{ presentation.event }}
-     </em> <br/><small>{{ presentation.host }}</small></strong>
+   		 {{ presentation.date }} <strong>{{ presentation.event }}</strong>
+     <br/><small>{{ presentation.host }}</small>
  <p>{{ presentation.presenters | array_to_sentence_string }}</p>
   		</div>
 		</div>

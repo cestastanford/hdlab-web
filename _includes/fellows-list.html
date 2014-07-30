@@ -1,0 +1,50 @@
+
+
+
+<div class="row responsive">
+<div class="col-md-6">
+	<h2>Fellows</h2>
+<ul class="media-list">
+
+	{% for person in site.data.people %}
+
+	{% if person.group contains 'fellows' %}
+	{% unless person.status == 'alumni' %}
+	<li class="media">
+	  <a class="pull-left" href="#">
+	    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="80">
+	  </a>
+	  <div class="media-body">
+    	<h4>{{ person.name }} <small> {{ person.department }}</small></h4>
+		<span>{{ person.project | array_to_sentence_string }}</span> 
+	</div>
+  </li>
+{% endunless %}
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+
+<div class="col-md-6">
+	<h2>Alumni</h2>
+<ul class="media-list">
+
+	{% for person in site.data.people %}
+
+	{% if person.group contains 'fellows' %}
+	{% unless person.status == 'active' %}
+	<li class="media">
+	  <a class="pull-left" href="#">
+	    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="80">
+	  </a>
+	  <div class="media-body">
+    	<h4>{{ person.name }} <small> {{ person.department }}</small></h4>
+		<span>{{ person.project | array_to_sentence_string }} ({{person.status}})</span> 
+	</div>
+  </li>
+{% endunless %}
+{% endif %}
+{% endfor %}
+</ul>
+</div>
+</div>
