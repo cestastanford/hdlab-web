@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Palladio Release Notes: 0.6.0"
-author: Etahn Jewett
-date:   2014-04-31 09:00:00
+author: Ethan Jewett
+date:   2014-07-31 09:00:00
 category: palladio
 published: true
 tags: front
@@ -18,9 +18,9 @@ An updated design across the application, including a new start page with extend
 
 **TimeSpan filter component**
 
-A new filter type is introduced that allows visualization and filtering of records based on a start date and an end date. We offer 2 view options in this filter: a horizontal slope chart and a Gannt-like view.
+A new filter type is introduced that allows visualization and filtering of records based on a start date and an end date. We offer 2 view options in this filter: a horizontal slope chart (the 'Parallel' subview), and a Gannt-like view (the 'Bars 'subview).
 
-**Tabular/List view changes, and export option**
+**Tabular?List view changes, and export option**
 
 The list view has been reworked to provide a more guided experience, more intuitive display of multiple values, and an option to export the current display as a CSV. When navigating to the list view, a user must now choose a primary row dimension before any data is displayed. Additional dimensions can then be selected to display as informational columns. Columns can be reordered by dragging to change the order of the dimensions in the dimension selector.
 
@@ -54,6 +54,7 @@ Previously there were restrictions on the dimensions available in the facet filt
 * Timespan filter doesn't display properly if data contains "end dates" that are before "start dates"
 * Graph view nodes can have 0-size in some circumstances
 * Start page design is not responsive
+* Firefox browser presents issues with loading and saving projects
 
 ## Reporting issues
 
