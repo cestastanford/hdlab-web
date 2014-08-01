@@ -46,7 +46,7 @@ Previously there were restrictions on the dimensions available in the facet filt
 * Timeline bug - timeline won't display for some types of data
 * Changes in the Refine view don't always trigger a refresh of data in visualizations
 * Timeline miscounts months sometimes ('01' is interpreted as February)
-* List view doesn't properly update when filters are removed
+
 
 ## Known issues (incomplete list)
 

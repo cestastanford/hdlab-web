@@ -119,6 +119,8 @@ Dates should be entered in the following format Year-Month-Day (2014-01-01). Yea
 ### <a name="6"></a>How should Coordinates be entered?
 
 Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.
+This Geocoding tool may be of help for those who have a list of place names but no associated coordinates: 
+http://sandbox.idre.ucla.edu/geocoder/
 
 See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information. [Download PDF]({{ site.baseurl }}/doc/scenario-simple-map.pdf)
 
