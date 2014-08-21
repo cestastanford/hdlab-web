@@ -2,7 +2,7 @@
 layout: post
 title:  "Palladio FAQ"
 author: Mark Braude
-date:   2014-07-30 11:34:22
+date:   2014-08-18 11:34:22
 category: palladio
 published: true
 tags: 
@@ -40,7 +40,9 @@ Any collection of information that can be represented in a table format (in othe
 
 Palladio works best with data that is uniform, consistent, and simple. Avoid notes and comments within your data, or any unnecessary diacritics.
 
-You can build your own tables and bring them into Palladio in three ways:
+*Tip for those using .csv files*: [This 'CSV Fingerprints' tool](http://setosa.io/blog/2014/08/03/csv-fingerprints/) can be very helpful in spotting any mistakes in your .csv files.
+
+You can also build your own tables and bring them into Palladio in three ways:
 
 1. By typing text into any word processing program (ie. textedit or MS Word) and then copying the contents into Palladio interface.
 
