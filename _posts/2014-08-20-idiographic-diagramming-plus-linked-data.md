@@ -5,7 +5,7 @@ author: Nicole Coleman
 date:   2014-08-20 16:00
 category: piranesi
 published: true
-tags: 
+tags: front
 excerpt: "These are preliminary ideas about interface elements and interaction based on use cases for the Humanities+Design/Grand Tour course. This is our test case for applying the idiographic diagramming tool to linked data exploration and creation. The process also involves creating scholarly schema through the research process as a research outcome."
 
 ---
