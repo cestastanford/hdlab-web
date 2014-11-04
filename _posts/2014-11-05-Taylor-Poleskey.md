@@ -10,7 +10,7 @@ excerpt: "Stanford PhD Candidate Molly Taylor-Poleskey on how Palladio can be de
 
 ---
 
-###Food Culture and Palladio / Molly Taylor-Poleskey and Mark Braude
+###Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey, Jason Heppler, and Mark Braude
 
 *Molly Taylor-Poleskey writes:*
 
@@ -36,9 +36,24 @@ We also attempted to understand the shape of our data by making simple bar graph
 
 Now Jason is working on displaying the data in normalized bar charts of units of variety. This step will help me gain an overall understanding of the contents of the data collected. From this step of appreciating the qualitative aspects of the data as such, we can return to the original quantitative questions with a better eye for changes in consumption. 
 
-PALLADIO COMPONENT
+THOUGHTS FOR A PALLADIO COMPONENT
 
 In order for Palladio to be useful in solving our research challenges, it needs another display feature that shows flows of data and can be sensitive to the different scales of measurement. 
+
+Molly and Jason produced visualizations, including the two below, (not in Palladio).
+
+![IMAGE TITLE]({{site.url}}/img/grains_normalized.jpg)
+
+Figure 1.
+
+Since some food items are counted by different units of measure over time, we work around the problem of different scales by plotting the amount of food items in relation to all other food items in a single year and totaling the items by percentage rather than absolute amounts.
+
+![IMAGE TITLE]({{site.url}}/img/grains_amount.jpg)
+
+Figure 2.
+
+We can view the absolute amounts of food items for each year, but we begin to run into problems with other food types because the units of measure sometimes changed year to year. Here, grains all contain the same unit of measure over time.
+
 
 *Mark Braude responds:*
 
