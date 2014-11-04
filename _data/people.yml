@@ -21,12 +21,11 @@
   institution: Stanford
   department: French and Italian
   position: faculty
-  role: "Faculty Director"
+  role: "Project Lead"
   neh_role: Principal Investigator
   neh_role_description: "Dan Edelstein shapes and shepherds the humanities research agenda underlying this project and brings his own research projects to the testing and evaluation at all stages of the project."
   image: /img/people/dan.jpg
   group: 
-    - director
     - contact
     - neh
   project:
@@ -56,13 +55,14 @@
   institution: Stanford
   department: Classics
   position: faculty
-  role: "Project Lead"
+  role: "Faculty Director"
   project:
     -"The Grand Tour: Architects"
   neh_role: 
   neh_role_description: 
   image: /img/people/ceserani.png
-  group: affiliate
+  group: 
+    - director
     
 - name: Caroline Winterer
   firstname: Caroline
@@ -208,6 +208,7 @@
   neh_role: Linked Data Researcher
   neh_role_description: "Eetu Makela, a postdoctoral fellow at Aalto University, Finland, is working with Humanities+Design on a number of Linked Open Data initiatives."
   image: /img/people/eetu.jpg
+  byline: "Ethan Jewett is the lead developer on the NEH-funded Palladio visualization project."
   group: 
     - affiliate
     - neh
@@ -242,6 +243,7 @@
   image:  /img/people/aranda.jpg
   group: 
     - fellows
+    - affiliate
 
 - name: Jacqueline Arthur-Montagne
   firstname: Jacqueline 
@@ -257,6 +259,8 @@
   image: http://www.stanford.edu/dept/Classics/cgi-bin/web/sites/all/files/imagecache/profile_full_display/profile_pictures/photobest_0.JPG
   group: 
     - fellows
+    - affiliate
+
 
 - name: Guillaume Beaudin
   firstname: Guillaume 
@@ -272,6 +276,8 @@
   image: /img/people/beaudin.jpg
   group: 
     - fellows
+    - affiliate
+
 
 - name: Patrick Bergemann
   firstname: Patrick
@@ -287,6 +293,8 @@
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows
+    - affiliate
+
 
 - name: Maria Comsa
   firstname: Maria 
@@ -298,6 +306,7 @@
   role: 2013-14 Lab Manager
   neh_role: Lead User Tester
   neh_role_description: "Maria was the 2013-14 H+D Lab Manager, a Graduate Research Fellow, and the Procope team lead."
+  byline: "Maria was the 2013-14 H+D Lab Manager, a Graduate Research Fellow, and senior researcher in the Procope project."
   image: /img/people/maria.jpg
   project: 
     - Procope
@@ -337,6 +346,8 @@
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows
+    - affiliate
+
 
 - name: David Driscoll 
   firstname: David 
@@ -351,6 +362,8 @@
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows
+    - affiliate
+
 
 - name: Hannah Marcus
   firstname: Hannah 
@@ -360,11 +373,14 @@
   position: graduate
   department: History
   fellowship-year: "2012-2013"
+  byline: "Hannah has long been a member of Mapping the Republic of Letters project and is a former H+D Graduate Research Fellow. You can find her work with Prof. Paula Findlen on Galileo's correspondence network at republicofletters.stanford.edu."
   project: 
     - "The Correspondence Network of Galileo Galilei"
   image: /img/people/marcus.jpg
   group: 
     - fellows
+    - affiliate
+
 
 - name: Luke Parker 
   firstname: Luke
@@ -379,6 +395,8 @@
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows
+    - affiliate
+
 
 - name: Bronwen Tate
   firstname: Bronwen
@@ -395,6 +413,8 @@
   image: /img/people/tate.png
   group: 
     - fellows
+    - affiliate
+
 
 - name: Molly Taylor-Poleskey
   firstname: Molly
@@ -411,6 +431,8 @@
   image: http://cmems.stanford.edu/sites/default/files/oa_person/photo/Taylor-Poleskey.JPG
   group: 
     - fellows
+    - affiliate
+
 
 - name: Jonathan Weiland
   firstname: Jonathan
@@ -443,6 +465,8 @@
   image: /img/people/hans_wietzke.png
   group: 
     - fellows
+    - affiliate
+
 
 - name:  Claude Willan 
   firstname: Claude 
@@ -458,8 +482,10 @@
   image: /img/people/claude.willan.jpg
   group: 
     - fellows
+    - affiliate
 
-- name: Chloe Edmonson
+
+- name: Chloe Edmondson
   firstname: Chloe
   lastname: Edmondson
   status: active

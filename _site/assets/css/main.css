@@ -1,9 +1,14 @@
 /* Ockkam styles */
 
+
 body {background-color: #fff;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 14px;
 	}
+	
+.content {
+	padding: 10px 40px;
+}
 	
 footer {
 	padding: 30px 0 20px 0;
@@ -155,6 +160,7 @@ header.navbar.navbar-default {
 
 .row {
     margin-top: 10px;
+    margin-left: 0px;
 }
 
 .row:first-child, .row.row-dense {

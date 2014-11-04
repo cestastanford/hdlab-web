@@ -2,10 +2,11 @@
 layout: post
 title:  "Palladio Release Notes: 0.7.0"
 author: Mark Braude
-date:   2014-09-03 09:00:00
+date:   2014-09-23 09:00:00
 category: palladio
 published: true
 excerpt: "New features and bug fixes in release 0.7.0"
+tags: front
 ---
 
 The 0.7.0 release of Palladio features an interface for querying SPARQL endpoints, as well as several bug fixes and enhancements, most specifically pertaining to the TimeLine and TimeSpan tools.

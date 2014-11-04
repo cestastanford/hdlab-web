@@ -4,6 +4,12 @@ title: Teaching
 id: teaching
 ---
 
+###Humanities + Design: Visualizing the Grand Tour (Fall 2014)
+In the eighteenth century, northern cultural and social elites flocked to the Italian peninsula in the name of humanist classical ideals, seeking Italian ancient monuments and remains, bringing and sending back both material possessions and written words, and, inevitably, encountering the peninsula’s present. This paramount transcultural phenomenon, which came to be known as the Grand Tour, in many ways shaped the modern world as we know it. Recent decades have seen a blossoming of rich, interdisciplinary scholarship on the Grand Tour; in this course we will use visualization tools of the digital age to develop new interpretations of this crucial site for the reception of antiquity and the birth of the modern world.  
+
+We will engage critically readings in both visual epistemology and current Grand Tour studies; interrogate the relationship between quantitative and qualitative approaches in digital humanities; and ask what data visualization offers us in the way of new insights about eighteenth-century British travel to Italy. Students will learn how to transform traditional texts and documents into digital datasets, developing individual data analysis projects through text mining, data capture, and visualization techniques.
+
+**Instructors;** Giovanna Ceserani, Nicole Coleman
 
 
 ###Humanities + Design: Visualizing Time and Movement (Spring 2014)  

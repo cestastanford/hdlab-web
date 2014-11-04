@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Idiographic Diagramming Tool for Linked Data Exploration, Editing and Creation"
+title: "Idiographic Diagramming Tool for Linked Data Exploration, Editing and Creation"
 author: Nicole Coleman
-date:   2014-08-20 16:00
+date: 2014-08-20 16:00
 category: piranesi
 published: true
 tags: front
@@ -11,7 +11,7 @@ excerpt: "These are preliminary ideas about interface elements and interaction b
 ---
 
 
-An idiographic approach to data visualization and the construction of diagrams to support the research process. Navigation of three-dimensional data model by exploring one entity type at a time. 
+These are notes on how to implement our idiographic approach to data visualization for the Grand Tour project using a linked data model. This is our first experiment with what we hope will be a useful tool for navigating, curating, and generating linked data in the research process. It involves the navigation of a multi-dimensional data model by exploring one entity type at a time. The other key component is the creation of a schema through the process of creating and defining entities, attributes, and relationships. In other words, the categorizing process that is part of thinking through the research materials and organizing thoughts can be captured and published as a research product.
 
 ##Three Primary Views
 

@@ -5,7 +5,7 @@ author: Mark Braude
 date:   2014-06-23 16:32:00
 category: palladio
 published: true
-tags: front
+tags:
 excerpt: "A summary of the 2-day workshop hosted by Humanities + Design at Stanford to discuss Palladio's design and development, and other issues in data visualization and the humanities.)"
  
 ---

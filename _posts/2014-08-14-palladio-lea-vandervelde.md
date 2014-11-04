@@ -14,7 +14,7 @@ excerpt: "Professor Vandervelde has been using Palladio to explore and visualize
 
 
 #Project Overview 
-The Law of the Antebellum Frontier**
+_The Law of the Antebellum Frontier_
 
 This project concerns the legal and economic mechanisms at work on the American frontier in the early 1800s. Understanding these mechanisms reflects upon how empires expand and how American expansion into the Ohio and Mississippi river basins shaped American identity and the constitutional amendments after the Civil War.  The project uses GIS mapping, geolocation, social network modeling and text mining to examine large amounts of very old texts in the antebellum frontier.  
 
