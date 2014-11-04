@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Palladio Testimonial / Molly Taylor-Poleskey"
+title:  "Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey"
 author: Mark Braude
 date:   2014-11-03 11:34:22
 category: palladio
 published: true
 tags: 
-excerpt: "Stanford PhD Candidate Molly Taylor-Poleskey on how Palladio can be developed to aid her research on food culture in Brandenburg Prussia; Mark Braude responds."
+excerpt: "Stanford PhD candidate Molly Taylor-Poleskey on how Palladio can be developed to aid her research on food culture in Brandenburg Prussia; Mark Braude responds."
 
 ---
 
-###Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey, Jason Heppler, and Mark Braude
+###Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey
 
 *Molly Taylor-Poleskey writes:*
 
@@ -40,7 +40,7 @@ THOUGHTS FOR A PALLADIO COMPONENT
 
 In order for Palladio to be useful in solving our research challenges, it needs another display feature that shows flows of data and can be sensitive to the different scales of measurement. 
 
-Molly and Jason produced visualizations, including the two below, (not in Palladio).
+Molly and Jason produced visualizations, including the two below, (not in Palladio). Image descriptions by Jason Heppler.
 
 ![IMAGE TITLE]({{site.url}}/img/grains_normalized.jpg)
 
