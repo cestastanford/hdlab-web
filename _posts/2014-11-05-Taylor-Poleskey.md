@@ -10,8 +10,6 @@ excerpt: "Stanford PhD candidate Molly Taylor-Poleskey on how Palladio can be de
 
 ---
 
-###Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey
-
 *Molly Taylor-Poleskey writes:*
 
 PROJECT OVERVIEW
@@ -42,13 +40,13 @@ In order for Palladio to be useful in solving our research challenges, it needs 
 
 Molly and Jason produced visualizations, including the two below, (not in Palladio). Image descriptions by Jason Heppler.
 
-![IMAGE TITLE]({{site.url}}/img/grains_normalized.jpg)
+![IMAGE TITLE]({{site.url}}/img/grains_normalized.png)
 
 Figure 1.
 
 Since some food items are counted by different units of measure over time, we work around the problem of different scales by plotting the amount of food items in relation to all other food items in a single year and totaling the items by percentage rather than absolute amounts.
 
-![IMAGE TITLE]({{site.url}}/img/grains_amount.jpg)
+![IMAGE TITLE]({{site.url}}/img/grains_amount.png)
 
 Figure 2.
 
