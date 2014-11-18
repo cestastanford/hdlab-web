@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Humanities + Design</title>
+    <description>We are a research lab at the Center for Spatial and Textual Analysis (CESTA), Stanford University.</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Palladio Release 0 8 0 Release Notes</title>
+        <description>&lt;hr&gt;
+
+&lt;p&gt;layout: post
+title: &amp;quot;Palladio Release Notes: 0.8.0&amp;quot;
+author: Mark Braude
+date: 2014-11-18 09:00:00
+category: palladio
+published: true
+tags: front
+excerpt: &amp;quot;New features for 0.8.0&amp;quot;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;New Features&lt;/h2&gt;
+
+&lt;p&gt;This release focuses on expanded Map View features. In response to your feedback, the Map View now handles different tile sets. Tile sets can be layered on top of one another and toggled as desired. This facilitates comparisons between historical and contemporary maps. In cases where a historical map only covers part of an area of interest, we can now see the rest of the area - either with a contemporary map, a different historical map, or a combination of the two.&lt;/p&gt;
+
+&lt;h3&gt;New Map View Options:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Use the current standard tile set for the map view, or choose from one of the new pre-loaded alternatives: Streets, Land, Terrain, Satellite, and Buildings and Areas. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create your own custom tile set using mapbox.com and/or the Mapbox TileMill tool and use that tile set in Palladio using a Mapbox Project ID. (Mapbox tutorial coming soon).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use an OpenStreetMap(OSM)/Google formatted tile set URL, such as those provided by Stamen or the NYPL MapWarper project. (URL-based tile set utorial coming soon).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Other general features and changes:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;New, rewritten version of the Facet Filter, including better sorting and smoother interaction.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Extending fields (in the file upload and dimension view) now uses a pill-based selector rather than a drop-down. This change addresses several bugs that occurred with the previous drop-down-based approach.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Graph view is more stable during filtering, with fewer instances of nodes moving off-screen.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Dropbox integration. Host a file in a Dropbox public folder and create &amp;#39;public link.&amp;#39; Paste that link directly into Palladio interface. Note that hosting data in a Dropbox public folder makes your data publicly accessible. To keep your data private, continue uploading your tabular data in the traditional manner.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Auto-load capability for hosted versions of Palladio. Put &amp;#39;auto-load.json&amp;#39; in the Palladio save format in the Palladio root directory on your web server and it will be automatically loaded.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 18 Nov 2014 00:00:00 -0800</pubDate>
+        <link>//lab-notebook/2014/11/18/palladio-release-0-8-0-release-notes/</link>
+        <guid isPermaLink="true">//lab-notebook/2014/11/18/palladio-release-0-8-0-release-notes/</guid>
+      </item>
+    
+      <item>
+        <title>Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey</title>
+        <description>&lt;h3&gt;Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Molly Taylor-Poleskey writes:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;PROJECT OVERVIEW&lt;/p&gt;
+
+&lt;p&gt;My research questions take advantage of a large base of manuscript sources detailing the yearly consumption of one of the palaces of Prince-Elector Friedrich Wilhelm of Brandenburg-Prussia. In my dissertation, I argue that the elector’s cultural agenda helped transform his territories over the course of his reign from dilapidated and war torn to stable and powerful (primed for ascension to royalty under Friedrich Wilhelm’s son). &lt;/p&gt;
+
+&lt;p&gt;RESEARCH QUESTIONS&lt;/p&gt;
+
+&lt;p&gt;To support this argument, I’m looking for change in taste over time or other patterns in consumption that reveal the court’s aesthetic values and cultural ambitions. This means creating visualizations that show what proportions of different foods or food groups were consumed. For example, was there a shocking dearth of wheat compared to rye? When consumption of one commodity dwindled, what other foods were substituted (and vice versa)?&lt;/p&gt;
+
+&lt;p&gt;My second research question looks at this consumption data in conjunction with information about the percentage of the year that the elector was at the palace in Königsberg. This will help me understand the functioning of the palace and make some inferences about daily consumption amounts. This might eventually lead to seeing seasonality of the foods consumed (this depends on the normalized bar charts discussed below). &lt;/p&gt;
+
+&lt;p&gt;ISSUES&lt;/p&gt;
+
+&lt;p&gt;The two biggest challenges [History Department Academic Technology Specialist] Jason Heppler and I have faced while creating visualizations of this data are, 1) accounting for the years for which we have no data and, 2) reconciling the various units of measure to compare different foods. &lt;/p&gt;
+
+&lt;p&gt;ATTEMPTS&lt;/p&gt;
+
+&lt;p&gt;Jason has already put together a ribbon graph representation of one of the food groups from my data (grains) to see relative use of ingredients. While this exposed that peas were typically consumed in much greater numbers than other grains, this visualization masked the exact yearly values and smoothed out the years with no data. &lt;/p&gt;
+
+&lt;p&gt;We also attempted to understand the shape of our data by making simple bar graphs of each food group and, with yet further detail, individual ingredients. This provided a quick snapshot and alerted us to years that spiked in consumption. But, the scale of measurement was so different for each food, it was not feasible to compare across units of measure. Some years of extraordinary consumption throw of the scale so that years of typical or little consumption are imperceptible.&lt;/p&gt;
+
+&lt;p&gt;Now Jason is working on displaying the data in normalized bar charts of units of variety. This step will help me gain an overall understanding of the contents of the data collected. From this step of appreciating the qualitative aspects of the data as such, we can return to the original quantitative questions with a better eye for changes in consumption. &lt;/p&gt;
+
+&lt;p&gt;THOUGHTS FOR A PALLADIO COMPONENT&lt;/p&gt;
+
+&lt;p&gt;In order for Palladio to be useful in solving our research challenges, it needs another display feature that shows flows of data and can be sensitive to the different scales of measurement. &lt;/p&gt;
+
+&lt;p&gt;Molly and Jason produced visualizations, including the two below, (not in Palladio). Image descriptions by Jason Heppler.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/grains_normalized.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 1.&lt;/p&gt;
+
+&lt;p&gt;Since some food items are counted by different units of measure over time, we work around the problem of different scales by plotting the amount of food items in relation to all other food items in a single year and totaling the items by percentage rather than absolute amounts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/grains_amount.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Figure 2.&lt;/p&gt;
+
+&lt;p&gt;We can view the absolute amounts of food items for each year, but we begin to run into problems with other food types because the units of measure sometimes changed year to year. Here, grains all contain the same unit of measure over time.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Mark Braude responds:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Following conversations with Molly and Jason, we are working toward creating visualizations in Palladio that privilege the display of relative magnitude, and that are especially sensitive to working in different registers and scales, to help her drive home her arguments about the variety of consumption patterns in the society she studies. As some of the years in the sources Molly studies have incomplete or missing data, her use case has also aided us in thinking about how best to work with incomplete data in ways that are not misleading or overly simplistic.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Nov 2014 03:34:22 -0800</pubDate>
+        <link>//lab-notebook/palladio/2014/11/03/Taylor-Poleskey/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/11/03/Taylor-Poleskey/</guid>
+      </item>
+    
+      <item>
+        <title>Palladio Testimonial / Christoph Kudella</title>
+        <description>&lt;h3&gt;Palladio Testimonial / Christoph Kudella&lt;/h3&gt;
+
+&lt;p&gt;My name is Christoph Kudella and I am a Digital Arts and Humanities PhD candidate in University College Cork. My doctoral research is on correspondence networks in the Renaissance and I also teach tools and methods in Digital History at the University of Göttingen. Within this context I conducted a seminar on data collection, analysis and visualization for undergraduate history students. While hosting the 50th annual convention of German historians (Deutscher Historikertag) in Göttingen this year we were prompted to inquire into earlier gatherings of this kind. We chose four of the five annual ‚Historikertage’ during the Weimar Republic, a very decisive period in German historiography framed by the end of World War I at one end and the NS-period at the other.&lt;/p&gt;
+
+&lt;p&gt;The main source for our inquiry were printed reports of these gatherings that included lists of attendees. These provided us with their names, professions and place of residence. We took these information particles as the point of departure to build a spreadsheet that detailed the c. 1.700 persons that were in attendence. The students were tasked with collecting prosopographic information on each of the attendees (where available). This task included the identification of each person in the Virtual International Authority File (VIAF) as well as the collection of biographical snippets derived from the World Biographical Information System (WBIS).  In this fashion, data has been collected on the individuals date and place of birth and death, their place of study, their doctoral supervisors (where applicable), institutional affiliations, gender and so forth. In a second spreadsheet each location was assigned an individual entry, including geocoordinates, in which modern county and country it is situated as well as the appendant ID in Geonames.&lt;/p&gt;
+
+&lt;p&gt;From this baseline we began undertaking analyses on our dataset. Palladio provided us with a powerful way to filter, navigate and visualize our data without any cumbersome intermediate steps, such as  data preparation, and without the usage of additional software packages. Once we had linked the &amp;#39;location’ column in the master spreadsheet to the corresponding column in our &amp;#39;locations’ spreadsheet via Palladio, we were ready to visualize the geospatial aspects of and network connections in our data. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/kudella1.png&quot; alt=&quot;IMAGE TITLE&quot;&gt; 
+Figure 1&lt;/p&gt;
+
+&lt;p&gt;Figure 1 shows an example of one of our points of inquiry, that is the &amp;#39;zone of attraction’ of the individual convetions. It became immediately apperent that these gatherings were to a large part a local affair that mostly attracted people in the vicinity. This partially contradicts earlier research findings on the topic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/kudella2.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt; 
+Figure 2&lt;/p&gt;
+
+&lt;p&gt;Figure 2 shows the links between attendees and their doctoral supervisors, thus giving us insight into a highly interconnected academic community that met during this conventions. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/kudella3.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt; 
+Figure 3&lt;/p&gt;
+
+&lt;p&gt;Figure 3 shows the links between attendees and the scientific academies spread over Western Europe, again enabling us to survey academic networks based on empirical data.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, Palladio has been an invaluable tool for our project. It has permitted us to test hyptheses in a quick and easy fashion. While it will never replace specialized, dedicated software platforms for specific purposes, such as GIS or Social Network Analysis, it can provide invaluable pointers to aspects of your data that demand closer attention without losing valuable time converting data, switching in between programs and other monotonous taska that take up valuable research time.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Nov 2014 03:34:22 -0800</pubDate>
+        <link>//lab-notebook/palladio/2014/11/03/Kudella/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/11/03/Kudella/</guid>
+      </item>
+    
+      <item>
+        <title>Palladio Release Notes: 0.7.0</title>
+        <description>&lt;p&gt;The 0.7.0 release of Palladio features an interface for querying SPARQL endpoints, as well as several bug fixes and enhancements, most specifically pertaining to the TimeLine and TimeSpan tools.&lt;/p&gt;
+
+&lt;h2&gt;New Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;SPARQL Support&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Palladio now offers SPARQL support, allowing the use of a SPARQL query to load data from a publicly available SPARQL endpoint. An incomplete list of SPARQL endpoints is available &lt;a href=&quot;http://www.w3.org/wiki/SparqlEndpoints&quot;&gt;here&lt;/a&gt;.
+SPARQL loading capability is available on the initial data load as well as in the context of extending tables.&lt;/p&gt;
+
+&lt;h2&gt;Bug Fixes and Enhancements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TimeSpan filter allows use of dimensions in any order (previously, the first dimension was required to have dates that always preceded the dates in the second dimension).&lt;/li&gt;
+&lt;li&gt;TimeLine filter now displays the current filter on the large timeline.&lt;/li&gt;
+&lt;li&gt;Initial data loading page now provides all loading options in a consistent tabbed interface.&lt;/li&gt;
+&lt;li&gt;Palladio no longer automatically adds &amp;#39;&amp;amp;output=csv&amp;#39; to Google spreadsheets links, allowing for the loading of any CSV that is available on a server that allows cross-site loading.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 23 Sep 2014 02:00:00 -0700</pubDate>
+        <link>//lab-notebook/palladio/2014/09/23/palladio-release-0-7-0-release-notes/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/09/23/palladio-release-0-7-0-release-notes/</guid>
+      </item>
+    
+      <item>
+        <title>Palladio Testimonial / Hannah Marcus</title>
+        <description>&lt;p&gt;My name is Hannah Marcus and I am a PhD candidate at Stanford University where I study the history of Early Modern Europe.  I am working with Professor Paula Findlen on a project called “Mapping Galileo” in which we are using digital humanities techniques to reconsider the correspondence network of Galileo Galilei.  With the help of Kyle Lee-Crossett, we compiled spreadsheets to capture information about Galileo’s correspondence and correspondents. &lt;/p&gt;
+
+&lt;p&gt;I have been using Palladio to visualize the data we compiled and then to guide my reading and rereading of the primary source documents.  Visualizations have drawn my attention to major trends that scholars have discussed for centuries and to surprising absences in the correspondence, which are serving as jumping off points for further research.  One of my favorite aspects of Palladio is the ability to filter directly onto the visualization in real time.  I can select, for example, to visualize only Galileo’s correspondents who were in religious orders, and then with a single click I can add all of his correspondents who studied at the University of Padua, and then I can select from the timeline to only include the letters that were sent after Galileo’s publication of the Starry Messenger in 1610. Interrogating the data quickly and from a distance helps me to return to reading the letters with a visual perspective of how the individual pieces fit into the “whole” of Galileo’s correspondence. In the coming months, our next steps will be to use Palladio to simultaneously visualize two data sets: the Galileo correspondence that exists in archives and the Galileo correspondence that no longer exists but is referenced in letters that have survived. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/marcus1.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 1: A look at the “whole.” This visualization represents Galileo’s correspondence which is published in Antonio Favaro’s National Edition of Galileo’s works.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/marcus2.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 2: An example of filtering: Here we visualized Galileo’s letters to Paris and compared it to his correspondence with Elia Diodati.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Aug 2014 04:34:22 -0700</pubDate>
+        <link>//lab-notebook/palladio/2014/08/21/Marcus/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/08/21/Marcus/</guid>
+      </item>
+    
+      <item>
+        <title>Palladio Testimonial / Maria Comsa</title>
+        <description>&lt;p&gt;My name is Maria Teodora Comsa, and I am a Ph.D. candidate in French at Stanford University. I am writing my dissertation on French society theater in the 18th century under the guidance of professors Jean-Marie Apostolidès and Dan Edelstein. As a supplement to my dissertation, I have been compiling datasets cataloguing the people, locations, performances, and texts from society theater.&lt;/p&gt;
+
+&lt;p&gt;I use Palladio to visualize, explore, and augment the data that I compiled and this has proven very helpful in answering some of my research questions. What is unique about Palladio, is that it recognizes the types of data that I upload, and it allows me to view and edit the data before the visualization step. This means that I can easily correct minor errors, change formats, and most importantly, add value and hierarchy delimiters without modifying my initial source files.&lt;/p&gt;
+
+&lt;p&gt;Thanks to Palladio’s powerful visualization options, I can easily identify trends in my data that would not be evident otherwise. For instance, I can study the social composition of the network of people involved in society theater to see how many of the participants were part of the elite (aristocracy). I can then apply a facet filter and view only the aristocrats who wrote plays… and were female. Palladio dynamically updates the different views so that I can see the results of my query on a map, in a network graph, in a table, or as a grid of images. The graph view is my favorite; it is extremely powerful because it does not restrict which values I can use as source or target, which empowers me to explore my data in ways that I had not anticipated.&lt;/p&gt;
+
+&lt;p&gt;Visualizing data helps me better understand the specificity of society theater and allows me to identify which aspects will be interesting to analyze next. Using Palladio, I can query not only my own data, but I can connect it to other data sets  (like those compiled for the Mapping the Republic of Letters project) and explore how the society theater participants fit within the larger Enlightenment networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/comsa1.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 1: Network graph view of society theater participants by occupation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/comsa2.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 2: Graph view of society theater participants filtered by social status, occupation, and gender.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/comsa3.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 3: Grid view of society theater authors by social status.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/comsa4.jpg&quot; alt=&quot;IMAGE TITLE&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Image 4: Grid view of society theater participants filtered by social status, occupation, and gender.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 Aug 2014 04:34:22 -0700</pubDate>
+        <link>//lab-notebook/palladio/2014/08/21/Comsa/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/08/21/Comsa/</guid>
+      </item>
+    
+      <item>
+        <title>Idiographic Diagramming Tool for Linked Data Exploration, Editing and Creation</title>
+        <description>&lt;p&gt;These are notes on how to implement our idiographic approach to data visualization for the Grand Tour project using a linked data model. This is our first experiment with what we hope will be a useful tool for navigating, curating, and generating linked data in the research process. It involves the navigation of a multi-dimensional data model by exploring one entity type at a time. The other key component is the creation of a schema through the process of creating and defining entities, attributes, and relationships. In other words, the categorizing process that is part of thinking through the research materials and organizing thoughts can be captured and published as a research product.&lt;/p&gt;
+
+&lt;h2&gt;Three Primary Views&lt;/h2&gt;
+
+&lt;h3&gt;1. Graph&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Spatially orient entities for &amp;quot;thinking through data.&amp;quot;&lt;/strong&gt;&lt;br&gt;
+The graph view is better described as a workspace. The graphic elements are nodes and lines that act as links between the nodes. The purpose of the graph workspace is to allow researchers to explore, edit and create entities and attributes in the form of groupings, connections, and tags. Nodes can also be merged. Attributes can be added to links.  &lt;/p&gt;
+
+&lt;p&gt;A number of pre-defined layouts can be applied to the nodes in the Graph View, but the assumption is that researchers will use the space to spatially orient the nodes themselves. &lt;/p&gt;
+
+&lt;h3&gt;2. Data&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;A detailed view of each object and its attributes.&lt;/strong&gt;&lt;br&gt;
+The data view is an elegant and easily readable representation of the entities and their attributes as objects. The data view is an editing interface that is synchronized with the graph view. Create a new entity in the data view, produces a node in the graph view and in the Palette. &lt;/p&gt;
+
+&lt;p&gt;The data view and the graph view complement each other. One provides feedback on actions taken in the other. Both the Data View and the Graph View &lt;/p&gt;
+
+&lt;h3&gt;3. Palette&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Overview of complete data set as entities, grouped by entity type.&lt;/strong&gt;&lt;br&gt;
+The palette gives us the opportunity to see all of the data at one view. Selections can be made from the Palette and dragged into the graph view for editing, organizing, and categorizing. The denity is adjustable to the pixel level for handling very large data sets.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://drive.google.com/uc?export=view&amp;amp;id=0B1XIzIvpOWe4aTY5Zk9CYmhNZms&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Interactions between panels&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Selection
+&amp;gt; Double-click to select in Graph. Entity highlighted in Palette.&lt;/li&gt;
+&lt;li&gt;Merging
+&amp;gt;Merge nodes/entities in Graph. Immediately updated in Data and Palette.&lt;/li&gt;
+&lt;li&gt;Editing
+&amp;gt; Modifying the entity type for one node in Data view or Graph view. Modify Entity type for a number of nodes in Palette. Same for attributes. Example: &lt;/li&gt;
+&lt;li&gt;Create node
+&amp;gt;Node created in Graph without entity-type specified appears in Palette as gray. It appears in Data in light type as undefined.&lt;/li&gt;
+&lt;li&gt;Shifting entity type view
+&amp;gt; A shift from &amp;#39;people&amp;#39; to &amp;#39;places&amp;#39; in the Graph view will, be default, show all of the &amp;#39;places&amp;#39; entities that are linked to the &amp;#39;people&amp;#39; entities. While inelegant, this would make it possible to navigate through the different dimensions of the data while keeping some consistency in terms of the selection of data being viewed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Use Cases&lt;/h2&gt;
+
+&lt;p&gt;We decided to narrow the development scope initially to use cases for a course that will be taught this fall (2014) on the Grand Tour. The core text for the course is the &lt;em&gt;Dictionary of British and Irish Travelers on the Grand Tour in Italy, 1701-1800&lt;/em&gt;. A digitized copy of the text has been carefully chunked by entry (basically one entry for each traveler) and then each entry parsed to extract biographical details, tours in Italy, and cities visited. The Grand Tour Explorer is an online tool for exploring and querying this digitized and parsed text. The students can use the Explorer to select all of the entries that include visits to Genoa, for example, and then export that subset of entries (or the sparQL query) and work with them in another context such as the Idiographic Diagramming Tool or Palladio. &lt;/p&gt;
+
+&lt;h3&gt;1. Curating the Grand Tour Data Set&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Add relationships between existing entities.&lt;/strong&gt;
+We have parents identified by name for many people, but not matched to existing entities. A search in the Palette for the parent name would reveal the matching entity (or duplicates). Drag to the Graph and make the connection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Add new entities.&lt;/strong&gt;
+Entries in the dictionary are not people. We could generate people entities out of the entries by creating, for example, two people-type entities: Mr. Haversham and Mrs. Haversham linked to the entry-type entity.&lt;/p&gt;
+
+&lt;h3&gt;2. Generating New Data Based on a Subset of Grand Tour Data&lt;/h3&gt;
+
+&lt;p&gt;There is rich information about meetings, exchanges of goods and services, and scandalous activities within the entries. If the students want to generate new entities and attributes, they will most likely be developing new schema as well to sit on top of the base Grand Tour schema. We will want to be able to track the new schema, export the new schema and let students share and compare so that they might revise and collaborate on those schema (or not). The outcome for the student is not only the new knowledge generated through the process, but the data added and the schema devised to make sense of the information.&lt;/p&gt;
+
+&lt;h3&gt;3. Generating a New Data Set&lt;/h3&gt;
+
+&lt;p&gt;In this case, all views are all blank. Creating a new node in the Graph View or a new object in the Data View will populate the other two views. An unspecified entity type will appear gray in the Palette, faint in the Data View, and provisional (light or dotted border?) in the Graph View.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Starting with Grand Tour Schema&lt;/strong&gt;&lt;br&gt;
+If a new data set is to be integrated into or verified against the Grand Tour data, start with a base Grand Tour schema which specifies existing entity types and attributes. These entity types will be options made available through the Data View or the Graph view when creating a new entity. The new entity will be pre-populated with place-holders for attributes for that entity type that exist in the Grand Tour schema.&lt;/p&gt;
+
+&lt;h3&gt;4. Integrating a New Data Set with Grand Tour Data&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;With data based on Grand Tour schema&lt;/strong&gt;&lt;br&gt;
+We need a workflow for contributing data to the larger data set. If the schema used is the Grand Tour schema, without any additions, we can consider the work as curation, meaning fixing errors or enriching the data set.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;With data created without or in addition to the Grand Tour schema&lt;/strong&gt;&lt;br&gt;
+Provide the ability to map a student&amp;#39;s schema to an existing schema (like the Grand Tour).&lt;/p&gt;
+
+&lt;h2&gt;Other&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We will want a view that show all of the other entity types connected to a given entity and how many. How many places are associated with James Gandy? How many letters? How many trips? How many publications?&lt;/li&gt;
+&lt;li&gt;Tracking user-defined layouts.&lt;/li&gt;
+&lt;li&gt;Track edits to replay and undo.&lt;/li&gt;
+&lt;li&gt;Filter entities by date: Which have time and which do not? What date scale? Use a timeline to distribute values and for filtering.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 20 Aug 2014 16:00:00 -0700</pubDate>
+        <link>//lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data/</link>
+        <guid isPermaLink="true">//lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data/</guid>
+      </item>
+    
+      <item>
+        <title>Palladio FAQ</title>
+        <description>&lt;ol&gt;
+&lt;li&gt; &lt;a href=&quot;#13&quot;&gt;What is a Palladio project?&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;#14&quot;&gt;Which data formats work with Palladio?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#1&quot;&gt;What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2&quot;&gt;What is a Multiple Values Delimiter?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3&quot;&gt;What are Size Points?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#4&quot;&gt;How do I get the most use out of the TimeLine feature?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#5&quot;&gt;How should Dates be entered?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#6&quot;&gt;How should Coordinates be entered?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#7&quot;&gt;What do the labels and numbers listed directly below my dimension represent?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#8&quot;&gt;I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#9&quot;&gt;What are some applications of the Gallery View?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#12&quot;&gt;How do I get the most out of Map view?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#13&quot;&gt;How do I get the most use out of the TimeSpan feature?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#14&quot;&gt;How does the List view work?&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;&lt;a name=&quot;13&quot;&gt;&lt;/a&gt;What is a Palladio project?&lt;/h3&gt;
+
+&lt;p&gt;A Palladio project begins first with the tabular data you have on your computer. Once you’ve uploaded this data into the Palladio interface, you can then refine it, visualize, and save it back to your computer as a Palladio project. The Palladio project will be saved with the extension .json and includes the schema and structure required to visualize your data in Palladio the next time you visit. (In other words, you cannot simply upload any .json file created elsewhere and expect it to work within the Palladio platform.) Now, as you continue to use Palladio, you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio project). But please remember that if you make further changes to your data in the refine stage, you will have to save this new work as a new .json file in order to have a version of the project that reflects your more recent changes.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;14&quot;&gt;&lt;/a&gt;Which data formats work with Palladio?&lt;/h3&gt;
+
+&lt;p&gt;Any collection of information that can be represented in a table format (in other words, any data you might enter into a spreadsheet program) will work with Palladio. Make sure that all data is represented by delimited-separated values. Palladio supports the following delimiters: commas, semicolons and tabs.&lt;/p&gt;
+
+&lt;p&gt;Palladio works best with data that is uniform, consistent, and simple. Avoid notes and comments within your data, or any unnecessary diacritics.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Tip for those using .csv files&lt;/em&gt;: &lt;a href=&quot;http://setosa.io/blog/2014/08/03/csv-fingerprints/&quot;&gt;This &amp;#39;CSV Fingerprints&amp;#39; tool&lt;/a&gt; can be very helpful in spotting any mistakes in your .csv files.&lt;/p&gt;
+
+&lt;p&gt;You can also build your own tables and bring them into Palladio in three ways:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;By typing text into any word processing program (ie. textedit or MS Word) and then copying the contents into Palladio interface.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;By dragging any file format into the Palladio interface, for instance by dragging a .txt file from your work station and dropping into Palladio.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;By typing directly into the Palladio interface.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you plan to build your own table in Palladio:&lt;/p&gt;
+
+&lt;p&gt;The first row in your data will be parsed as a header. This means that the first row in your data will indicate the name of the dimensions in the column below.&lt;/p&gt;
+
+&lt;p&gt;So, a table column of people&amp;#39;s names would have &amp;#39;Names&amp;#39; as its first row and then dimensions, such as &amp;#39;John Doe&amp;#39; and &amp;#39;Jane Smith&amp;#39; in the rows below. Palladio cannot properly access and reference the different dimensions in your data unless you follow this format.&lt;/p&gt;
+
+&lt;p&gt;Each column header must be unique from the other. Within a header name you may use letters, spaces, and numbers. Do not use any special alphanumeric characters, such as underscores &amp;#39;_&amp;#39; or dashes &amp;#39;-&amp;#39;, as these will confuse Palladio.&lt;/p&gt;
+
+&lt;p&gt;Examples of data:&lt;/p&gt;
+
+&lt;p&gt;Correct:&lt;/p&gt;
+
+&lt;p&gt;First name, Last name, Age&lt;/p&gt;
+
+&lt;p&gt;John, Doe, 28&lt;/p&gt;
+
+&lt;p&gt;Jane, Smith, 35&lt;/p&gt;
+
+&lt;p&gt;Incorrect (missing header):&lt;/p&gt;
+
+&lt;p&gt;John, Doe, 28&lt;/p&gt;
+
+&lt;p&gt;Jane, Smith, 35&lt;/p&gt;
+
+&lt;p&gt;Incorrect (two headers with the same name):&lt;/p&gt;
+
+&lt;p&gt;Name, Name, Age&lt;/p&gt;
+
+&lt;p&gt;John, Doe, 28&lt;/p&gt;
+
+&lt;p&gt;Jane, Smith, 35&lt;/p&gt;
+
+&lt;p&gt;Incorrect (special characters in the header):&lt;/p&gt;
+
+&lt;p&gt;First_Name, Last-Name, Age&lt;/p&gt;
+
+&lt;p&gt;John, Doe, 28&lt;/p&gt;
+
+&lt;p&gt;Jane, Smith, 35&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Other Data Issues:&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that empty rows in your data will be ignored by Palladio.&lt;/p&gt;
+
+&lt;p&gt;Palladio does not work with unstructured data, such as one long string of text, but only with data that has been placed into some kind of table. The richest uses of Palladio comes from having several different related tables of information, however many users will start with just one single table.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;1&quot;&gt;&lt;/a&gt;What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?&lt;/h3&gt;
+
+&lt;p&gt;This is Palladio’s way of telling you that there are non-standard alpha-numerical characters in your data. These special characters may either lead to errors, or (in the case of commas or semicolons used to separate values in a given dimension) these special characters may be of help for you to use advanced tools such as the Multiple-Values Delimiter.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;2&quot;&gt;&lt;/a&gt;What is a Multiple Values Delimiter?&lt;/h3&gt;
+
+&lt;p&gt;Your tabular data is made up of various dimensions (ie. individual cells in a spreadsheet). In some cases you may want to assign more than one value for a certain dimension. For instance, you may have a column describing someone&amp;#39;s &amp;#39;Position.&amp;#39; The column could be filled Princes, Popes, and Poets. But what if your Prince was also a Pope? In this case you could enter &amp;#39;Prince, Pope&amp;#39; in one single cell of your table. Now, after you’ve uploaded the data into Palladio, you can parse that cell into two unique values. Here&amp;#39;s how: In the Multiple Values Delimiter input box, enter the symbol you&amp;#39;ve used to separate your values, in this case, a comma that separated Pope and Prince. Now Palladio understands that this entry as two separate values.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;3&quot;&gt;&lt;/a&gt;What are Size Points?&lt;/h3&gt;
+
+&lt;p&gt;Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence. You can adjust the scale of the Size Points (in other words, the  size of the dots as they appear in relation to the map) by toggling the Adjust Scale button.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;4&quot;&gt;&lt;/a&gt;How do I get the most use out of the TimeLine feature?&lt;/h3&gt;
+
+&lt;p&gt;As you change the temporal period in your TimeLine filter view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.&lt;/p&gt;
+
+&lt;p&gt;Swiping within the Timeline view will allow you to zoom in to specific dates. The stacked bar and highlighting functions allow you to see the data in different ways as you hover.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;5&quot;&gt;&lt;/a&gt;How should Dates be entered?&lt;/h3&gt;
+
+&lt;p&gt;Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01). If using Excel, be sure to specify that the column reads as &amp;quot;Text&amp;quot; rather than dates, so that Excel doesn&amp;#39;t change the dates into its own (non-Palladio friendly) format.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;6&quot;&gt;&lt;/a&gt;How should Coordinates be entered?&lt;/h3&gt;
+
+&lt;p&gt;Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.
+This Geocoding tool may be of help for those who have a list of place names but no associated coordinates: 
+http://sandbox.idre.ucla.edu/geocoder/&lt;/p&gt;
+
+&lt;p&gt;See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information. &lt;a href=&quot;/doc/scenario-simple-map.pdf&quot;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;7&quot;&gt;&lt;/a&gt;What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?&lt;/h3&gt;
+
+&lt;p&gt;In the refine (non-visualization) view your data appears as table, with each column header represented as a unique dimension.&lt;/p&gt;
+
+&lt;p&gt;For instance, Gender as the Dimension Name, with the label Text and number 2 listed below.&lt;/p&gt;
+
+&lt;p&gt;In this case Gender is the header from one column of your data, Text is the data type recognized by Palladio (most data will be recognized as Text), and the number 2 represents the number of unique values in your data - in this case the data contains 2 values: Male and Female.&lt;/p&gt;
+
+&lt;p&gt;Palladio will guess the type of data entered based on its attributes. Data will be recognized as either: Text, Number, Year or Date, Coordinates, URL.&lt;/p&gt;
+
+&lt;p&gt;If Palladio ‘guesses’ your data incorrectly you can click on the dimension and in the dropdown menu labeled Data Type, change the type of data specified. The more accurately Palladio defines your data, the better the platform will work.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;8&quot;&gt;&lt;/a&gt;I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?&lt;/h3&gt;
+
+&lt;p&gt;As Palladio Map Visualizations involve placing static coordinates data onto a separate map grid layer the full visualization cannot currently be exported as an .svg, rather you will see only the dots and lines against a blank background. If this solution is unsatisfactory, we recommended using ‘screen grabs’ as the best method, currently, for exporting map visualizations.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;9&quot;&gt;&lt;/a&gt;What are some applications of the Gallery View?&lt;/h3&gt;
+
+&lt;p&gt;In the Gallery View you can display different kinds of data that cannot be visualized as maps or graphs.&lt;/p&gt;
+
+&lt;p&gt;For instance, if in your data set you had a column in which you linked a list of people to URLs containing images of each person, you could then display these images in grid view.&lt;/p&gt;
+
+&lt;p&gt;In this case, you would go to Grid View and click the ‘Image URL’ option. Palladio would then locate the dimension in which you’ve listed image URLs in your data.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;12&quot;&gt;&lt;/a&gt;How do I get the most out of the Map view?&lt;/h3&gt;
+
+&lt;p&gt;The default map view is a blank map. Note the settings panel to the right. You can hide the panel by clicking on the gear symbol. The + and - signs zoom the map in and out.&lt;/p&gt;
+
+&lt;p&gt;The first step is to specify the type of map you&amp;#39;d like to see. To do so, choose from the menus within the settings panel. You can choose from two types of map views: &amp;#39;Points&amp;#39; or &amp;#39;Point to Point&amp;#39;. (Note that access to these functions will depend on the kinds of information you&amp;#39;ve uploaded. You wouldn&amp;#39;t, for example, be able to use the &amp;#39;Point to Point&amp;#39; function unless Palladio recognizes a dataset with more than one type of coordinates column, ie. &amp;#39;Source City&amp;#39; and &amp;#39;Destination City.&amp;#39;)&lt;/p&gt;
+
+&lt;p&gt;‘Points’ map view&lt;/p&gt;
+
+&lt;p&gt;In the &amp;#39;Points&amp;#39; map view, Palladio can map out a collection of unique locations, based on any coordinates data (longitude, lattitude) you&amp;#39;ve entered. For instance, if you uploaded a table listing all of the Popes in the last five hundred years, their individual cities of birth, and coordinates data for each of these cities, you might want to see a worldwide view of where Popes have been born in the last five hundred years.&lt;/p&gt;
+
+&lt;p&gt;In Points view you can only select one dimension. If you toggle Size points, the sizes of each dot will relates to their frequency within your data. You can specify how you would like to count your data by using the Count By function. Note you can only count by unique tables uploaded in your data. Hovering over specific dots will display corresponding data. You can select which type of data to display on hovering, by using the Tooltip label.&lt;/p&gt;
+
+&lt;p&gt;Below the &amp;#39;Type of Map&amp;#39; menu is a second menu, &amp;#39;Places.&amp;#39; This menu will be populated with any data for which there are coordinates, and the menu choices will be named for the headers of columns containing coordinates data. For instance, in our Popes dataset set, if the coordinates data in your original table is labeled &amp;#39;Birth City Coordinates,&amp;#39; then you will be prompted to choose &amp;#39;Birth City Coordinates&amp;#39; within the &amp;#39;Places&amp;#39; menu. To see all of your Popes birthplace data on the map, you would select &amp;#39;Birth Place Coordinates&amp;#39; in the &amp;#39;Places&amp;#39; menu. Now the map will be populated with dots representing each individual value in your coordinates data.&lt;/p&gt;
+
+&lt;p&gt;See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/doc/scenario-simple-map.pdf&quot;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;‘Point-to-Point’ map view&lt;/p&gt;
+
+&lt;p&gt;The point to point view give us a node-link map. Here you will select two different dimensions (ie. source city and destination city) and see the links between various points.&lt;/p&gt;
+
+&lt;p&gt;The arc of the link between two points represents the direction of the flow. Think of direction in a clockwise function.&lt;/p&gt;
+
+&lt;p&gt;Now you can explore this Map data in various ways by using the Timeline and Facet Filter functions. You can also use the search bar to filter the data being visualized to accord with whatever parameters you wish, so long as your coordinates data corresponds in some way to whatever you&amp;#39;ve typed into the search bar. You can also isolate specific points on your map by clicking on them.&lt;/p&gt;
+
+&lt;p&gt;See the Scenario: Creating Data for a Point to Point Map for more information about creating and entering coordinates information.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/doc/scenario-point-to-point.pdf&quot;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;13&quot;&gt;&lt;/a&gt;How do I get the most use out of the TimeSpan feature?&lt;/h3&gt;
+
+&lt;p&gt;Use the TimeSpan feature to visualize any data for which you have both a starting date and an end date, such as a lifetime, or a season. Palladio will recognize any dimensions entered in the correct format (ie. 2014-06-27) and will allow you to select any such dimension as either the start date or end date within the timeline view. Choose from a parallel or bar view. &lt;/p&gt;
+
+&lt;h3&gt;&lt;a name=&quot;14&quot;&gt;&lt;/a&gt;How does the List view work?&lt;/h3&gt;
+
+&lt;p&gt;Use this view to filter and arrange data to create customized lists. First select the Row Dimension by which your list will be arranged.  Then select the specific Dimensions you would like to see.  Palladio will then return a list including those Dimensions, arranged according to the Row Dimension you’ve selected.  Data can then be filtered using the usual suite of filters provided in other visualizations. Lists can be exported as csv files. &lt;/p&gt;
+
+&lt;p&gt;Understanding how lists are created:
+Let’s say you have a list of unique names, and the places where each person was born. If you created a list with the dimensions “Names” and “Places of Birth,” and arranged this list by the Row Dimension “Names,” then you would see a list where each row contains a single name and the place of birth of the person listed. But if you created that same list, but now arranged it by the Row Dimension “Places of Birth” you would see a list where each row contains a single Place of Birth and every person born in that place. So, if more than one person in your data was born in Paris, you would not have a simple 1 to 1 ratio across the dimensions; instead your Paris row might contain several names, while your New York row might contain only one name. The point is not to be misled into thinking that the List view will automatically return something akin to a simple table, where every row lines up across the various columns. &lt;/p&gt;
+
+&lt;p&gt;Please email us at &lt;a href=&quot;mailto:palladio@designhumanities.org&quot;&gt;palladio@designhumanities.org&lt;/a&gt; to share your experience.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Aug 2014 04:34:22 -0700</pubDate>
+        <link>//lab-notebook/palladio/2014/08/18/palladio-faqs-0-6-0/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/08/18/palladio-faqs-0-6-0/</guid>
+      </item>
+    
+      <item>
+        <title>Lea VanderVelde and Social Networking in the Frontier's Global Business: The Fur Trade / A Palladio Open Design Case Study</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.law.uiowa.edu/faculty/l-vandervelde.php&quot;&gt;Lea VanderVelde&lt;/a&gt; is the principal investigator for The Law of the Antebellum Frontier project at CESTA, within the Stanford Spatial History Lab. In this capacity she has also been exploring ways to use Palladio in her research, and in turn has been helping Humanities + Design to think about the development of Palladio.&lt;/p&gt;
+
+&lt;h1&gt;Project Overview&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;The Law of the Antebellum Frontier&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This project concerns the legal and economic mechanisms at work on the American frontier in the early 1800s. Understanding these mechanisms reflects upon how empires expand and how American expansion into the Ohio and Mississippi river basins shaped American identity and the constitutional amendments after the Civil War.  The project uses GIS mapping, geolocation, social network modeling and text mining to examine large amounts of very old texts in the antebellum frontier.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ww.stanford.edu/group/spatialhistory/cgi-bin/site/project.php?id=1057.&quot;&gt;Learn more about this CESTA Spatial History Project&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1&gt;Palladio-Specific Components&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Social Networking in the Frontier’s Global Business: The Fur Trade&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Professor Vandervelde has been using Palladio to explore and visualize a rich correspondence set generated by the American Fur Trade Company, with the aim of mapping and analyzing flows of communication, money, and power in the frontier.&lt;/p&gt;
+
+&lt;p&gt;VanderVelde’s engagement with Palladio has influenced the way she is approaching her research strategies for this material. With Palladio’s visualization and filtering functions she will be able to see both the huge reach and key hotspots within the vast fur-trading network, while also being abe to consider how this commercial endeavor worked hand in hand with the expansion of the American frontier. &lt;/p&gt;
+
+&lt;p&gt;Yet, VanderVelde has also stressed in her discussions with us that she is keen not to lose sight of the individual relationships that made up this immense and complex enterprise at both the commercial and government levels. To this end, she will map out the many back-and-forth connections between business and government officials (especially between New York and Washington), while also highlighting how information flowed within the nation’s capital itself, as officials wrote to each other and set policy based on communications with the American Fur Trade Company. &lt;/p&gt;
+
+&lt;p&gt;The project becomes even more complex when we consider that these communications often involved discussion of locations other than those where letters were sent or received (ie. New Yorkers and Washingtonians discussing activities in Detroit), and that one could also produce visualizations connecting all of these locations. &lt;/p&gt;
+
+&lt;p&gt;Palladio’s network graph view will help her research in this capacity, as she can draw out the individual human connections, especially those within Washington. Palladio’s facet filters, for instance, will allow her to focus in on the specific connections of her choosing, which in turn means that she will be thinking about how to extract as much pertinent information out of her sources in order to provide a rich array of filterable metadata.&lt;/p&gt;
+
+&lt;p&gt;Professor VanderVelde and Humanities+Design will be working together in the near future towards creating an interactive project, in which specific instances of her data as visualized in Palladio would reside permanently within an online publication that Professor VanderVelde will produce. Visitors to this publication/site will be able to manipulate the data (using facet, timeline filters etc.) within a Palladio interface to engage with this research interactively.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Aug 2014 04:34:22 -0700</pubDate>
+        <link>//lab-notebook/palladio/2014/08/14/palladio-lea-vandervelde/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/08/14/palladio-lea-vandervelde/</guid>
+      </item>
+    
+      <item>
+        <title>Networks in History Dev Workshop - July</title>
+        <description>&lt;h1&gt;NEH Development Workshop&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;July 30-August 1, 2014&lt;/em&gt;&lt;br&gt;
+Nicole Coleman, Ethan Jewett, Mark Braude, Eetu Mäkelä, Giorgio Caviglia&lt;/p&gt;
+
+&lt;h2&gt;Agenda&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Multidimentionality in the UI&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Define UI principles&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Data Model&lt;/li&gt;
+&lt;li&gt;Palladio integration opportunities
+
+&lt;ul&gt;
+&lt;li&gt;EMLO&lt;/li&gt;
+&lt;li&gt;D&amp;#39;Alembert&lt;/li&gt;
+&lt;li&gt;State Department&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Grand Tour - Idiographic Diagramming Tool
+
+&lt;ul&gt;
+&lt;li&gt;What is the state of the data?&lt;/li&gt;
+&lt;li&gt;Requirements for October 1&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Interaction for writing data through the interface
+
+&lt;ul&gt;
+&lt;li&gt;How will this work? What is the workflow?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Timeline and Timespan issues&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Wednesday&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Discuss Eetu&amp;#39;s analysis of multi-dimensionality problems with Palladio.&lt;/li&gt;
+&lt;li&gt;Define UI principles for handling this&lt;/li&gt;
+&lt;li&gt;Data model discussions&lt;/li&gt;
+&lt;li&gt;RELEASE Palladio 0.6.0!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Thursday&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Data Sources for enriching the Grand Tour dictionary data &lt;/li&gt;
+&lt;li&gt;Discussion of interaction and use cases &lt;/li&gt;
+&lt;li&gt;Working through some Palladio bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Friday&lt;/h3&gt;
+
+&lt;p&gt;Palladio integration discussions:  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Skype call with Tom Faith about FRUS Volumes data&lt;/li&gt;
+&lt;li&gt;Meeting with Marie-Laure Massot, D&amp;#39;Alembert integration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Outline a plan for integration  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/20140731_dev_meeting_agenda.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/20140731_dev_meeting_notes.jpg&quot; alt=&quot;image&quot;&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/20140731_dev_meeting_notes2.jpg&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Aug 2014 12:00:00 -0700</pubDate>
+        <link>//lab-notebook/palladio/2014/08/10/july-development-workshop/</link>
+        <guid isPermaLink="true">//lab-notebook/palladio/2014/08/10/july-development-workshop/</guid>
+      </item>
+    
+  </channel>
+</rss>

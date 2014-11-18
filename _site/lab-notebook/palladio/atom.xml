@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Lab Notebook: palladio | ]]></title>
+  <link href="/lab-notebook/palladio/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2014-11-18T14:15:27-08:00</updated>
+  <id>/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey]]></title>
+    <link href="/lab-notebook/palladio/2014/11/03/Taylor-Poleskey/"/>
+    <updated>2014-11-03T03:34:22-08:00</updated>
+    <id>/lab-notebook/palladio/2014/11/03/Taylor-Poleskey</id>
+    <content type="html"><![CDATA[<h3>Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey</h3>
+
+<p><em>Molly Taylor-Poleskey writes:</em></p>
+
+<p>PROJECT OVERVIEW</p>
+
+<p>My research questions take advantage of a large base of manuscript sources detailing the yearly consumption of one of the palaces of Prince-Elector Friedrich Wilhelm of Brandenburg-Prussia. In my dissertation, I argue that the elector’s cultural agenda helped transform his territories over the course of his reign from dilapidated and war torn to stable and powerful (primed for ascension to royalty under Friedrich Wilhelm’s son). </p>
+
+<p>RESEARCH QUESTIONS</p>
+
+<p>To support this argument, I’m looking for change in taste over time or other patterns in consumption that reveal the court’s aesthetic values and cultural ambitions. This means creating visualizations that show what proportions of different foods or food groups were consumed. For example, was there a shocking dearth of wheat compared to rye? When consumption of one commodity dwindled, what other foods were substituted (and vice versa)?</p>
+
+<p>My second research question looks at this consumption data in conjunction with information about the percentage of the year that the elector was at the palace in Königsberg. This will help me understand the functioning of the palace and make some inferences about daily consumption amounts. This might eventually lead to seeing seasonality of the foods consumed (this depends on the normalized bar charts discussed below). </p>
+
+<p>ISSUES</p>
+
+<p>The two biggest challenges [History Department Academic Technology Specialist] Jason Heppler and I have faced while creating visualizations of this data are, 1) accounting for the years for which we have no data and, 2) reconciling the various units of measure to compare different foods. </p>
+
+<p>ATTEMPTS</p>
+
+<p>Jason has already put together a ribbon graph representation of one of the food groups from my data (grains) to see relative use of ingredients. While this exposed that peas were typically consumed in much greater numbers than other grains, this visualization masked the exact yearly values and smoothed out the years with no data. </p>
+
+<p>We also attempted to understand the shape of our data by making simple bar graphs of each food group and, with yet further detail, individual ingredients. This provided a quick snapshot and alerted us to years that spiked in consumption. But, the scale of measurement was so different for each food, it was not feasible to compare across units of measure. Some years of extraordinary consumption throw of the scale so that years of typical or little consumption are imperceptible.</p>
+
+<p>Now Jason is working on displaying the data in normalized bar charts of units of variety. This step will help me gain an overall understanding of the contents of the data collected. From this step of appreciating the qualitative aspects of the data as such, we can return to the original quantitative questions with a better eye for changes in consumption. </p>
+
+<p>THOUGHTS FOR A PALLADIO COMPONENT</p>
+
+<p>In order for Palladio to be useful in solving our research challenges, it needs another display feature that shows flows of data and can be sensitive to the different scales of measurement. </p>
+
+<p>Molly and Jason produced visualizations, including the two below, (not in Palladio). Image descriptions by Jason Heppler.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/grains_normalized.jpg" alt="IMAGE TITLE"></p>
+
+<p>Figure 1.</p>
+
+<p>Since some food items are counted by different units of measure over time, we work around the problem of different scales by plotting the amount of food items in relation to all other food items in a single year and totaling the items by percentage rather than absolute amounts.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/grains_amount.jpg" alt="IMAGE TITLE"></p>
+
+<p>Figure 2.</p>
+
+<p>We can view the absolute amounts of food items for each year, but we begin to run into problems with other food types because the units of measure sometimes changed year to year. Here, grains all contain the same unit of measure over time.</p>
+
+<p><em>Mark Braude responds:</em></p>
+
+<p>Following conversations with Molly and Jason, we are working toward creating visualizations in Palladio that privilege the display of relative magnitude, and that are especially sensitive to working in different registers and scales, to help her drive home her arguments about the variety of consumption patterns in the society she studies. As some of the years in the sources Molly studies have incomplete or missing data, her use case has also aided us in thinking about how best to work with incomplete data in ways that are not misleading or overly simplistic.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Palladio Testimonial / Christoph Kudella]]></title>
+    <link href="/lab-notebook/palladio/2014/11/03/Kudella/"/>
+    <updated>2014-11-03T03:34:22-08:00</updated>
+    <id>/lab-notebook/palladio/2014/11/03/Kudella</id>
+    <content type="html"><![CDATA[<h3>Palladio Testimonial / Christoph Kudella</h3>
+
+<p>My name is Christoph Kudella and I am a Digital Arts and Humanities PhD candidate in University College Cork. My doctoral research is on correspondence networks in the Renaissance and I also teach tools and methods in Digital History at the University of Göttingen. Within this context I conducted a seminar on data collection, analysis and visualization for undergraduate history students. While hosting the 50th annual convention of German historians (Deutscher Historikertag) in Göttingen this year we were prompted to inquire into earlier gatherings of this kind. We chose four of the five annual ‚Historikertage’ during the Weimar Republic, a very decisive period in German historiography framed by the end of World War I at one end and the NS-period at the other.</p>
+
+<p>The main source for our inquiry were printed reports of these gatherings that included lists of attendees. These provided us with their names, professions and place of residence. We took these information particles as the point of departure to build a spreadsheet that detailed the c. 1.700 persons that were in attendence. The students were tasked with collecting prosopographic information on each of the attendees (where available). This task included the identification of each person in the Virtual International Authority File (VIAF) as well as the collection of biographical snippets derived from the World Biographical Information System (WBIS).  In this fashion, data has been collected on the individuals date and place of birth and death, their place of study, their doctoral supervisors (where applicable), institutional affiliations, gender and so forth. In a second spreadsheet each location was assigned an individual entry, including geocoordinates, in which modern county and country it is situated as well as the appendant ID in Geonames.</p>
+
+<p>From this baseline we began undertaking analyses on our dataset. Palladio provided us with a powerful way to filter, navigate and visualize our data without any cumbersome intermediate steps, such as  data preparation, and without the usage of additional software packages. Once we had linked the &#39;location’ column in the master spreadsheet to the corresponding column in our &#39;locations’ spreadsheet via Palladio, we were ready to visualize the geospatial aspects of and network connections in our data. </p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/kudella1.png" alt="IMAGE TITLE"> 
+Figure 1</p>
+
+<p>Figure 1 shows an example of one of our points of inquiry, that is the &#39;zone of attraction’ of the individual convetions. It became immediately apperent that these gatherings were to a large part a local affair that mostly attracted people in the vicinity. This partially contradicts earlier research findings on the topic.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/kudella2.jpg" alt="IMAGE TITLE"> 
+Figure 2</p>
+
+<p>Figure 2 shows the links between attendees and their doctoral supervisors, thus giving us insight into a highly interconnected academic community that met during this conventions. </p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/kudella3.jpg" alt="IMAGE TITLE"> 
+Figure 3</p>
+
+<p>Figure 3 shows the links between attendees and the scientific academies spread over Western Europe, again enabling us to survey academic networks based on empirical data.</p>
+
+<p>In conclusion, Palladio has been an invaluable tool for our project. It has permitted us to test hyptheses in a quick and easy fashion. While it will never replace specialized, dedicated software platforms for specific purposes, such as GIS or Social Network Analysis, it can provide invaluable pointers to aspects of your data that demand closer attention without losing valuable time converting data, switching in between programs and other monotonous taska that take up valuable research time.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Palladio Release Notes: 0.7.0]]></title>
+    <link href="/lab-notebook/palladio/2014/09/23/palladio-release-0-7-0-release-notes/"/>
+    <updated>2014-09-23T02:00:00-07:00</updated>
+    <id>/lab-notebook/palladio/2014/09/23/palladio-release-0-7-0-release-notes</id>
+    <content type="html"><![CDATA[<p>The 0.7.0 release of Palladio features an interface for querying SPARQL endpoints, as well as several bug fixes and enhancements, most specifically pertaining to the TimeLine and TimeSpan tools.</p>
+
+<h2>New Features</h2>
+
+<p><strong>SPARQL Support</strong></p>
+
+<p>Palladio now offers SPARQL support, allowing the use of a SPARQL query to load data from a publicly available SPARQL endpoint. An incomplete list of SPARQL endpoints is available <a href="http://www.w3.org/wiki/SparqlEndpoints">here</a>.
+SPARQL loading capability is available on the initial data load as well as in the context of extending tables.</p>
+
+<h2>Bug Fixes and Enhancements</h2>
+
+<ul>
+<li>TimeSpan filter allows use of dimensions in any order (previously, the first dimension was required to have dates that always preceded the dates in the second dimension).</li>
+<li>TimeLine filter now displays the current filter on the large timeline.</li>
+<li>Initial data loading page now provides all loading options in a consistent tabbed interface.</li>
+<li>Palladio no longer automatically adds &#39;&amp;output=csv&#39; to Google spreadsheets links, allowing for the loading of any CSV that is available on a server that allows cross-site loading.</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Palladio Testimonial / Hannah Marcus]]></title>
+    <link href="/lab-notebook/palladio/2014/08/21/Marcus/"/>
+    <updated>2014-08-21T04:34:22-07:00</updated>
+    <id>/lab-notebook/palladio/2014/08/21/Marcus</id>
+    <content type="html"><![CDATA[<p>My name is Hannah Marcus and I am a PhD candidate at Stanford University where I study the history of Early Modern Europe.  I am working with Professor Paula Findlen on a project called “Mapping Galileo” in which we are using digital humanities techniques to reconsider the correspondence network of Galileo Galilei.  With the help of Kyle Lee-Crossett, we compiled spreadsheets to capture information about Galileo’s correspondence and correspondents. </p>
+
+<p>I have been using Palladio to visualize the data we compiled and then to guide my reading and rereading of the primary source documents.  Visualizations have drawn my attention to major trends that scholars have discussed for centuries and to surprising absences in the correspondence, which are serving as jumping off points for further research.  One of my favorite aspects of Palladio is the ability to filter directly onto the visualization in real time.  I can select, for example, to visualize only Galileo’s correspondents who were in religious orders, and then with a single click I can add all of his correspondents who studied at the University of Padua, and then I can select from the timeline to only include the letters that were sent after Galileo’s publication of the Starry Messenger in 1610. Interrogating the data quickly and from a distance helps me to return to reading the letters with a visual perspective of how the individual pieces fit into the “whole” of Galileo’s correspondence. In the coming months, our next steps will be to use Palladio to simultaneously visualize two data sets: the Galileo correspondence that exists in archives and the Galileo correspondence that no longer exists but is referenced in letters that have survived. </p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/marcus1.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 1: A look at the “whole.” This visualization represents Galileo’s correspondence which is published in Antonio Favaro’s National Edition of Galileo’s works.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/marcus2.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 2: An example of filtering: Here we visualized Galileo’s letters to Paris and compared it to his correspondence with Elia Diodati.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Palladio Testimonial / Maria Comsa]]></title>
+    <link href="/lab-notebook/palladio/2014/08/21/Comsa/"/>
+    <updated>2014-08-21T04:34:22-07:00</updated>
+    <id>/lab-notebook/palladio/2014/08/21/Comsa</id>
+    <content type="html"><![CDATA[<p>My name is Maria Teodora Comsa, and I am a Ph.D. candidate in French at Stanford University. I am writing my dissertation on French society theater in the 18th century under the guidance of professors Jean-Marie Apostolidès and Dan Edelstein. As a supplement to my dissertation, I have been compiling datasets cataloguing the people, locations, performances, and texts from society theater.</p>
+
+<p>I use Palladio to visualize, explore, and augment the data that I compiled and this has proven very helpful in answering some of my research questions. What is unique about Palladio, is that it recognizes the types of data that I upload, and it allows me to view and edit the data before the visualization step. This means that I can easily correct minor errors, change formats, and most importantly, add value and hierarchy delimiters without modifying my initial source files.</p>
+
+<p>Thanks to Palladio’s powerful visualization options, I can easily identify trends in my data that would not be evident otherwise. For instance, I can study the social composition of the network of people involved in society theater to see how many of the participants were part of the elite (aristocracy). I can then apply a facet filter and view only the aristocrats who wrote plays… and were female. Palladio dynamically updates the different views so that I can see the results of my query on a map, in a network graph, in a table, or as a grid of images. The graph view is my favorite; it is extremely powerful because it does not restrict which values I can use as source or target, which empowers me to explore my data in ways that I had not anticipated.</p>
+
+<p>Visualizing data helps me better understand the specificity of society theater and allows me to identify which aspects will be interesting to analyze next. Using Palladio, I can query not only my own data, but I can connect it to other data sets  (like those compiled for the Mapping the Republic of Letters project) and explore how the society theater participants fit within the larger Enlightenment networks.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/comsa1.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 1: Network graph view of society theater participants by occupation.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/comsa2.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 2: Graph view of society theater participants filtered by social status, occupation, and gender.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/comsa3.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 3: Grid view of society theater authors by social status.</p>
+
+<p><img src="%7B%7Bsite.url%7D%7D/img/comsa4.jpg" alt="IMAGE TITLE"></p>
+
+<p>Image 4: Grid view of society theater participants filtered by social status, occupation, and gender.</p>
+]]></content>
+  </entry>
+  
+</feed>

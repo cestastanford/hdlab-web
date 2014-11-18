@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Lab Notebook: piranesi | ]]></title>
+  <link href="/lab-notebook/piranesi/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2014-11-18T14:15:27-08:00</updated>
+  <id>/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Idiographic Diagramming Tool for Linked Data Exploration, Editing and Creation]]></title>
+    <link href="/lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data/"/>
+    <updated>2014-08-20T16:00:00-07:00</updated>
+    <id>/lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data</id>
+    <content type="html"><![CDATA[<p>These are notes on how to implement our idiographic approach to data visualization for the Grand Tour project using a linked data model. This is our first experiment with what we hope will be a useful tool for navigating, curating, and generating linked data in the research process. It involves the navigation of a multi-dimensional data model by exploring one entity type at a time. The other key component is the creation of a schema through the process of creating and defining entities, attributes, and relationships. In other words, the categorizing process that is part of thinking through the research materials and organizing thoughts can be captured and published as a research product.</p>
+
+<h2>Three Primary Views</h2>
+
+<h3>1. Graph</h3>
+
+<p><strong>Spatially orient entities for &quot;thinking through data.&quot;</strong><br>
+The graph view is better described as a workspace. The graphic elements are nodes and lines that act as links between the nodes. The purpose of the graph workspace is to allow researchers to explore, edit and create entities and attributes in the form of groupings, connections, and tags. Nodes can also be merged. Attributes can be added to links.  </p>
+
+<p>A number of pre-defined layouts can be applied to the nodes in the Graph View, but the assumption is that researchers will use the space to spatially orient the nodes themselves. </p>
+
+<h3>2. Data</h3>
+
+<p><strong>A detailed view of each object and its attributes.</strong><br>
+The data view is an elegant and easily readable representation of the entities and their attributes as objects. The data view is an editing interface that is synchronized with the graph view. Create a new entity in the data view, produces a node in the graph view and in the Palette. </p>
+
+<p>The data view and the graph view complement each other. One provides feedback on actions taken in the other. Both the Data View and the Graph View </p>
+
+<h3>3. Palette</h3>
+
+<p><strong>Overview of complete data set as entities, grouped by entity type.</strong><br>
+The palette gives us the opportunity to see all of the data at one view. Selections can be made from the Palette and dragged into the graph view for editing, organizing, and categorizing. The denity is adjustable to the pixel level for handling very large data sets.</p>
+
+<p><img src="http://drive.google.com/uc?export=view&amp;id=0B1XIzIvpOWe4aTY5Zk9CYmhNZms" alt="image"></p>
+
+<h2>Interactions between panels</h2>
+
+<ol>
+<li>Selection
+&gt; Double-click to select in Graph. Entity highlighted in Palette.</li>
+<li>Merging
+&gt;Merge nodes/entities in Graph. Immediately updated in Data and Palette.</li>
+<li>Editing
+&gt; Modifying the entity type for one node in Data view or Graph view. Modify Entity type for a number of nodes in Palette. Same for attributes. Example: </li>
+<li>Create node
+&gt;Node created in Graph without entity-type specified appears in Palette as gray. It appears in Data in light type as undefined.</li>
+<li>Shifting entity type view
+&gt; A shift from &#39;people&#39; to &#39;places&#39; in the Graph view will, be default, show all of the &#39;places&#39; entities that are linked to the &#39;people&#39; entities. While inelegant, this would make it possible to navigate through the different dimensions of the data while keeping some consistency in terms of the selection of data being viewed.</li>
+</ol>
+
+<h2>Use Cases</h2>
+
+<p>We decided to narrow the development scope initially to use cases for a course that will be taught this fall (2014) on the Grand Tour. The core text for the course is the <em>Dictionary of British and Irish Travelers on the Grand Tour in Italy, 1701-1800</em>. A digitized copy of the text has been carefully chunked by entry (basically one entry for each traveler) and then each entry parsed to extract biographical details, tours in Italy, and cities visited. The Grand Tour Explorer is an online tool for exploring and querying this digitized and parsed text. The students can use the Explorer to select all of the entries that include visits to Genoa, for example, and then export that subset of entries (or the sparQL query) and work with them in another context such as the Idiographic Diagramming Tool or Palladio. </p>
+
+<h3>1. Curating the Grand Tour Data Set</h3>
+
+<p><strong>Add relationships between existing entities.</strong>
+We have parents identified by name for many people, but not matched to existing entities. A search in the Palette for the parent name would reveal the matching entity (or duplicates). Drag to the Graph and make the connection.</p>
+
+<p><strong>Add new entities.</strong>
+Entries in the dictionary are not people. We could generate people entities out of the entries by creating, for example, two people-type entities: Mr. Haversham and Mrs. Haversham linked to the entry-type entity.</p>
+
+<h3>2. Generating New Data Based on a Subset of Grand Tour Data</h3>
+
+<p>There is rich information about meetings, exchanges of goods and services, and scandalous activities within the entries. If the students want to generate new entities and attributes, they will most likely be developing new schema as well to sit on top of the base Grand Tour schema. We will want to be able to track the new schema, export the new schema and let students share and compare so that they might revise and collaborate on those schema (or not). The outcome for the student is not only the new knowledge generated through the process, but the data added and the schema devised to make sense of the information.</p>
+
+<h3>3. Generating a New Data Set</h3>
+
+<p>In this case, all views are all blank. Creating a new node in the Graph View or a new object in the Data View will populate the other two views. An unspecified entity type will appear gray in the Palette, faint in the Data View, and provisional (light or dotted border?) in the Graph View.  </p>
+
+<p><strong>Starting with Grand Tour Schema</strong><br>
+If a new data set is to be integrated into or verified against the Grand Tour data, start with a base Grand Tour schema which specifies existing entity types and attributes. These entity types will be options made available through the Data View or the Graph view when creating a new entity. The new entity will be pre-populated with place-holders for attributes for that entity type that exist in the Grand Tour schema.</p>
+
+<h3>4. Integrating a New Data Set with Grand Tour Data</h3>
+
+<p><strong>With data based on Grand Tour schema</strong><br>
+We need a workflow for contributing data to the larger data set. If the schema used is the Grand Tour schema, without any additions, we can consider the work as curation, meaning fixing errors or enriching the data set.</p>
+
+<p><strong>With data created without or in addition to the Grand Tour schema</strong><br>
+Provide the ability to map a student&#39;s schema to an existing schema (like the Grand Tour).</p>
+
+<h2>Other</h2>
+
+<ul>
+<li>We will want a view that show all of the other entity types connected to a given entity and how many. How many places are associated with James Gandy? How many letters? How many trips? How many publications?</li>
+<li>Tracking user-defined layouts.</li>
+<li>Track edits to replay and undo.</li>
+<li>Filter entities by date: Which have time and which do not? What date scale? Use a timeline to distribute values and for filtering.</li>
+</ul>
+]]></content>
+  </entry>
+  
+</feed>
