@@ -484,7 +484,6 @@
     - fellows
     - affiliate
 
-
 - name: Chloe Edmondson
   firstname: Chloe
   lastname: Edmondson
@@ -495,6 +494,25 @@
     - Procope
   role: "MRofL Communications Coordinator"
   image: /img/people/chloe.jpg
+  group: staff
+  
+- name: Christoph Kudella
+  firstname: Christoph
+  lastname: Kudella
+  status: active
+  institution: University College Cork
+  position: graduate
+  image: /img/people/kudella.png
+  group: staff
+
+- name: Jason Heppler
+  firstname: Jason
+  lastname: Heppler
+  status: active
+  institution: Stanford
+  position: ATS
+  role: "Academic Technology Specialist and PhD Candidate"
+  image: /img/people/heppler.jpg
   group: staff
 
 
