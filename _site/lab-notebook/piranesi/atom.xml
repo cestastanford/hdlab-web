@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Lab Notebook: piranesi | ]]></title>
-  <link href="/lab-notebook/piranesi/atom.xml" rel="self"/>
-  <link href="/"/>
-  <updated>2014-11-18T16:21:58-08:00</updated>
-  <id>/</id>
+  <link href="http://hdlab.stanford.edu/lab-notebook/piranesi/atom.xml" rel="self"/>
+  <link href="http://hdlab.stanford.edu/"/>
+  <updated>2014-11-18T16:24:46-08:00</updated>
+  <id>http://hdlab.stanford.edu/</id>
   <author>
     <name><![CDATA[]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Idiographic Diagramming Tool for Linked Data Exploration, Editing and Creation]]></title>
-    <link href="/lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data/"/>
+    <link href="http://hdlab.stanford.edu/lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data/"/>
     <updated>2014-08-20T16:00:00-07:00</updated>
-    <id>/lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data</id>
+    <id>http://hdlab.stanford.edu/lab-notebook/piranesi/2014/08/20/idiographic-diagramming-plus-linked-data</id>
     <content type="html"><![CDATA[<p>These are notes on how to implement our idiographic approach to data visualization for the Grand Tour project using a linked data model. This is our first experiment with what we hope will be a useful tool for navigating, curating, and generating linked data in the research process. It involves the navigation of a multi-dimensional data model by exploring one entity type at a time. The other key component is the creation of a schema through the process of creating and defining entities, attributes, and relationships. In other words, the categorizing process that is part of thinking through the research materials and organizing thoughts can be captured and published as a research product.</p>
 
 <h2>Three Primary Views</h2>
