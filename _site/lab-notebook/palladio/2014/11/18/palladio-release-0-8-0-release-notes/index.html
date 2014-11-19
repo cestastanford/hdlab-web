@@ -3,7 +3,7 @@
 
   <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-	<title>Palladio Testimonial / Christoph Kudella</title>
+	<title>Palladio Release Notes: 0.8.0</title>
 	<meta name="generator" content="Humanities+Design" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -132,36 +132,35 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Palladio Testimonial / Christoph Kudella</h1>
-    <p class="meta">Nov 3, 2014
+    <h1>Palladio Release Notes: 0.8.0</h1>
+    <p class="meta">Nov 18, 2014
 
     
 </p>
   </header>
 
   <article class="post-content">
-  <p>My name is Christoph Kudella and I am a Digital Arts and Humanities PhD candidate in University College Cork. My doctoral research is on correspondence networks in the Renaissance and I also teach tools and methods in Digital History at the University of Göttingen. Within this context I conducted a seminar on data collection, analysis and visualization for undergraduate history students. While hosting the 50th annual convention of German historians (Deutscher Historikertag) in Göttingen this year we were prompted to inquire into earlier gatherings of this kind. We chose four of the five annual ‚Historikertage’ during the Weimar Republic, a very decisive period in German historiography framed by the end of World War I at one end and the NS-period at the other.</p>
+  <h2>New Features</h2>
 
-<p>The main source for our inquiry were printed reports of these gatherings that included lists of attendees. These provided us with their names, professions and place of residence. We took these information particles as the point of departure to build a spreadsheet that detailed the c. 1.700 persons that were in attendence. The students were tasked with collecting prosopographic information on each of the attendees (where available). This task included the identification of each person in the Virtual International Authority File (VIAF) as well as the collection of biographical snippets derived from the World Biographical Information System (WBIS).  In this fashion, data has been collected on the individuals date and place of birth and death, their place of study, their doctoral supervisors (where applicable), institutional affiliations, gender and so forth. In a second spreadsheet each location was assigned an individual entry, including geocoordinates, in which modern county and country it is situated as well as the appendant ID in Geonames.</p>
+<p>This release focuses on expanded Map View features. In response to your feedback, the Map View now handles different tile sets. Tile sets can be layered on top of one another and toggled as desired. This facilitates comparisons between historical and contemporary maps. In cases where a historical map only covers part of an area of interest, we can now see the rest of the area - either with a contemporary map, a different historical map, or a combination of the two.</p>
 
-<p>From this baseline we began undertaking analyses on our dataset. Palladio provided us with a powerful way to filter, navigate and visualize our data without any cumbersome intermediate steps, such as  data preparation, and without the usage of additional software packages. Once we had linked the &#39;location’ column in the master spreadsheet to the corresponding column in our &#39;locations’ spreadsheet via Palladio, we were ready to visualize the geospatial aspects of and network connections in our data. </p>
+<h3>New Map View Options:</h3>
 
-<p><img src="/img/kudella1.png" alt="IMAGE TITLE"> 
-Figure 1</p>
+<ol>
+<li><p>Use the current standard tile set for the map view, or choose from one of the new pre-loaded alternatives: Streets, Land, Terrain, Satellite, and Buildings and Areas. </p></li>
+<li><p>Create your own custom tile set using mapbox.com and/or the Mapbox TileMill tool and use that tile set in Palladio using a Mapbox Project ID. Please the Mapbox tutorial <a href="/doc/Palladio%20Mapbox%20tutorial_low.pdf">here</a></p></li>
+<li><p>Use an OpenStreetMap(OSM)/Google formatted tile set URL, such as those provided by Stamen or the NYPL MapWarper project. (URL-based tile set utorial coming soon).</p></li>
+</ol>
 
-<p>Figure 1 shows an example of one of our points of inquiry, that is the &#39;zone of attraction’ of the individual convetions. It became immediately apperent that these gatherings were to a large part a local affair that mostly attracted people in the vicinity. This partially contradicts earlier research findings on the topic.</p>
+<h3>Other general features and changes:</h3>
 
-<p><img src="/img/kudella2.png" alt="IMAGE TITLE"> 
-Figure 2</p>
-
-<p>Figure 2 shows the links between attendees and their doctoral supervisors, thus giving us insight into a highly interconnected academic community that met during this conventions. </p>
-
-<p><img src="/img/kudella3.png" alt="IMAGE TITLE"> 
-Figure 3</p>
-
-<p>Figure 3 shows the links between attendees and the scientific academies spread over Western Europe, again enabling us to survey academic networks based on empirical data.</p>
-
-<p>In conclusion, Palladio has been an invaluable tool for our project. It has permitted us to test hyptheses in a quick and easy fashion. While it will never replace specialized, dedicated software platforms for specific purposes, such as GIS or Social Network Analysis, it can provide invaluable pointers to aspects of your data that demand closer attention without losing valuable time converting data, switching in between programs and other monotonous taska that take up valuable research time.</p>
+<ol>
+<li><p>New, rewritten version of the Facet Filter, including better sorting and smoother interaction.</p></li>
+<li><p>Extending fields (in the file upload and dimension view) now uses a pill-based selector rather than a drop-down. This change addresses several bugs that occurred with the previous drop-down-based approach.</p></li>
+<li><p>Graph view is more stable during filtering, with fewer instances of nodes moving off-screen.</p></li>
+<li><p>Dropbox integration. Host a file in a Dropbox public folder and create &#39;public link.&#39; Paste that link directly into Palladio interface. Note that hosting data in a Dropbox public folder makes your data publicly accessible. To keep your data private, continue uploading your tabular data in the traditional manner.</p></li>
+<li><p>Auto-load capability for hosted versions of Palladio. Put &#39;auto-load.json&#39; in the Palladio save format in the Palladio root directory on your web server and it will be automatically loaded.</p></li>
+</ol>
 
   </article>
 <hr>

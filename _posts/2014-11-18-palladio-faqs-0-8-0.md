@@ -1,20 +1,20 @@
 ---
 layout: post
-title:  "Palladio FAQ"
+title: "Palladio FAQ"
 author: Mark Braude
-date:   2014-11-18 11:34:22
+date: 2014-11-18 11:34:22
 category: palladio
 published: true
-tags: 
+tags: front
 excerpt: "The FAQs have been updated for our November 2014 release, 0.8.0, to reflect the new features and fixes."
 
 ---
 
 
 
- 1.  [What is a Palladio project?](#1)  
- 2.  [Which data formats work with Palladio?](#2)
- 3. [What does it mean if I see a ‘Special Characters Found’ in one of my dimensions?](#3)
+ 1. [What is a Palladio project?](#1)  
+ 2. [Which data formats work with Palladio?](#2)
+ 3. [What does it mean if I see ‘Review’ in one of my dimensions?](#3)
  4. [What is a Multiple Values Delimiter?](#4)
  5. [What are Size Points?](#5)
  6. [How do I get the most use out of the TimeLine feature?](#6)
@@ -63,33 +63,26 @@ Examples of data:
 
 Correct:
 
-First name, Last name, Age
-
-John, Doe, 28
-
-Jane, Smith, 35
+	First name, Last name, Age
+	John, Doe, 28
+	Jane, Smith, 35
 
 Incorrect (missing header):
 
-John, Doe, 28
-
-Jane, Smith, 35
+	John, Doe, 28
+	Jane, Smith, 35
 
 Incorrect (two headers with the same name):
 
-Name, Name, Age
-
-John, Doe, 28
-
-Jane, Smith, 35
+	Name, Name, Age
+	John, Doe, 28
+	Jane, Smith, 35
 
 Incorrect (special characters in the header):
 
-First_Name, Last-Name, Age
-
-John, Doe, 28
-
-Jane, Smith, 35
+	First_Name, Last-Name, Age
+	John, Doe, 28
+	Jane, Smith, 35
 
 *Other Data Issues:*
 
@@ -98,7 +91,7 @@ Note that empty rows in your data will be ignored by Palladio.
 Palladio does not work with unstructured data, such as one long string of text, but only with data that has been placed into some kind of table. The richest uses of Palladio comes from having several different related tables of information, however many users will start with just one single table.
 
 
-### <a name="3"></a>What does it mean if I see ‘Special Characters Found’ in one of my dimensions?
+### <a name="3"></a>What does it mean if I see ‘Review’ in one of my dimensions?
 
 This is Palladio’s way of telling you that there are non-standard alpha-numerical characters in your data. These special characters may either lead to errors, or (in the case of commas or semicolons used to separate values in a given dimension) these special characters may be of help for you to use advanced tools such as the Multiple-Values Delimiter.
 
@@ -188,12 +181,20 @@ See the Scenario: Creating Data for a Point to Point Map for more information ab
 [Download PDF]({{ site.baseurl }}/doc/scenario-point-to-point.pdf)
 
 
-### <a name="13"></a>How do I get the most use out of the TimeSpan feature?Use the TimeSpan feature to visualize any data for which you have both a starting date and an end date, such as a lifetime, or a season. Palladio will recognize any dimensions entered in the correct format (ie. 2014-06-27) and will allow you to select any such dimension as either the start date or end date within the timeline view. Choose from a parallel or bar view. 
-### <a name="14"></a>How does the List view work?Use this view to filter and arrange data to create customized lists. First select the Row Dimension by which your list will be arranged.  Then select the specific Dimensions you would like to see.  Palladio will then return a list including those Dimensions, arranged according to the Row Dimension you’ve selected.  Data can then be filtered using the usual suite of filters provided in other visualizations. Lists can be exported as csv files. Understanding how lists are created:Let’s say you have a list of unique names, and the places where each person was born. If you created a list with the dimensions “Names” and “Places of Birth,” and arranged this list by the Row Dimension “Names,” then you would see a list where each row contains a single name and the place of birth of the person listed. But if you created that same list, but now arranged it by the Row Dimension “Places of Birth” you would see a list where each row contains a single Place of Birth and every person born in that place. So, if more than one person in your data was born in Paris, you would not have a simple 1 to 1 ratio across the dimensions; instead your Paris row might contain several names, while your New York row might contain only one name. The point is not to be misled into thinking that the List view will automatically return something akin to a simple table, where every row lines up across the various columns. 
+### <a name="13"></a>How do I get the most use out of the TimeSpan feature?
+
+Use the TimeSpan feature to visualize any data for which you have both a starting date and an end date, such as a lifetime, or a season. Palladio will recognize any dimensions entered in the correct format (ie. 2014-06-27) and will allow you to select any such dimension as either the start date or end date within the timeline view. Choose from a parallel or bar view. 
+
+### <a name="14"></a>How does the List view work?
+
+Use this view to filter and arrange data to create customized lists. First select the Row Dimension by which your list will be arranged.  Then select the specific Dimensions you would like to see.  Palladio will then return a list including those Dimensions, arranged according to the Row Dimension you’ve selected.  Data can then be filtered using the usual suite of filters provided in other visualizations. Lists can be exported as csv files. 
+
+Understanding how lists are created:
+Let’s say you have a list of unique names, and the places where each person was born. If you created a list with the dimensions “Names” and “Places of Birth,” and arranged this list by the Row Dimension “Names,” then you would see a list where each row contains a single name and the place of birth of the person listed. But if you created that same list, but now arranged it by the Row Dimension “Places of Birth” you would see a list where each row contains a single Place of Birth and every person born in that place. So, if more than one person in your data was born in Paris, you would not have a simple 1 to 1 ratio across the dimensions; instead your Paris row might contain several names, while your New York row might contain only one name. The point is not to be misled into thinking that the List view will automatically return something akin to a simple table, where every row lines up across the various columns. 
 
 ### <a name="15"></a>How do I create a Mapbox tile-set layer?
 
-Please the Mapbox tutorial [here]({{ site.baseurl }}/doc/Palladio Mapbox tutorial_low.pdf)
+Please see the Mapbox tutorial [here]({{ site.baseurl }}/doc/Palladio Mapbox tutorial_low.pdf)
 
  
 Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.
