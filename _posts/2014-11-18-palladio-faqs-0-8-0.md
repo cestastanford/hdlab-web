@@ -26,7 +26,7 @@ excerpt: "The FAQs have been updated for our November 2014 release, 0.8.0, to re
  12. [How do I get the most out of Map view?](#12)
  13. [How do I get the most use out of the TimeSpan feature?](#13)
  14. [How does the List view work?](#14)
- 15. [How do I create a Mapbox tile-set layer?](#15)
+ 15. [How do I create Mapbox and/or URL-based tile-set layers?](#15)
 
 
 
@@ -192,9 +192,11 @@ Use this view to filter and arrange data to create customized lists. First selec
 Understanding how lists are created:
 Let’s say you have a list of unique names, and the places where each person was born. If you created a list with the dimensions “Names” and “Places of Birth,” and arranged this list by the Row Dimension “Names,” then you would see a list where each row contains a single name and the place of birth of the person listed. But if you created that same list, but now arranged it by the Row Dimension “Places of Birth” you would see a list where each row contains a single Place of Birth and every person born in that place. So, if more than one person in your data was born in Paris, you would not have a simple 1 to 1 ratio across the dimensions; instead your Paris row might contain several names, while your New York row might contain only one name. The point is not to be misled into thinking that the List view will automatically return something akin to a simple table, where every row lines up across the various columns. 
 
-### <a name="15"></a>How do I create a Mapbox tile-set layer?
+### <a name="15"></a>How do I create Mapbox and/or URL-based tile-set layers?
 
 Please see the Mapbox tutorial [here]({{ site.baseurl }}/doc/Palladio Mapbox tutorial_low.pdf)
+
+Please see the URL-based tile set tutorial [here]({{ site.baseurl }}/doc/Tutorial for creating URL based tilesets_low.pdf)
 
  
 Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.
