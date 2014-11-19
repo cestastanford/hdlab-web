@@ -12,17 +12,17 @@ excerpt: "The FAQs have been updated for our November 2014 release, 0.8.0, to re
 
 
 
- 1.  [What is a Palladio project?](#13)  
- 2.  [Which data formats work with Palladio?](#14)
- 3. [What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?](#1)
- 4. [What is a Multiple Values Delimiter?](#2)
- 5. [What are Size Points?](#3)
- 6. [How do I get the most use out of the TimeLine feature?](#4)
- 7. [How should Dates be entered?](#5)
- 8. [How should Coordinates be entered?](#6)
- 9. [What do the labels and numbers listed directly below my dimension represent?](#7)
- 10. [I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?](#8)
- 11. [What are some applications of the Gallery View?](#9)
+ 1.  [What is a Palladio project?](#1)  
+ 2.  [Which data formats work with Palladio?](#2)
+ 3. [What does it mean if I see a ‘Special Characters Found’ in one of my dimensions?](#3)
+ 4. [What is a Multiple Values Delimiter?](#4)
+ 5. [What are Size Points?](#5)
+ 6. [How do I get the most use out of the TimeLine feature?](#6)
+ 7. [How should Dates be entered?](#7)
+ 8. [How should Coordinates be entered?](#8)
+ 9. [What do the labels and numbers listed directly below my dimension represent?](#9)
+ 10. [I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?](#10)
+ 11. [What are some applications of the Gallery View?](#11)
  12. [How do I get the most out of Map view?](#12)
  13. [How do I get the most use out of the TimeSpan feature?](#13)
  14. [How does the List view work?](#14)
@@ -30,12 +30,12 @@ excerpt: "The FAQs have been updated for our November 2014 release, 0.8.0, to re
 
 
 
-### <a name="13"></a>What is a Palladio project?
+### <a name="1"></a>What is a Palladio project?
 
 A Palladio project begins first with the tabular data you have on your computer. Once you’ve uploaded this data into the Palladio interface, you can then refine it, visualize, and save it back to your computer as a Palladio project. The Palladio project will be saved with the extension .json and includes the schema and structure required to visualize your data in Palladio the next time you visit. (In other words, you cannot simply upload any .json file created elsewhere and expect it to work within the Palladio platform.) Now, as you continue to use Palladio, you can shorten the upload and refine stages by uploading your existing palladio.json file (The Palladio project). But please remember that if you make further changes to your data in the refine stage, you will have to save this new work as a new .json file in order to have a version of the project that reflects your more recent changes.
 
 
-### <a name="14"></a>Which data formats work with Palladio?
+### <a name="2"></a>Which data formats work with Palladio?
 
 Any collection of information that can be represented in a table format (in other words, any data you might enter into a spreadsheet program) will work with Palladio. Make sure that all data is represented by delimited-separated values. Palladio supports the following delimiters: commas, semicolons and tabs.
 
@@ -98,30 +98,30 @@ Note that empty rows in your data will be ignored by Palladio.
 Palladio does not work with unstructured data, such as one long string of text, but only with data that has been placed into some kind of table. The richest uses of Palladio comes from having several different related tables of information, however many users will start with just one single table.
 
 
-### <a name="1"></a>What does it mean if I see a Lightning Bolt icon and ‘Special Characters Found’ in one of my dimensions?
+### <a name="3"></a>What does it mean if I see ‘Special Characters Found’ in one of my dimensions?
 
 This is Palladio’s way of telling you that there are non-standard alpha-numerical characters in your data. These special characters may either lead to errors, or (in the case of commas or semicolons used to separate values in a given dimension) these special characters may be of help for you to use advanced tools such as the Multiple-Values Delimiter.
 
-### <a name="2"></a>What is a Multiple Values Delimiter?
+### <a name="4"></a>What is a Multiple Values Delimiter?
 
 Your tabular data is made up of various dimensions (ie. individual cells in a spreadsheet). In some cases you may want to assign more than one value for a certain dimension. For instance, you may have a column describing someone's 'Position.' The column could be filled Princes, Popes, and Poets. But what if your Prince was also a Pope? In this case you could enter 'Prince, Pope' in one single cell of your table. Now, after you’ve uploaded the data into Palladio, you can parse that cell into two unique values. Here's how: In the Multiple Values Delimiter input box, enter the symbol you've used to separate your values, in this case, a comma that separated Pope and Prince. Now Palladio understands that this entry as two separate values.
 
-### <a name="3"></a>What are Size Points?
+### <a name="5"></a>What are Size Points?
 
 Toggling the Size Points function in the map view will change the sizes of your various dots on the map, depending on how frequently they appear in your dataset. So, for instance, if you had a table listing 30 Priests born in Rome and 1 Priest in Florence, and you have produced a map visualization that counts by Priests, the dot representing Rome in your map view will be significantly larger than the dot representing Florence. You can adjust the scale of the Size Points (in other words, the  size of the dots as they appear in relation to the map) by toggling the Adjust Scale button.
 
-### <a name="4"></a>How do I get the most use out of the TimeLine feature?
+### <a name="6"></a>How do I get the most use out of the TimeLine feature?
 
 As you change the temporal period in your TimeLine filter view, the map will update to show data only from that period. You can zoom in to get as granular a view as you would like. One of the most exciting features of Palladio’s timeline is that it allows users to select more than one point on the timeline to show more than one period (ie. 1900-150) and 1970-200) view these simultaneously within a given visualization.
 
 Swiping within the Timeline view will allow you to zoom in to specific dates. The stacked bar and highlighting functions allow you to see the data in different ways as you hover.
 
 
-### <a name="5"></a>How should Dates be entered?
+### <a name="7"></a>How should Dates be entered?
 
 Dates should be entered in the following format Year-Month-Day (2014-01-01). Years must always be rendered as four digit integers. Thus years between 0 CE and 1000 CE should still be rendered as 0001 or 0999. Negative dates should follow the same format, but preceded by a minus sign (ie. -200-01-01). If using Excel, be sure to specify that the column reads as "Text" rather than dates, so that Excel doesn't change the dates into its own (non-Palladio friendly) format.
 
-### <a name="6"></a>How should Coordinates be entered?
+### <a name="8"></a>How should Coordinates be entered?
 
 Coordinates information must be rendered as latitude and longitude, separated by a comma. For example: 41.95, 12.5.
 This Geocoding tool may be of help for those who have a list of place names but no associated coordinates: 
@@ -130,7 +130,7 @@ http://sandbox.idre.ucla.edu/geocoder/
 See the Scenario: Creating Data for a Simple Map for more information about creating and entering coordinates information. [Download PDF]({{ site.baseurl }}/doc/scenario-simple-map.pdf)
 
 
-### <a name="7"></a>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?
+### <a name="9"></a>What do the labels (text, date, URL etc.) and numbers listed directly below my dimension represent?
 
 In the refine (non-visualization) view your data appears as table, with each column header represented as a unique dimension.
 
@@ -143,12 +143,12 @@ Palladio will guess the type of data entered based on its attributes. Data will 
 If Palladio ‘guesses’ your data incorrectly you can click on the dimension and in the dropdown menu labeled Data Type, change the type of data specified. The more accurately Palladio defines your data, the better the platform will work.
 
 
-### <a name="8"></a>I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?
+### <a name="10"></a>I would like to export a Map visualization but can only export it as an .svg with dots and lines. What should I do?
 
 As Palladio Map Visualizations involve placing static coordinates data onto a separate map grid layer the full visualization cannot currently be exported as an .svg, rather you will see only the dots and lines against a blank background. If this solution is unsatisfactory, we recommended using ‘screen grabs’ as the best method, currently, for exporting map visualizations.
 
 
-### <a name="9"></a>What are some applications of the Gallery View?
+### <a name="11"></a>What are some applications of the Gallery View?
 
 In the Gallery View you can display different kinds of data that cannot be visualized as maps or graphs.
 
