@@ -503,7 +503,7 @@
   institution: University College Cork
   position: graduate
   image: /img/people/kudella.png
-  group: staff
+  group: 
 
 - name: Jason Heppler
   firstname: Jason
@@ -513,7 +513,7 @@
   position: ATS
   role: "Academic Technology Specialist and PhD Candidate"
   image: /img/people/heppler.jpg
-  group: staff
+  group: 
 
 
 
