@@ -80,6 +80,19 @@
   group: affiliate
 
 
+- name: Sarah Ogilvie
+  firstname: Sarah
+  lastname: Ogilvie
+  status: active
+  institution: Stanford
+  department: CESTA Linguistics
+  position: faculty
+  role: "Project Lead"
+  image: /img/people/ogilvie.jpg
+  group: affiliate
+  project:
+    - "Endangered Languages"
+
 - name: Vincent Barletta
   firstname: Vincent
   lastname: Barletta

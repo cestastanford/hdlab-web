@@ -22,7 +22,12 @@ disqus:                   'humanitiesplusdesign'
 permalink:                /lab-notebook/:categories/:year/:month/:day/:title/
 twitter:                   hdstanford
 favicon:  "https://dl.dropboxusercontent.com/s/o0rhoh2bh2xu9uu/favicon.ico"
-                 
+gems: [jekyll_figure]
+figures:
+	dir: /figures
+	enumerate: true
+
+
 #This is the base directory (cloud) where we share images
 img-url:           ""
 
@@ -30,11 +35,3 @@ collections:
   slides:
     output: true
 
-#image gallery plugin from mttvh
-
-gallerytag:
-    dir: images/galleries
-    url: /images/galleries
-    thumb_width: 150
-    thumb_height: 150
-    columns: 4

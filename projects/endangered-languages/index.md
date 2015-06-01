@@ -2,8 +2,12 @@
 layout: project
 title: "Design for Endagered Languages"
 project: Endangered Languages
-
+image:
+group-name: designs
+id: designs
 ---
+
+
 
 The Design for Endangered Languages project intends to explore ways to maintain, preserve, and revitalize endangered cultures by combining lexicographic and pedagogical methods from the humanities with communication design.  
 
@@ -46,4 +50,5 @@ Proposed modes of interaction:
 ##Outcomes
 There were 12 students enrolled in the class. Some of the students were given the precious opportunity to work with the Mutsun language, receiving information and advice from Quirina Geary. Below is a selection of the final projects by the students. 
 
- 
+
+ {% include design-gallery.html %}
