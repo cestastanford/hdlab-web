@@ -205,6 +205,13 @@ background-color: rgba(196,79,146, .8);
 color: #fff;
 }
 
+.palladio-logo {
+	font-family: 'Roboto Slab', serif;
+	padding: 0;
+	color: #4EBDE5;
+	font-size: 128px;
+}
+
 article a:link {
     color: rgba(224,19,42,.9);
 }

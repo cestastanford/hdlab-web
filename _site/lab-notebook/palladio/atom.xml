@@ -4,7 +4,7 @@
   <title><![CDATA[Lab Notebook: palladio | ]]></title>
   <link href="http://hdlab.stanford.edu/lab-notebook/palladio/atom.xml" rel="self"/>
   <link href="http://hdlab.stanford.edu/"/>
-  <updated>2015-10-21T14:43:22-07:00</updated>
+  <updated>2015-10-21T15:23:45-07:00</updated>
   <id>http://hdlab.stanford.edu/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,49 @@
   </author>
   <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Palladio 1.1 Release]]></title>
+    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2015/10/21/palladio-release-1-1-release-notes/"/>
+    <updated>2015-10-21T07:50:22-07:00</updated>
+    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2015/10/21/palladio-release-1-1-release-notes</id>
+    <content type="html"><![CDATA[<h2>Enhancements</h2>
+
+<ol>
+<li>General: We added a progress indicator to let you know when rendering is happening. Look for a swoosh around the Palladio &quot;P&quot; in the upper left corner.</li>
+<li>Data Refine: Allow &quot;ignore&quot; option for special characters in the edit dimension view.</li>
+<li>Data Refine: Red dot goes to gray for a reviewed/edited/verified dimension.</li>
+<li>Map view: Allow the use of WMS URLS. YAY!!!</li>
+<li>Map view: improvements to map data rendering time. </li>
+<li>Map view: We have removed the &#39;mouseclick to filter&#39; on the map points. We will be replacing this with a mouseclick for popover that will give more detailed information about a point on the map than we see in the tooltip.</li>
+<li>Timespan: Add the group name to the tooltip.</li>
+<li>Timespan: Highlight timespans on mouseover to clarify for which timespan the tooltip is displayed.<br></li>
+<li>Timespan: Enable grouping of timespans by another dimension (hovering will highlight all spans related to a record if a span appears in more than one group due to a multi-value field).</li>
+<li>Facet Filter: show ([number selected out of] / [total number]) for each dimension. We need to let people know at a glance how many of a thing they are seeing in a view. We can do this easily with FF instead of mucking up the interface with more information.</li>
+<li>Facet Filter: Performance improvement in facet filter by using filterExact when possible.<br></li>
+<li>Saving a project: Add date to metadata per project (more coming)</li>
+<li>Saving a project: save files can reference external data (performance improvement). Including toggle option so that user can control if data is saved along with Palladio save file or is referenced in a remote location. Only available if file is loaded from URL, not if data is dragged or pasted into Palladio directly. Try putting the URL of a Dropbox file in your Public folder where you normally paste your data.</li>
+<li>Saving a project: Now you can save a project from Safari browser! The save file name will be “Unknown.&quot; You&#39;ll need to rename it. At least the download works.</li>
+</ol>
+
+<h2>Bug Fixes</h2>
+
+<ol>
+<li>Timespan: The bar layout was displaying duplicate values.</li>
+<li>Facet filter: fixed a bug where the clear/remove controls stopped appearing.</li>
+<li>Map view: Fixed a bug that caused the legend graphics to appear squished.</li>
+<li>Data Refine: We no longer flag the data format &quot;Coordinates&quot; for review because of commas and dashes.</li>
+<li>Map View: At the request of our friends at Mapbox, we added Mapbox branding when using Mapbox tiles.</li>
+<li>Saving a project: Fixed a bug where saving a project would kill links/extensions.</li>
+<li>General: Fixed a bug where font-awesome drag icon was not appearing.</li>
+<li>Facet Filter: Fixed a bug where adding a dimension triggered multiple updates, causing slowness.</li>
+<li>Data Refine: For a while, if you needed to remove a table that was extended from the primary table in order to fix it and re-load it, the re-load would fail. That has been fixed.</li>
+<li>Timespan Filter: Fixed a problem where filter settings were not saved with the Palladio save file (download).</li>
+<li>Facet Filter: Fixed a display problem that caused dimensions to stack.</li>
+<li>Timespan Filter: Fixed a problem where, if a filter is already in place when the timespan is added, then the filter is removed, the lines will overflow the view area.</li>
+</ol>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Palladio 1.0 Release]]></title>
@@ -283,59 +326,6 @@ Let’s say you have a list of unique names, and the places where each person wa
 <p>Please see the URL-based tile set tutorial <a href="%7B%7B%20site.baseurl%20%7D%7D/doc/Tutorial%20for%20creating%20URL%20based%20tilesets_low.pdf">here</a></p>
 
 <p>Please email us at <a href="mailto:palladio@designhumanities.org">palladio@designhumanities.org</a> to share your experience.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Food Culture, Palladio, and Representing Magnitude / Molly Taylor-Poleskey]]></title>
-    <link href="http://hdlab.stanford.edu/lab-notebook/palladio/2014/11/03/Taylor-Poleskey/"/>
-    <updated>2014-11-03T03:34:22-08:00</updated>
-    <id>http://hdlab.stanford.edu/lab-notebook/palladio/2014/11/03/Taylor-Poleskey</id>
-    <content type="html"><![CDATA[<p><em>Molly Taylor-Poleskey writes:</em></p>
-
-<p>PROJECT OVERVIEW</p>
-
-<p>My research questions take advantage of a large base of manuscript sources detailing the yearly consumption of one of the palaces of Prince-Elector Friedrich Wilhelm of Brandenburg-Prussia. In my dissertation, I argue that the elector’s cultural agenda helped transform his territories over the course of his reign from dilapidated and war torn to stable and powerful (primed for ascension to royalty under Friedrich Wilhelm’s son). </p>
-
-<p>RESEARCH QUESTIONS</p>
-
-<p>To support this argument, I’m looking for change in taste over time or other patterns in consumption that reveal the court’s aesthetic values and cultural ambitions. This means creating visualizations that show what proportions of different foods or food groups were consumed. For example, was there a shocking dearth of wheat compared to rye? When consumption of one commodity dwindled, what other foods were substituted (and vice versa)?</p>
-
-<p>My second research question looks at this consumption data in conjunction with information about the percentage of the year that the elector was at the palace in Königsberg. This will help me understand the functioning of the palace and make some inferences about daily consumption amounts. This might eventually lead to seeing seasonality of the foods consumed (this depends on the normalized bar charts discussed below). </p>
-
-<p>ISSUES</p>
-
-<p>The two biggest challenges [History Department Academic Technology Specialist] Jason Heppler and I have faced while creating visualizations of this data are, 1) accounting for the years for which we have no data and, 2) reconciling the various units of measure to compare different foods. </p>
-
-<p>ATTEMPTS</p>
-
-<p>Jason has already put together a ribbon graph representation of one of the food groups from my data (grains) to see relative use of ingredients. While this exposed that peas were typically consumed in much greater numbers than other grains, this visualization masked the exact yearly values and smoothed out the years with no data. </p>
-
-<p>We also attempted to understand the shape of our data by making simple bar graphs of each food group and, with yet further detail, individual ingredients. This provided a quick snapshot and alerted us to years that spiked in consumption. But, the scale of measurement was so different for each food, it was not feasible to compare across units of measure. Some years of extraordinary consumption throw of the scale so that years of typical or little consumption are imperceptible.</p>
-
-<p>Now Jason is working on displaying the data in normalized bar charts of units of variety. This step will help me gain an overall understanding of the contents of the data collected. From this step of appreciating the qualitative aspects of the data as such, we can return to the original quantitative questions with a better eye for changes in consumption. </p>
-
-<p>THOUGHTS FOR A PALLADIO COMPONENT</p>
-
-<p>In order for Palladio to be useful in solving our research challenges, it needs another display feature that shows flows of data and can be sensitive to the different scales of measurement. </p>
-
-<p>Molly and Jason produced visualizations, including the two below, (not in Palladio). Image descriptions by Jason Heppler.</p>
-
-<p><img src="%7B%7Bsite.url%7D%7D/img/grains_normalized.png" alt="IMAGE TITLE"></p>
-
-<p>Figure 1.</p>
-
-<p>Since some food items are counted by different units of measure over time, we work around the problem of different scales by plotting the amount of food items in relation to all other food items in a single year and totaling the items by percentage rather than absolute amounts.</p>
-
-<p><img src="%7B%7Bsite.url%7D%7D/img/grains_amount.png" alt="IMAGE TITLE"></p>
-
-<p>Figure 2.</p>
-
-<p>We can view the absolute amounts of food items for each year, but we begin to run into problems with other food types because the units of measure sometimes changed year to year. Here, grains all contain the same unit of measure over time.</p>
-
-<p><em>Mark Braude responds:</em></p>
-
-<p>Following conversations with Molly and Jason, we are working toward creating visualizations in Palladio that privilege the display of relative magnitude, and that are especially sensitive to working in different registers and scales, to help her drive home her arguments about the variety of consumption patterns in the society she studies. As some of the years in the sources Molly studies have incomplete or missing data, her use case has also aided us in thinking about how best to work with incomplete data in ways that are not misleading or overly simplistic.</p>
 ]]></content>
   </entry>
   

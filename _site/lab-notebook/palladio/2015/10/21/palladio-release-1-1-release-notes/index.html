@@ -3,7 +3,7 @@
 
   <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
-	<title>Palladio Release Notes: 0.9.0</title>
+	<title>The Palladio 1.1 Release</title>
 	<meta name="generator" content="Humanities+Design" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="http://hdlab.stanford.edu/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -133,46 +133,49 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Palladio Release Notes: 0.9.0</h1>
-    <p class="meta">Jan 27, 2015
+    <h1>The Palladio 1.1 Release</h1>
+    <p class="meta">Oct 21, 2015
 
     
 </p>
   </header>
 
   <article class="post-content">
-  <h2>Bug Fixes</h2>
+  <h2>Enhancements</h2>
 
-<ul>
-<li>Major performance fix to data load/processing.</li>
-<li>Filters applied on facet filter dimensions don’t go away when the facet filter is removed (thanks to Christoph Kudella for the bug report).</li>
-<li>Application was non-functional after refreshing while in the visualization view. Now fixed.</li></li>
-<li>Changing table and dimension names in the data view did not update in the visualization view (thank you, again, Christoph!). Fixed. </li>
-</ul>
+<ol>
+<li>General: We added a progress indicator to let you know when rendering is happening. Look for a swoosh around the Palladio &quot;P&quot; in the upper left corner.</li>
+<li>Data Refine: Allow &quot;ignore&quot; option for special characters in the edit dimension view.</li>
+<li>Data Refine: Red dot goes to gray for a reviewed/edited/verified dimension.</li>
+<li>Map view: Allow the use of WMS URLS. YAY!!!</li>
+<li>Map view: improvements to map data rendering time. </li>
+<li>Map view: We have removed the &#39;mouseclick to filter&#39; on the map points. We will be replacing this with a mouseclick for popover that will give more detailed information about a point on the map than we see in the tooltip.</li>
+<li>Timespan: Add the group name to the tooltip.</li>
+<li>Timespan: Highlight timespans on mouseover to clarify for which timespan the tooltip is displayed.<br></li>
+<li>Timespan: Enable grouping of timespans by another dimension (hovering will highlight all spans related to a record if a span appears in more than one group due to a multi-value field).</li>
+<li>Facet Filter: show ([number selected out of] / [total number]) for each dimension. We need to let people know at a glance how many of a thing they are seeing in a view. We can do this easily with FF instead of mucking up the interface with more information.</li>
+<li>Facet Filter: Performance improvement in facet filter by using filterExact when possible.<br></li>
+<li>Saving a project: Add date to metadata per project (more coming)</li>
+<li>Saving a project: save files can reference external data (performance improvement). Including toggle option so that user can control if data is saved along with Palladio save file or is referenced in a remote location. Only available if file is loaded from URL, not if data is dragged or pasted into Palladio directly. Try putting the URL of a Dropbox file in your Public folder where you normally paste your data.</li>
+<li>Saving a project: Now you can save a project from Safari browser! The save file name will be “Unknown.&quot; You&#39;ll need to rename it. At least the download works.</li>
+</ol>
 
-<h2>Enhancements</h2>
+<h2>Bug Fixes</h2>
 
-<ul>
-<li>New Filter View Modes. We are refining and re-working the filter components (timeline and facet-filter) so that each has three view modes: small, medium, large. The ‘large’ view is comparable to one of the primary data views (map, graph, table, gallery) in that it functions as a display that can be filtered by time or facet. </li></li>
-<li>Timeline Filter. The double-decker timeline is gone. The timeline filter is streamlined and elegant.</li></li>
-<li>Timespan Filter. Now displays records that only have a start date or an end date as points.</li></li>
-<li>Map Layers. Drag to order layers.</li></li>
-<li>Map Layers. Sort order is reversed so that top layer is at the top of the list.</li></li>
-<li>Facet filter. Indicates number of values in each facet.</li></li>
-<li>Facet filter. Small bottom margin.</li>
-</ul></li>
-</ul>
-
-<h2>New Features</h2>
-
-<ul>
-<li>Expanded Timespan View.</li>
-<li>Timespan tooltips.</li>
-<li>Y-Axis Grouping.</li>
-<li>Duration view.</li>
-<li>Allow downloading of tables in the data view.</li>
-<li>Multi-file support. One Palladio instance can host and load multiple save files based on the URL</li>
-</ul>
+<ol>
+<li>Timespan: The bar layout was displaying duplicate values.</li>
+<li>Facet filter: fixed a bug where the clear/remove controls stopped appearing.</li>
+<li>Map view: Fixed a bug that caused the legend graphics to appear squished.</li>
+<li>Data Refine: We no longer flag the data format &quot;Coordinates&quot; for review because of commas and dashes.</li>
+<li>Map View: At the request of our friends at Mapbox, we added Mapbox branding when using Mapbox tiles.</li>
+<li>Saving a project: Fixed a bug where saving a project would kill links/extensions.</li>
+<li>General: Fixed a bug where font-awesome drag icon was not appearing.</li>
+<li>Facet Filter: Fixed a bug where adding a dimension triggered multiple updates, causing slowness.</li>
+<li>Data Refine: For a while, if you needed to remove a table that was extended from the primary table in order to fix it and re-load it, the re-load would fail. That has been fixed.</li>
+<li>Timespan Filter: Fixed a problem where filter settings were not saved with the Palladio save file (download).</li>
+<li>Facet Filter: Fixed a display problem that caused dimensions to stack.</li>
+<li>Timespan Filter: Fixed a problem where, if a filter is already in place when the timespan is added, then the filter is removed, the lines will overflow the view area.</li>
+</ol>
 
   </article>
 <hr>
