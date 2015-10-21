@@ -10,6 +10,8 @@ excerpt: "Many bug fixes. Performance improvements. New features for the map vie
 
 ---
 
+[Check out version 1.1](http://palladio.designhumanities.org/)
+
 ##Enhancements
 1. General: We added a progress indicator to let you know when rendering is happening. Look for a swoosh around the Palladio "P" in the upper left corner.
 1. Data Refine: Allow "ignore" option for special characters in the edit dimension view.
