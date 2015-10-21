@@ -8,7 +8,9 @@
     
       <item>
         <title>The Palladio 1.1 Release</title>
-        <description>&lt;h2&gt;Enhancements&lt;/h2&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://palladio.designhumanities.org/&quot;&gt;Check out version 1.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Enhancements&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;General: We added a progress indicator to let you know when rendering is happening. Look for a swoosh around the Palladio &amp;quot;P&amp;quot; in the upper left corner.&lt;/li&gt;
