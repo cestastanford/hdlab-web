@@ -170,7 +170,7 @@
 - name: Mark Braude
   firstname: Mark
   lastname: Braude
-  status: active
+  status: inactive
   institution: Stanford
   position: Postdoctoral Fellow
   role: Project Coordinator
@@ -186,7 +186,7 @@
 - name: Giorgio Caviglia 
   firstname: Giorgio 
   lastname: Caviglia
-  status: active
+  status: inactive
   institution: Stanford
   position: postdoc
   role: Lead Design Researcher
@@ -229,7 +229,7 @@
 - name: Glauco Mantegari
   firstname: Glauco 
   lastname: Mantegari
-  status: active
+  status: inactive
   institution: none
   position: postdoc
   role: consultant
