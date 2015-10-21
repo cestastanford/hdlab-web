@@ -51,4 +51,4 @@ Proposed modes of interaction:
 There were 12 students enrolled in the class. Some of the students were given the precious opportunity to work with the Mutsun language, receiving information and advice from Quirina Geary. Below is a selection of the final projects by the students. 
 
 
- {% include design-gallery.html %}
+

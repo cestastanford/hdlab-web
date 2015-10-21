@@ -9,9 +9,9 @@ Palladio 1.1 Release October 21, 2015
 9. Map view: We have removed the 'mouseclick to filter' on the map points. We will be replacing this with a mouseclick for popover that will give more detailed information about a point on the map than we see in the tooltip.
 6. Timespan: Add the group name to the tooltip.
 4. Facet Filter: show ([number selected out of] / [total number]) for each dimension. We need to let people know at a glance how many of a thing they are seeing in a view. We can do this easily with FF instead of mucking up the interface with more information.
-2. Saving a project: Add date to metdata per project (more coming)
-3. Saving a project: savee files can reference external data (performance improvement). Including toggle option so that user can control if data is saved along with Palladio save file or is referenced in a remote location.
-10. Saving a project: Now you can save a project from Safari browser! The save file name will be "unknown." You'll need to rename it. At least the download works.
+2. Saving a project: Add date to metadata per project (more coming)
+3. Saving a project: save files can reference external data (performance improvement). Including toggle option so that user can control if data is saved along with Palladio save file or is referenced in a remote location. Only available if file is loaded from URL, not if data is dragged or pasted into Palladio directly. Try putting the URL of a Dropbox file in your Public folder where you normally paste your data.
+10. Saving a project: Now you can save a project from Safari browser! The save file name will be “Unknown." You'll need to rename it. At least the download works.
 
 ##Bug Fixes
 1. Timespan: The bar layout was displaying duplicate values.
@@ -21,7 +21,7 @@ Palladio 1.1 Release October 21, 2015
 5. Map View: At the request of our friends at Mapbox, we added Mapbox branding when using Mapbox tiles.
 6. Saving a project: Fixed a bug where saving a project would kill links/extensions.
 7. General: Fixed a bug where font-awesome drag icon was not appearing.
-8. Facet Filter: Fixed a bug where adding a dimension triggered multiple updates.
+8. Facet Filter: Fixed a bug where adding a dimension triggered multiple updates, causing slowness.
 9. Data Refine: For a while, if you needed to remove a table that was extended from the primary table in order to fix it and re-load it, the re-load would fail. That has been fixed.
 10. Timespan Filter: Fixed a problem where filter settings were not saved with the Palladio save file (download).
 11. Facet Filter: Fixed a display problem that caused dimensions to stack.
