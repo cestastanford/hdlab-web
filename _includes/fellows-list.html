@@ -8,8 +8,8 @@
 
 	{% for person in site.data.people %}
 
-	{% if person.group contains 'fellows' %}
-	{% unless person.status == 'alumni' %}
+		{% if person.group contains 'fellows' %}
+		{% unless person.status == 'alumni' %}
 	<li class="media">
 	  <a class="pull-left" href="#">
 	    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="80">
@@ -19,9 +19,9 @@
 		<span>{{ person.project | array_to_sentence_string }}</span> 
 	</div>
   </li>
-{% endunless %}
-{% endif %}
-{% endfor %}
+		{% endunless %}
+		{% endif %}
+	{% endfor %}
 </ul>
 </div>
 
@@ -34,9 +34,6 @@
 	{% if person.group contains 'fellows' %}
 	{% unless person.status == 'active' %}
 	<li class="media">
-	  <a class="pull-left" href="#">
-	    <img class="media-object img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="80">
-	  </a>
 	  <div class="media-body">
     	<h4>{{ person.name }} <small> {{ person.department }}</small></h4>
 		<span>{{ person.project | array_to_sentence_string }} ({{person.status}})</span> 

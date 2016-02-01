@@ -26,7 +26,6 @@
   neh_role_description: "Dan Edelstein shapes and shepherds the humanities research agenda underlying this project and brings his own research projects to the testing and evaluation at all stages of the project."
   image: /img/people/dan.jpg
   group: 
-    - contact
     - neh
   project:
     - "Writing Rights"
@@ -63,6 +62,7 @@
   image: /img/people/ceserani.png
   group: 
     - director
+    - contact
     
 - name: Caroline Winterer
   firstname: Caroline
@@ -244,7 +244,7 @@
 - name: Marcelo Aranda
   firstname: Marcelo
   lastname: Aranda
-  status: active
+  status: alumni
   institution: Stanford
   position: postdoc
   department: History of Science
@@ -261,7 +261,7 @@
 - name: Jacqueline Arthur-Montagne
   firstname: Jacqueline 
   lastname: Arthur-Montagne
-  status: active
+  status: inactive
   institution: Stanford
   position: graduate
   department: Classics
@@ -278,7 +278,7 @@
 - name: Guillaume Beaudin
   firstname: Guillaume 
   lastname: Beaudin
-  status: active
+  status: inactive
   institution: Stanford
   position: graduate
   department: History
@@ -295,7 +295,7 @@
 - name: Patrick Bergemann
   firstname: Patrick
   lastname: Bergemann
-  status: active
+  status: inactive
   institution: Stanford
   position: graduate
   department: Sociology
@@ -326,7 +326,6 @@
   group: 
     - staff
     - fellows
-    - contact
     - neh
 
 
@@ -365,7 +364,7 @@
 - name: David Driscoll 
   firstname: David 
   lastname: Driscoll
-  status: active
+  status: alumni
   institution: Stanford
   position: graduate
   department: Classics
@@ -398,7 +397,7 @@
 - name: Luke Parker 
   firstname: Luke
   lastname: Parker
-  status: active
+  status: alumni
   institution: Stanford
   position: graduate
   department: Slavic Literatures and Languages
@@ -414,7 +413,7 @@
 - name: Bronwen Tate
   firstname: Bronwen
   lastname: Tate
-  status: active
+  status: alumni
   institution: Stanford
   position: graduate
   department: English
@@ -432,7 +431,7 @@
 - name: Molly Taylor-Poleskey
   firstname: Molly
   lastname: Taylor-Poleskey
-  status: active
+  status: alumni
   institution: Stanford
   position: graduate
   department: History
@@ -450,7 +449,7 @@
 - name: Jonathan Weiland
   firstname: Jonathan
   lastname: Weiland
-  status: active
+  status: alumni
   institution: Stanford
   position: graduate
   department: Classical Archaeology
@@ -466,7 +465,7 @@
 - name: Hans Wietzke
   firstname: Hans
   lastname: Wietzke
-  status: active
+  status: alumni
   institution: Stanford
   position: graduate
   department: Classics
@@ -480,11 +479,10 @@
     - fellows
     - affiliate
 
-
-- name:  Claude Willan 
+- name: Claude Willan 
   firstname: Claude 
   lastname: Willan
-  status: active
+  status: alumni
   institution: Stanford
   position: graduate
   department: English
@@ -516,7 +514,7 @@
   institution: University College Cork
   position: graduate
   image: /img/people/kudella.png
-  group: 
+  group: affiliate
 
 - name: Jason Heppler
   firstname: Jason
@@ -526,7 +524,102 @@
   position: ATS
   role: "Academic Technology Specialist and PhD Candidate"
   image: /img/people/heppler.jpg
+  group: affiliate
+
+- name: "Vladimir Hamed-Troyansky"
+  firstname: Vladimir
+  lastname: "Hamed-Troyansky"
+  status: active
+  institution: Stanford
+  position: graduate
+  department: History
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/vtroyanksky.jpg
   group: 
+    - fellows
+    - affiliate
 
+- name: Anja Krieger
+  firstname: Anja
+  lastname: Krieger
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Classical Archaeology
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/akrieger.jpg
+  group: 
+    - fellows
+    - affiliate
 
+- name: George Philip LeBourdais
+  firstname: George Philip
+  lastname: LeBourdais
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Art History
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/gplebourdais.jpg
+  group: 
+    - fellows
+    - affiliate
 
+- name: Jens Pohlmann
+  firstname: Jens
+  lastname: Pohlmann
+  status: active
+  institution: Stanford
+  position: graduate
+  department: German Studies
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/jpohlmann.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: "Laura C. Rogers"
+  firstname: Laura
+  lastname: Rogers
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Modern Thought and Literature
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/lcrogers.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: Stephen Sansom
+  firstname: Stephen
+  lastname: Sansom
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Classics
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/ssansom.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: David Stentiford
+  firstname: David
+  lastname: Stentiford
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Modern Thought and Literature
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/dstentiford.jpg
+  group: 
+    - fellows
+    - affiliate

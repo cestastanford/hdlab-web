@@ -14,7 +14,7 @@ In the laboratory environment, theoretical and methodological discussions happen
 
 <hr>
 
-If you have questions about our research projects or would like to discuss a collaboration, contact Dan Edelstein or Nicole Coleman. For questions about the Graduate Research Fellowship program, contact Maria Comsa. For questions about the visualization toolset, Palladio, contact the Project Coordinator, Mark Braude.
+If you have questions about our research projects or would like to discuss a collaboration, contact the lab's research director, <a href="mailto:cncoleman@stanford.edu">Nicole Coleman</a>. 
 
 
 {% include contact-gallery.html %}
