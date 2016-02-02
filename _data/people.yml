@@ -93,18 +93,6 @@
   project:
     - "Endangered Languages"
 
-- name: Vincent Barletta
-  firstname: Vincent
-  lastname: Barletta
-  status: active
-  institution: Stanford
-  department: Comparative Literarture/ILAC
-  position: faculty
-  role: "Project Lead"
-  image: /img/people/barletta.jpg
-  group: affiliate
-  project:
-    - Pessoa
 
 - name: Humberto Brito
   firstname: Humberto
@@ -179,9 +167,6 @@
   byline: "Mark Braude is an historian and postdoctoral research fellow with Humanities+Design. He is the project coordinator for Networks in History and Palladio."
   image: /img/people/mark.jpg
   group: 
-    - staff
-    - contact
-    - neh
   
 - name: Giorgio Caviglia 
   firstname: Giorgio 
@@ -194,8 +179,6 @@
   neh_role_description: "Giorgio Caviglia has been a core member of Mapping the Republic of letters and Humanities + Design since 2010. He is currently a postdoctoral fellow at CESTA and the Lead Design Researcher for Humanities+Design."
   image: /img/people/giorgio.jpg
   group: 
-    - staff
-    - neh
 
 - name: Ethan Jewett
   firstname: Ethan
@@ -208,8 +191,7 @@
   image: /img/people/ethan.jpg
   group: 
     - neh
-    - staff
-    - visiting scholar
+    - contractor
 
 - name: Eetu Mäkelä
   firstname: Eetu 
@@ -223,7 +205,7 @@
   image: /img/people/eetu.jpg
   byline: "Ethan Jewett is the lead developer on the NEH-funded Palladio visualization project."
   group: 
-    - affiliate
+    - contractor
     - neh
 
 - name: Glauco Mantegari
@@ -237,25 +219,23 @@
   neh_role_description: "Glauco Mantegari is working with the Procope project team to define specifications for matching and verifying user data against name authority files and historical geospatial data."
   image: /img/people/glauco.jpg
   group: 
-    - staff
-    - neh
   
 
 - name: Marcelo Aranda
   firstname: Marcelo
   lastname: Aranda
-  status: alumni
+  status: inactive
   institution: Stanford
   position: postdoc
   department: History of Science
   role: research
   fellowship-year: "2012-2013"
-  status: alumni
+  status: inactive
   project: 
     - The Ignatian Tree
   image:  /img/people/aranda.jpg
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 - name: Jacqueline Arthur-Montagne
@@ -269,9 +249,9 @@
   fellowship: "2013-14"
   project:  
    - "Text Networks in the Early Roman Empire"
-  image: http://www.stanford.edu/dept/Classics/cgi-bin/web/sites/all/files/imagecache/profile_full_display/profile_pictures/photobest_0.JPG
+  image: arthur-montagne.jpg
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
@@ -288,7 +268,7 @@
     - A Conquista Espiritual
   image: /img/people/beaudin.jpg
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
@@ -305,7 +285,7 @@
     - "A General Theory of Denunciations"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
@@ -325,7 +305,7 @@
     - Procope
   group: 
     - staff
-    - fellows
+    - fellows-alumni
     - neh
 
 
@@ -337,18 +317,18 @@
   position: faculty
   department: 
   role: "Lab Manager, 2012-2013"
-  status: alumni
+  status: inactive
   project: 
     - Procope
   image: /img/people/conroy.jpg
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 - name: Nicole DeBenedictis
   firstname: Nicole
   lastname: DeBenedictis
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: History
@@ -357,14 +337,14 @@
     - "17th Century Italian Academies"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
 - name: David Driscoll 
   firstname: David 
   lastname: Driscoll
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: Classics
@@ -373,14 +353,14 @@
     - "Mapping the Movement of Lyric Poets in the Archaic and Classical Greek World"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
 - name: Hannah Marcus
   firstname: Hannah 
   lastname: Marcus
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: History
@@ -390,14 +370,14 @@
     - "The Correspondence Network of Galileo Galilei"
   image: /img/people/marcus.jpg
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
 - name: Luke Parker 
   firstname: Luke
   lastname: Parker
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: Slavic Literatures and Languages
@@ -406,14 +386,14 @@
     - "The Literary Life of the Russian Emigration, 1918-1940"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
 - name: Bronwen Tate
   firstname: Bronwen
   lastname: Tate
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: English
@@ -424,14 +404,14 @@
     - "Critical Traffic: A Literary Use Map"
   image: /img/people/tate.png
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
 - name: Molly Taylor-Poleskey
   firstname: Molly
   lastname: Taylor-Poleskey
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: History
@@ -442,14 +422,14 @@
     - "Food Consumption at the Court of Friedrich Wilhelm"
   image: http://cmems.stanford.edu/sites/default/files/oa_person/photo/Taylor-Poleskey.JPG
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 
 - name: Jonathan Weiland
   firstname: Jonathan
   lastname: Weiland
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: Classical Archaeology
@@ -460,12 +440,12 @@
     - "Complexity of Interactions in the Classical Roman Period"
   image: /img/people/jon_weiland.png
   group:
-    - fellows
+    - fellows-alumni
 
 - name: Hans Wietzke
   firstname: Hans
   lastname: Wietzke
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: Classics
@@ -476,13 +456,13 @@
     - "What was an author?"
   image: /img/people/hans_wietzke.png
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 - name: Claude Willan 
   firstname: Claude 
   lastname: Willan
-  status: alumni
+  status: inactive
   institution: Stanford
   position: graduate
   department: English
@@ -492,7 +472,7 @@
     - "John Locke's Correspondence Network"
   image: /img/people/claude.willan.jpg
   group: 
-    - fellows
+    - fellows-alumni
     - affiliate
 
 - name: Chloe Edmondson
@@ -535,7 +515,7 @@
   department: History
   role: Graduate Research Fellow
   project: 
-  image: /img/people/vtroyanksky.jpg
+  image: /img/people/vtroyansky.jpg
   group: 
     - fellows
     - affiliate
@@ -563,7 +543,7 @@
   department: Art History
   role: Graduate Research Fellow
   project: 
-  image: /img/people/gplebourdais.jpg
+  image: /img/people/vtroyansky.jpg
   group: 
     - fellows
     - affiliate

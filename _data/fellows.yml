@@ -1,0 +1,97 @@
+- name: Vladimir Hamed-Troyansky
+  firstname: Vladimir
+  lastname: "Hamed-Troyansky"
+  status: active
+  institution: Stanford
+  position: graduate
+  department: History
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/vtroyanksky.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: Anja Krieger
+  firstname: Anja
+  lastname: Krieger
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Classical Archaeology
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/akrieger.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: George Philip LeBourdais
+  firstname: George Philip
+  lastname: LeBourdais
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Art History
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/gplebourdais.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: Jens Pohlmann
+  firstname: Jens
+  lastname: Pohlmann
+  status: active
+  institution: Stanford
+  position: graduate
+  department: German Studies
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/jpohlmann.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: Laura C. Rogers
+  firstname: Laura
+  lastname: Rogers
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Modern Thought and Literature
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/lcrogers.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: Stephen Sansom
+  firstname: Stephen
+  lastname: Sansom
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Classics
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/ssansom.jpg
+  group: 
+    - fellows
+    - affiliate
+
+- name: David Stentiford
+  firstname: David
+  lastname: Stentiford
+  status: active
+  institution: Stanford
+  position: graduate
+  department: Modern Thought and Literature
+  role: Graduate Research Fellow
+  project: 
+  image: /img/people/dstentiford.jpg
+  group: 
+    - fellows
+    - affiliate
