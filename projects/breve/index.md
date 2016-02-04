@@ -17,7 +17,7 @@ Visualisation is increasingly prevalent in many fields of research yet if it is 
 
 
 
-###Reference  
+Reference
 Burdick, A., Drucker, J., Lunenfeld, P., Presner, T., and Schnapp, J. (2012) Digital_Humanities, MIT Press: Cambridge Massachusetts, p. 13
 Drucker, J. (2010), ‘Graphesis: Visual knowledge production and Representation,’ Poetess Archive Journal, Vol. 2, No. 1, p. 1 – 36.
 

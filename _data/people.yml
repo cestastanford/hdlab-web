@@ -27,9 +27,11 @@
   image: /img/people/dan.jpg
   group: 
     - neh
+    - affiliate
   project:
     - "Writing Rights"
     - Procope
+    - Fibra
 
 - name: Paula Findlen
   firstname: Paula
@@ -152,7 +154,7 @@
     - neh
   project:
     - "Writing Rights"
-    - Pessoa
+    - Fibra
 
 
 - name: Mark Braude
@@ -203,6 +205,8 @@
   neh_role: Linked Data Researcher
   neh_role_description: "Eetu Makela, a postdoctoral fellow at Aalto University, Finland, is working with Humanities+Design on a number of Linked Open Data initiatives."
   image: /img/people/eetu.jpg
+  project: 
+    - Fibra
   byline: "Ethan Jewett is the lead developer on the NEH-funded Palladio visualization project."
   group: 
     - contractor
