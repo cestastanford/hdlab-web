@@ -1,9 +1,9 @@
 #Change url to your domain. Leave localhost server or blank when working locally.
 #port:                 4000
 
-#host:                 localhost
+host:                 localhost
 
-baseurl:              http://hdlab.stanford.edu
+#baseurl:              http://hdlab.stanford.edu
 
 #
 # is this a lab site or project site?
@@ -24,6 +24,7 @@ permalink:                /lab-notebook/:categories/:year/:month/:day/:title/
 twitter:                   hdstanford
 favicon:  "https://dl.dropboxusercontent.com/s/o0rhoh2bh2xu9uu/favicon.ico"
 gems: [jekyll_figure]
+encoding: utf-8
 
 collections:
   slides:

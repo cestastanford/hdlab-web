@@ -6,12 +6,12 @@
   department: History
   position: faculty
   role: "Project Lead"
-  project:
-    - Writing Rights
   neh_role: 
   neh_role_description: 
   image: /img/people/baker.png
   group: affiliate
+  project:
+    - Writing Rights
 
 - name: Dan Edelstein
   firstname: Dan
@@ -29,7 +29,7 @@
     - neh
     - affiliate
   project:
-    - "Writing Rights"
+    - Writing Rights
     - Procope
     - Fibra
 
@@ -41,13 +41,14 @@
   department: History
   position: faculty
   role: "Project Lead"
-  project:
-   - Galileo
-   - Athanasius Kircher
   neh_role: 
   neh_role_description: 
   image: /img/people/findlen.jpg
   group: affiliate
+  project:
+   - Galileo
+   - Athanasius Kircher
+   - Francesco Algarotti
 
 - name: Giovanna Ceserani
   firstname: Giovanna
@@ -57,14 +58,14 @@
   department: Classics
   position: faculty
   role: "Faculty Director"
-  project:
-    -"The Grand Tour: Architects"
   neh_role: 
   neh_role_description: 
   image: /img/people/ceserani.png
   group: 
     - director
     - contact
+  project:
+    - Grand Tour Timeline
     
 - name: Caroline Winterer
   firstname: Caroline
@@ -74,12 +75,12 @@
   department: History
   position: faculty
   role: "Project Lead"
-  project: 
-    - Benjamin Franklin
   neh_role: 
   bio: 
   image: /img/people/winterer.png
   group: affiliate
+  project: 
+    - Benjamin Franklin
 
 
 - name: Sarah Ogilvie
@@ -93,7 +94,7 @@
   image: /img/people/ogilvie.jpg
   group: affiliate
   project:
-    - "Endangered Languages"
+    - "Design for Endangered Languages"
 
 
 - name: Humberto Brito
@@ -117,10 +118,10 @@
   department: School of Design
   position: faculty
   role: researcher
-  project:
-    - Writing Rights
   image: /img/people/sweetapple.jpg
   group: affiliate
+  project:
+    - Writing Rights
 
 - name: Jacquie Lorber-Kasunic
   firstname: Jacquie
@@ -128,13 +129,12 @@
   department: School of Design
   status: active
   institution: "UTS"
-  project:
-    - Writing Rights
   position: faculty
   role: researcher
   image: /img/people/kasunic.jpg
   group: affiliate
-
+  project:
+    - Writing Rights
   
 - name: Nicole Coleman
   firstname: Nicole 
@@ -168,7 +168,6 @@
   bio: 
   byline: "Mark Braude is an historian and postdoctoral research fellow with Humanities+Design. He is the project coordinator for Networks in History and Palladio."
   image: /img/people/mark.jpg
-  group: 
   
 - name: Giorgio Caviglia 
   firstname: Giorgio 
@@ -180,7 +179,6 @@
   neh_role: Design Researcher
   neh_role_description: "Giorgio Caviglia has been a core member of Mapping the Republic of letters and Humanities + Design since 2010. He is currently a postdoctoral fellow at CESTA and the Lead Design Researcher for Humanities+Design."
   image: /img/people/giorgio.jpg
-  group: 
 
 - name: Ethan Jewett
   firstname: Ethan
@@ -194,6 +192,8 @@
   group: 
     - neh
     - contractor
+  project: 
+    - Fibra
 
 - name: Eetu Mäkelä
   firstname: Eetu 
@@ -205,12 +205,11 @@
   neh_role: Linked Data Researcher
   neh_role_description: "Eetu Makela, a postdoctoral fellow at Aalto University, Finland, is working with Humanities+Design on a number of Linked Open Data initiatives."
   image: /img/people/eetu.jpg
-  project: 
-    - Fibra
-  byline: "Ethan Jewett is the lead developer on the NEH-funded Palladio visualization project."
   group: 
     - contractor
     - neh
+  project: 
+    - Fibra
 
 - name: Glauco Mantegari
   firstname: Glauco 
@@ -235,12 +234,12 @@
   role: research
   fellowship-year: "2012-2013"
   status: inactive
-  project: 
-    - The Ignatian Tree
   image:  /img/people/aranda.jpg
   group: 
     - fellows-alumni
     - affiliate
+  project: 
+    - The Ignatian Tree
 
 - name: Jacqueline Arthur-Montagne
   firstname: Jacqueline 
@@ -251,12 +250,12 @@
   department: Classics
   role: Graduate Research Fellow
   fellowship: "2013-14"
-  project:  
-   - "Text Networks in the Early Roman Empire"
-  image: arthur-montagne.jpg
+  image: /img/people/arthur-montagne.jpg
   group: 
     - fellows-alumni
     - affiliate
+  project:  
+   - "Text Networks in the Early Roman Empire"
 
 
 - name: Guillaume Beaudin
@@ -285,13 +284,12 @@
   department: Sociology
   role: Graduate Research Fellow
   fellowship: "2013-14"
-  project:
-    - "A General Theory of Denunciations"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows-alumni
     - affiliate
-
+  project:
+    - "A General Theory of Denunciations"
 
 - name: Maria Comsa
   firstname: Maria 
@@ -305,13 +303,12 @@
   neh_role_description: "Maria was the 2013-14 H+D Lab Manager, a Graduate Research Fellow, and the Procope team lead."
   byline: "Maria was the 2013-14 H+D Lab Manager, a Graduate Research Fellow, and senior researcher in the Procope project."
   image: /img/people/maria.jpg
-  project: 
-    - Procope
   group: 
     - staff
     - fellows-alumni
     - neh
-
+  project: 
+    - Procope
 
 - name: Melanie Conroy
   firstname: Melanie
@@ -322,12 +319,12 @@
   department: 
   role: "Lab Manager, 2012-2013"
   status: inactive
-  project: 
-    - Procope
   image: /img/people/conroy.jpg
   group: 
     - fellows-alumni
     - affiliate
+  project: 
+    - Procope
 
 - name: Nicole DeBenedictis
   firstname: Nicole
@@ -337,13 +334,12 @@
   position: graduate
   department: History
   role: "2012-13 Fellow"
-  project: 
-    - "17th Century Italian Academies"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows-alumni
     - affiliate
-
+  project: 
+    - "17th Century Italian Academies"
 
 - name: David Driscoll 
   firstname: David 
@@ -353,13 +349,12 @@
   position: graduate
   department: Classics
   role: Graduate Research Fellow 2013-14
-  project: 
-    - "Mapping the Movement of Lyric Poets in the Archaic and Classical Greek World"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows-alumni
     - affiliate
-
+  project: 
+    - "Mapping the Movement of Lyric Poets in the Archaic and Classical Greek World"
 
 - name: Hannah Marcus
   firstname: Hannah 
@@ -370,13 +365,12 @@
   department: History
   fellowship-year: "2012-2013"
   byline: "Hannah has long been a member of Mapping the Republic of Letters project and is a former H+D Graduate Research Fellow. You can find her work with Prof. Paula Findlen on Galileo's correspondence network at republicofletters.stanford.edu."
-  project: 
-    - "The Correspondence Network of Galileo Galilei"
   image: /img/people/marcus.jpg
   group: 
     - fellows-alumni
     - affiliate
-
+  project: 
+    - "The Correspondence Network of Galileo Galilei"
 
 - name: Luke Parker 
   firstname: Luke
@@ -386,13 +380,12 @@
   position: graduate
   department: Slavic Literatures and Languages
   role: Graduate Research Fellow 2013-14
-  project: 
-    - "The Literary Life of the Russian Emigration, 1918-1940"
   image: http://hasslefreeliving.com/wp-content/uploads/2012/10/placeholder.gif
   group: 
     - fellows-alumni
     - affiliate
-
+  project: 
+    - "The Literary Life of the Russian Emigration, 1918-1940"
 
 - name: Bronwen Tate
   firstname: Bronwen
@@ -404,13 +397,12 @@
   role: Graduate Research Fellow
   fellowship: "2013-14"
   status: active
-  project: 
-    - "Critical Traffic: A Literary Use Map"
   image: /img/people/tate.png
   group: 
     - fellows-alumni
     - affiliate
-
+  project: 
+    - "Critical Traffic: A Literary Use Map"
 
 - name: Molly Taylor-Poleskey
   firstname: Molly
@@ -422,13 +414,12 @@
   role: Graduate Research Fellow
   status: active
   fellowship: "2013-14"
-  project: 
-    - "Food Consumption at the Court of Friedrich Wilhelm"
   image: http://cmems.stanford.edu/sites/default/files/oa_person/photo/Taylor-Poleskey.JPG
   group: 
     - fellows-alumni
     - affiliate
-
+  project: 
+    - "Food Consumption at the Court of Friedrich Wilhelm"
 
 - name: Jonathan Weiland
   firstname: Jonathan
@@ -440,11 +431,11 @@
   role: Graduate Research Fellow
   fellowship: "2013-14"
   status: active
-  project: 
-    - "Complexity of Interactions in the Classical Roman Period"
   image: /img/people/jon_weiland.png
   group:
     - fellows-alumni
+  project: 
+    - "Complexity of Interactions in the Classical Roman Period"
 
 - name: Hans Wietzke
   firstname: Hans
@@ -456,12 +447,12 @@
   role: Graduate Research Fellow
   fellowship: "2013-14"
   status: active
-  project: 
-    - "What was an author?"
   image: /img/people/hans_wietzke.png
   group: 
     - fellows-alumni
     - affiliate
+  project: 
+    - "What was an author?"
 
 - name: Claude Willan 
   firstname: Claude 
@@ -471,13 +462,13 @@
   position: graduate
   department: English
   role: Graduate Research Fellow
-  project: 
-    - Procope
-    - "John Locke's Correspondence Network"
   image: /img/people/claude.willan.jpg
   group: 
     - fellows-alumni
     - affiliate
+  project: 
+    - Procope
+    - "John Locke's Correspondence Network"
 
 - name: Chloe Edmondson
   firstname: Chloe
@@ -485,11 +476,11 @@
   status: active
   institution: Stanford
   position: graduate
-  project:
-    - Procope
   role: "MRofL Communications Coordinator"
   image: /img/people/chloe.jpg
   group: staff
+  project:
+    - Procope
   
 - name: Christoph Kudella
   firstname: Christoph
@@ -518,8 +509,7 @@
   position: graduate
   department: History
   role: Graduate Research Fellow
-  project: 
-  image: /img/people/vtroyansky.jpg
+  image: https://0.academia-photos.com/311013/92051/427902/s200_vladimir.troyansky.jpg
   group: 
     - fellows
     - affiliate
@@ -532,7 +522,6 @@
   position: graduate
   department: Classical Archaeology
   role: Graduate Research Fellow
-  project: 
   image: /img/people/akrieger.jpg
   group: 
     - fellows
@@ -544,10 +533,9 @@
   status: active
   institution: Stanford
   position: graduate
-  department: Art History
+  department: "Art & Art History"
   role: Graduate Research Fellow
-  project: 
-  image: /img/people/vtroyansky.jpg
+  image: /img/people/gplebourdais.jpg
   group: 
     - fellows
     - affiliate
@@ -560,7 +548,6 @@
   position: graduate
   department: German Studies
   role: Graduate Research Fellow
-  project: 
   image: /img/people/jpohlmann.jpg
   group: 
     - fellows
@@ -574,7 +561,6 @@
   position: graduate
   department: Modern Thought and Literature
   role: Graduate Research Fellow
-  project: 
   image: /img/people/lcrogers.jpg
   group: 
     - fellows
@@ -588,7 +574,6 @@
   position: graduate
   department: Classics
   role: Graduate Research Fellow
-  project: 
   image: /img/people/ssansom.jpg
   group: 
     - fellows
@@ -602,7 +587,6 @@
   position: graduate
   department: Modern Thought and Literature
   role: Graduate Research Fellow
-  project: 
   image: /img/people/dstentiford.jpg
   group: 
     - fellows
