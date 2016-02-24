@@ -7,7 +7,7 @@
 <ul class="media-list">
 
 {% for person in site.data.fellows %}
-{% if person.fellowshipyear == '2015-16' %}
+	{% if person.fellowshipyear == '2015-16' %}
 	<li class="media">
 	  <span class="pull-left" >
 		  <img class="media-object img-circle" src="{{ person.img }}" alt="{{ person.name }}" width="180">
@@ -18,9 +18,11 @@
 	</div>
 	</li>
 
-    {% endif %}
-    {% endfor %}	
-</ul>
+	{% endif %}
+{% endfor %}	
+</ul>	
+
+
 </div><!-- end col -->
 </div>
 <div class="row responsive">
@@ -29,7 +31,7 @@
 
 	<h2>2013-14 Fellows</h2>
 
-				<ul class="media-list">
+<ul class="media-list">
 {% for person in site.data.fellows %}
 {% if person.fellowshipyear == '2013-14' %}
 	<li class="media">
@@ -40,7 +42,7 @@
 		 			   <h4>{{ person.fullname }} <small> {{ person.projecttitle }}</small></h4>
 					   <span>{{ person.description }}</span> 
 				   </div>
-			   </li>
+	</li>
     {% endif %}
     {% endfor %}
 </ul>

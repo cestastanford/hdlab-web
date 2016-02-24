@@ -1,19 +1,13 @@
 <div class="row responsive" style="margin-left:10px">
 	<h3>Contacts</h3>
-	<div class="col-md-10 col-md-offset-2">
-<ul class="list-inline">
 
-{% for person in site.data.people %}
+{% for person in site.data.people reversed %}
 
-{% if person.group contains 'contact' %}
-
-	<li class="text-center" width="200px"><a href="mailto:{{person.email}}">
-		<span style="inline-block">
-		    <img class="img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="80">
-		  </span><br>
-	    <h4>{{ person.name }}<br><small>{{ person.role }}</small></h4></a>
-
-	</li>
+{% if person.group contains 'director' %}
+	<div class="col-md-4 col-md-offset-2">
+		    <img class="img-circle" src="{{ person.image }}" alt="{{ person.name }}" width="100">
+	    <h4>{{ person.name }}<br><small><a href="mailto:{{person.email}}">{{ person.group | capitalize }}</a></small></h4>
+	</div>
 
 {% endif %}
 {% endfor %}

@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: people
 title: People
+name: people
+id: people
 ---
 
-{% include people-gallery.html %}
+

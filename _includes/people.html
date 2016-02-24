@@ -1,0 +1,14 @@
+{% for person in site.data.people | sort person.lastname %}
+ {% if project.active == "yes" %}
+<div class="group clearfix">
+
+	<div class="col-md-3">
+<h4>{{ person.name }} {% if project.start != "none" %}<br /><small>Active since {{ project.start }}</small>{% endif %}</h4>
+	</div>
+</div>
+
+{% endif %}
+{% endfor %}
+
+
+

@@ -19,8 +19,6 @@ Our first 'product' released is also an integral part of the ongoing design and 
 ### Networks in History Workshop, May 15-16, 2014
 We held a workshop May 15-16, 2014 . [Read Mark's workshop summary](http://hdlab.stanford.edu/lab-notebook/palladio/2014/06/23/workshop-summary/).
 
-##Presentations
-{% include presentations.html %}
 
 ##Core Participants  
 <div id="masonry" class="row">

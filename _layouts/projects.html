@@ -19,12 +19,12 @@ layout: default
    <div class="well">
     <div class="col-md-9">
 <h4>
-	{% if projects.url != null %}<a href="{{ projects.url }}">{{ projects.title | upcase }}</a>
+	{% if projects.url != null %}<a href="{{ projects.url }}">{{ projects.title | titlecase }}</a>
 	{% else %}
 	<a href="{{ site.baseurl }}/projects/{{projects.title}}">{{ projects.title }}</a>
 	{% endif %}
 	<br /><small>Active since {{ projects.start }}</small></h4>
-<p>{{ projects.people | array_to_sentence_string }}.</p>
+<p>{{ projects.people }}.</p>
     </div>
    </div>
 

@@ -2,7 +2,7 @@
 
 layout: posts_by_year_month
 id: lab-notebook
-
+title: "Lab Notebook"
 ---
 
 
