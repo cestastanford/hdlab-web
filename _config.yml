@@ -1,9 +1,9 @@
 #Change url to your domain. Leave localhost server or blank when working locally.
 #port:                 4000
 
-#host:                 localhost
+host:                 localhost
 
-baseurl:              http://hdlab.stanford.edu
+#baseurl:              http://hdlab.stanford.edu
 
 #
 # is this a lab site or project site?
