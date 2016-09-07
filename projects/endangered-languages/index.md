@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Design for Endagered Languages"
+title: "Design for Endangered Languages"
 project: Endangered Languages
 image:
 group-name: designs
@@ -11,7 +11,7 @@ id: designs
 
 The Design for Endangered Languages project intends to explore ways to maintain, preserve, and revitalize endangered cultures by combining lexicographic and pedagogical methods from the humanities with communication design.  
 
-This project parallels Dr. Sarah Ogilvie’s Endangered Language Digital Humanities Project, which focuses on endangered languages around the world and efforts to preserve and revitalize them. Based on a survey of over two hundred indigenous communities around the world, this project responds to the urgent call to document and describe endangered languages before they disappear. It is estimated that one language currently dies every two weeks – at this rate, half of the word’s 6800 languages will disappear by the end of this century. Language is the key to culture, so when a language disappears so does a unique way of the viewing the world.  
+This project parallels [Dr. Sarah Ogilvie’s](https://people.stanford.edu/sogilvie/) Endangered Language Digital Humanities Project, which focuses on endangered languages around the world and efforts to preserve and revitalize them. Based on a survey of over two hundred indigenous communities around the world, this project responds to the urgent call to document and describe endangered languages before they disappear. It is estimated that one language currently dies every two weeks – at this rate, half of the word’s 6800 languages will disappear by the end of this century. Language is the key to culture, so when a language disappears so does a unique way of the viewing the world.  
  
 ##Project Goals
 Research teams at Pratt Institute and Stanford worked together in an iterative exchange to develop models and explore visual arguments that capture critical aspects of the loss and preservation of endangered languages. The goal of this collaboration with the Communication Design department at Pratt Institute is to explore how Communication Design can support efforts to document, preserve and revitalize endangered languages and cultures by sharing methods, models, and software; to raise the profile of existing work on endangered languages and to encourage further field work on them; to explore and critique innovative methods for language documentation, to raise awareness of the threats facing linguistic diversity and of efforts to document and revitalize endangered languages 
